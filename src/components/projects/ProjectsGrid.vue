@@ -52,13 +52,13 @@ export default {
 	<!-- Projects grid -->
 	<section class="pt-10 sm:pt-14">
 		<!-- Projects grid title -->
-		<div class="text-center">
+		<!-- <div class="text-center">
 			<p
 				class="font-general-semibold text-2xl sm:text-5xl font-semibold mb-2 text-ternary-dark dark:text-ternary-light"
 			>
 				{{ projectsHeading }}
 			</p>
-		</div>
+		</div> -->
 
 		<!-- Filter and search projects -->
 		<div class="mt-10 sm:mt-10">
@@ -72,7 +72,7 @@ export default {
 					mb-4
 				"
 			>
-				Search projects by title or filter by category
+			I'm a huge proponent of clean and logical digital interfaces. My designs are built on solid information architectures.
 			</h3>
 			<div
 				class="
