@@ -84,7 +84,7 @@ export default {
 					gap-2
 				"
 			>
-				<div class="flex justify-between gap-2">
+				<!-- <div class="flex justify-between gap-2">
 					<span
 						class="
 							hidden
@@ -126,7 +126,7 @@ export default {
 						placeholder="Search Projects"
 						aria-label="Name"
 					/>
-				</div>
+				</div> -->
 				<ProjectsFilter @filter="selectedCategory = $event" />
 			</div>
 		</div>
