@@ -31,31 +31,59 @@ export default {
 			
 			
 			<div
-					class="font-general-semibold mt-48 text-3xl md:text-3xl xl:text-4xl text-center sm:text-left text-ternary-dark dark:text-primary-light"
+					class="font-general-semibold mt-24 text-6xl md:text-6xl xl:text-6xl text-center sm:text-left text-ternary-dark dark:text-primary-light"
 			>
-			Demo 
-			<div
-				class="font-general-medium  text-lg sm:text-xl  xl:text-2xl text-center sm:text-left leading-none text-gray-400"
-			>
-			︲ Product designer ︲ My case studies
+			Xin chào! 👋 I’m Mai, 
+			<div class="flex flex-row mt-4">
+				<div
+					class="font-general-semibold mr-4 text-6xl sm:text-6xl  xl:text-6xl text-center sm:text-left leading-none text-ternary-dark dark:text-primary-light"
+				>
+				a
+				</div>
+				<div
+					class="font-general-semibold  text-6xl sm:text-6xl  xl:text-6xl text-center sm:text-left leading-none text-cyan-200"
+				>
+				Product Designer
+				</div>
 			</div>
 		</div>
-			<div class="flex justify-center sm:block">
-				<a
+			<div class="flex justify-center sm:block mt-16">
+				<div
+					class="font-general-semibold mr-4 text-2xl sm:text-2xl xl:text-2xl text-center sm:text-left leading-none text-slate-400"
+				>
+				Visit my cool stuff below
+				</div>
+				<!-- <a
 					download="Stoman-Resume.pdf"
 					href="/files/Stoman-Resume.pdf"
 					class="flex justify-center items-center w-36 sm:w-48 mt-12 mb-6 sm:mb-0 text-lg border border-indigo-200 dark:border-ternary-dark py-2.5 sm:py-3 rounded-lg focus:ring-1 focus:ring-indigo-900 hover:bg-indigo-500 text-gray-500 hover:text-white duration-500"
 					aria-label="Download Resume"
-				>
+				> 
+				</a>-->
+				<div class="flex justify-center items-center w-36 sm:w-48 mt-12 mb-6 sm:mb-0 text-lg border 
+				py-2.5 sm:py-3 rounded-lg focus:ring-1 focus:ring-indigo-900 hover:bg-indigo-500 text-gray-500 hover:text-white duration-500">
 					<i
 						data-feather="arrow-down-circle"
 						class="ml-0 sm:ml-1 mr-2 sm:mr-3 w-5 sm:w-6 duration-100"
 					></i>
 					<span
 						class="text-sm sm:text-lg font-general-medium duration-100"
-						>Download CV</span
-					></a
+						>Works</span
 				>
+				</div>
+				<div class="flex justify-center items-center sm:w-48 mt-12 mb-6 sm:mb-0 text-lg 
+				bg-gradient-to-r from-blue-500 to-cyan-500 w-36 sm:w-48 mt-12 mb-6 sm:mb-0  rounded-lg p-0.5">
+				<div class="flex justify-center w-full bg-gray-900 text-white rounded-md p-3.5">
+					<i
+						data-feather="arrow-down-circle"
+						class="ml-0 sm:ml-1 mr-2 sm:mr-3 w-5 sm:w-6 duration-100"
+					></i>
+					<span
+						class="text-sm sm:text-lg font-general-medium duration-100"
+						>Works
+				</span>
+				</div>
+				</div>
 			</div>
 		</div>
 

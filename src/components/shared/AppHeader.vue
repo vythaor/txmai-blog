@@ -137,12 +137,12 @@ export default {
 			</div>
 
 			<!-- Header links -->
-			<AppHeaderLinks :showModal="showModal" :isOpen="isOpen" />
 
 			<!-- Header right section buttons -->
 			<div
 				class="hidden sm:flex justify-between items-center flex-col md:flex-row"
 			>
+				<AppHeaderLinks :showModal="showModal" :isOpen="isOpen" />
 				<!-- Hire me button -->
 				<!-- <div class="hidden md:block">
 					<Button
