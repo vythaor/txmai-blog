@@ -9,11 +9,11 @@ export default {
 		};
 	},
 	created() {
-		this.theme = localStorage.getItem('theme') || 'light';
+		this.theme = localStorage.getItem('theme') || 'dark';
 	},
 	mounted() {
 		feather.replace();
-		this.theme = localStorage.getItem('theme') || 'light';
+		this.theme = localStorage.getItem('theme') || 'dark';
 	},
 	updated() {
 		feather.replace();
@@ -24,14 +24,14 @@ export default {
 
 <template>
 	<section
-		class="flex flex-col sm:justify-between items-center sm:flex-row mt-12 sm:mt-10"
+		class="flex flex-col sm:justify-between items-center sm:flex-row mt-6 sm:mt-10"
 	>
 		<!-- Banner left contents -->
 		<div class=" flex flex-col w-full md:w-3/3 text-left">
 			
 			
 			<div
-					class="font-general-semibold mt-24 text-6xl md:text-6xl xl:text-6xl text-center sm:text-left text-ternary-dark dark:text-primary-light"
+					class="font-general-semibold mt-12 text-6xl md:text-6xl xl:text-6xl text-center sm:text-left text-ternary-dark dark:text-primary-light"
 			>
 			Xin chào! 👋 I’m Mai, 
 			<div class="flex flex-row mt-4">
@@ -60,7 +60,7 @@ export default {
 					aria-label="Download Resume"
 				> 
 				</a>-->
-				<div class="flex justify-center items-center w-36 sm:w-48 mt-12 mb-6 sm:mb-0 text-lg border 
+				<!-- <div class="flex justify-center items-center w-36 sm:w-48 mt-12 mb-6 sm:mb-0 text-lg border 
 				py-2.5 sm:py-3 rounded-lg focus:ring-1 focus:ring-indigo-900 hover:bg-indigo-500 text-gray-500 hover:text-white duration-500">
 					<i
 						data-feather="arrow-down-circle"
@@ -70,19 +70,57 @@ export default {
 						class="text-sm sm:text-lg font-general-medium duration-100"
 						>Works</span
 				>
-				</div>
-				<div class="flex justify-center items-center sm:w-48 mt-12 mb-6 sm:mb-0 text-lg 
-				bg-gradient-to-r from-blue-500 to-cyan-500 w-36 sm:w-48 mt-12 mb-6 sm:mb-0  rounded-lg p-0.5">
-				<div class="flex justify-center w-full bg-gray-900 text-white rounded-md p-3.5">
-					<i
-						data-feather="arrow-down-circle"
-						class="ml-0 sm:ml-1 mr-2 sm:mr-3 w-5 sm:w-6 duration-100"
-					></i>
-					<span
-						class="text-sm sm:text-lg font-general-medium duration-100"
-						>Works
-				</span>
-				</div>
+				</div> -->
+				<div class="flex flex-row">
+					<!-- Works -->
+					<div class="flex-initial">
+						<div class="flex justify-center items-center sm:w-42 mt-6 mb-6 sm:mb-0 text-lg 
+						bg-gradient-to-r from-blue-500 to-cyan-500 w-36 sm:w-48 mt-12 mb-6 sm:mb-0 rounded-xl p-0.5">
+							<div class="flex justify-center w-full bg-primary-dark text-white rounded-xl p-2">
+								<i
+									data-feather="arrow-down-circle"
+									class="ml-0 sm:ml-1 mr-2 sm:mr-3 w-5 sm:w-6 duration-100 mt-1"
+								></i>
+								<span
+									class="text-2xl sm:text-2xl font-general-medium duration-100"
+									>Works
+							</span>
+							</div>
+						</div>
+					</div>
+					<!-- Blogs -->
+					<div class="flex-initial ml-5">
+						<div class="flex justify-center items-center sm:w-42 mt-6 mb-6 sm:mb-0 text-lg 
+							bg-gradient-to-r from-blue-500 to-cyan-500 w-36 sm:w-48 mt-12 mb-6 sm:mb-0 rounded-xl p-0.5">
+								<div class="flex justify-center w-full bg-primary-dark text-white rounded-xl p-2">
+									<i
+										data-feather="arrow-down-circle"
+										class="ml-0 sm:ml-1 mr-2 sm:mr-3 w-5 sm:w-6 duration-100 mt-1"
+									></i>
+									<span
+										class="text-2xl sm:text-2xl font-general-medium duration-100"
+										>Works
+								</span>
+								</div>
+						</div>
+					</div>
+					<!-- About me -->
+					<!-- Blogs -->
+					<div class="flex-initial ml-5">
+						<div class="flex justify-center items-center sm:w-42 mt-6 mb-6 sm:mb-0 text-lg 
+							bg-gradient-to-r from-blue-500 to-cyan-500 w-36 sm:w-48 mt-12 mb-6 sm:mb-0 rounded-xl p-0.5">
+								<div class="flex justify-center w-full bg-primary-dark text-white rounded-xl p-2">
+									<i
+										data-feather="arrow-down-circle"
+										class="ml-0 sm:ml-1 mr-2 sm:mr-3 w-5 sm:w-6 duration-100 mt-1"
+									></i>
+									<span
+										class="text-2xl sm:text-2xl font-general-medium duration-100"
+										>About me
+								</span>
+								</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>

@@ -1,11 +1,11 @@
 <script>
 import feather from 'feather-icons';
-import ProjectsFilter from './ProjectsFilter.vue';
+// import ProjectsFilter from './ProjectsFilter.vue';
 import ProjectSingle from './ProjectSingle.vue';
 import projects from '../../data/projects';
 
 export default {
-	components: { ProjectSingle, ProjectsFilter },
+	components: { ProjectSingle },
 	data: () => {
 		return {
 			projects,
@@ -62,8 +62,8 @@ export default {
 
 		<!-- Filter and search projects -->
 		<div class="mt-10 sm:mt-10">
-			<h3
-				class="font-general-regular
+			<h6 
+			class="font-general-regular
 					text-center text-secondary-dark
 					dark:text-ternary-light
 					text-md
@@ -72,7 +72,19 @@ export default {
 					mb-4
 				"
 			>
-			I'm a huge proponent of clean and logical digital interfaces. My designs are built on solid information architectures.
+				my work
+			</h6>
+			<h3
+				class="ffont-general-regular
+					text-center text-secondary-dark
+					dark:text-ternary-light
+					text-5xl
+					sm:text-5xl
+					font-semibold
+					mb-4
+				"
+			>
+			SCALABLE ECOSYSTEM PRODUCTS
 			</h3>
 			<div
 				class="
@@ -127,7 +139,7 @@ export default {
 						aria-label="Name"
 					/>
 				</div> -->
-				<ProjectsFilter @filter="selectedCategory = $event" />
+				<!-- <ProjectsFilter @filter="selectedCategory = $event" /> -->
 			</div>
 		</div>
 

@@ -15,7 +15,7 @@ export default function useThemeSwitcher() {
 	function setLightTheme() {
 		currentTheme.value = 'light';
 
-		process.isClient && localStorage.setItem('theme', 'light');
+		process.isClient && localStorage.setItem('theme', 'dark');
 	}
 
 	// Dark Theme Function
