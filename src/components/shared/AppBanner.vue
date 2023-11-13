@@ -49,7 +49,7 @@ export default {
 		</div>
 			<div class="flex justify-center sm:block mt-16">
 				<div
-					class="font-general-semibold mr-4 text-2xl sm:text-2xl xl:text-2xl text-center sm:text-left leading-none text-slate-400"
+					class="font-general-semibold mr-4 text-2xl sm:text-2xl xl:text-2xl text-center sm:text-left leading-none text-neutral-200"
 				>
 				Visit my cool stuff below
 				</div>
@@ -60,22 +60,11 @@ export default {
 					aria-label="Download Resume"
 				> 
 				</a>-->
-				<!-- <div class="flex justify-center items-center w-36 sm:w-48 mt-12 mb-6 sm:mb-0 text-lg border 
-				py-2.5 sm:py-3 rounded-lg focus:ring-1 focus:ring-indigo-900 hover:bg-indigo-500 text-gray-500 hover:text-white duration-500">
-					<i
-						data-feather="arrow-down-circle"
-						class="ml-0 sm:ml-1 mr-2 sm:mr-3 w-5 sm:w-6 duration-100"
-					></i>
-					<span
-						class="text-sm sm:text-lg font-general-medium duration-100"
-						>Works</span
-				>
-				</div> -->
 				<div class="flex flex-row">
 					<!-- Works -->
 					<div class="flex-initial">
 						<div class="flex justify-center items-center sm:w-42 mt-6 mb-6 sm:mb-0 text-lg 
-						bg-gradient-to-r from-blue-500 to-cyan-500 w-36 sm:w-48 mt-12 mb-6 sm:mb-0 rounded-xl p-0.5">
+						bg-gradient-to-r from-blue-800 from-50% to-cyan-300 to-87% w-36 sm:w-48 mt-12 mb-6 sm:mb-0 rounded-xl p-0.5">
 							<div class="flex justify-center w-full bg-primary-dark text-white rounded-xl p-2">
 								<i
 									data-feather="arrow-down-circle"
@@ -90,35 +79,33 @@ export default {
 					</div>
 					<!-- Blogs -->
 					<div class="flex-initial ml-5">
-						<div class="flex justify-center items-center sm:w-42 mt-6 mb-6 sm:mb-0 text-lg 
-							bg-gradient-to-r from-blue-500 to-cyan-500 w-36 sm:w-48 mt-12 mb-6 sm:mb-0 rounded-xl p-0.5">
-								<div class="flex justify-center w-full bg-primary-dark text-white rounded-xl p-2">
-									<i
-										data-feather="arrow-down-circle"
-										class="ml-0 sm:ml-1 mr-2 sm:mr-3 w-5 sm:w-6 duration-100 mt-1"
-									></i>
-									<span
-										class="text-2xl sm:text-2xl font-general-medium duration-100"
-										>Works
-								</span>
-								</div>
+						<div class="flex justify-center items-center w-36 sm:w-48 mt-12 mb-6 sm:mb-0 text-lg bg-gray-900
+						shadow-[inset_0_1px_1px_0px_rgba(218,218,218,0.25)]
+							py-2.5 sm:py-3 rounded-lg focus:ring-1 focus:ring-indigo-900 hover:bg-indigo-500 text-cyan-200 hover:text-white duration-500">
+						<i
+							data-feather="arrow-down-circle"
+							class="ml-0 sm:ml-1 mr-2 sm:mr-3 w-5 sm:w-6 duration-100"
+						></i>
+						<span
+							class="text-2xl sm:text-2xl font-general-medium duration-100"
+							>Blogs</span
+						>
 						</div>
 					</div>
 					<!-- About me -->
 					<!-- Blogs -->
 					<div class="flex-initial ml-5">
-						<div class="flex justify-center items-center sm:w-42 mt-6 mb-6 sm:mb-0 text-lg 
-							bg-gradient-to-r from-blue-500 to-cyan-500 w-36 sm:w-48 mt-12 mb-6 sm:mb-0 rounded-xl p-0.5">
-								<div class="flex justify-center w-full bg-primary-dark text-white rounded-xl p-2">
-									<i
-										data-feather="arrow-down-circle"
-										class="ml-0 sm:ml-1 mr-2 sm:mr-3 w-5 sm:w-6 duration-100 mt-1"
-									></i>
-									<span
-										class="text-2xl sm:text-2xl font-general-medium duration-100"
-										>About me
-								</span>
-								</div>
+						<div class="flex justify-center items-center w-36 sm:w-48 mt-12 mb-6 sm:mb-0 text-lg bg-gray-900
+						shadow-[inset_0_1px_1px_0px_rgba(218,218,218,0.25)]
+							py-2.5 sm:py-3 rounded-lg focus:ring-1 focus:ring-indigo-900 hover:bg-indigo-500 text-cyan-200 hover:text-white duration-500">
+						<i
+							data-feather="arrow-down-circle"
+							class="ml-0 sm:ml-1 mr-2 sm:mr-3 w-5 sm:w-6 duration-100"
+						></i>
+						<span
+							class="text-2xl sm:text-2xl font-general-medium duration-100"
+							>About me</span
+						>
 						</div>
 					</div>
 				</div>
