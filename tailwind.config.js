@@ -19,7 +19,7 @@ module.exports = {
 
 				'primary-dark': '#0A0A0A',
 				'secondary-dark': '#102D44',
-				'ternary-dark': '#1E3851',
+				'ternary-dark': '#171717',
 			},
 			container: {
 				padding: {
