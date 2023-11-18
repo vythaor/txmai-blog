@@ -49,21 +49,24 @@ export default {
 
 <style>
 #app {
-	font-family: Avenir, Helvetica, Arial, sans-serif;
+	font-family: Poppins, sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	text-align: center;
 }
 
 .vue-back-to-top {
-	@apply p-2 bg-indigo-500 hover:bg-indigo-600 text-white transition
+	@apply p-2 bg-gray-900 text-white transition
         duration-500
         ease-in-out
         transform
         hover:-translate-y-1 hover:scale-110;
-	border-radius: 50%;
+	border-radius: 16px;
 	font-size: 22px;
 	line-height: 22px;
+	box-shadow: 0px 1px 1px 0px rgba(218, 218, 218, 0.25) inset;
+	box-shadow: 2px 2px 4px 0px rgba(19, 174, 174, 0.2);
+
 }
 
 .fade-enter-active {

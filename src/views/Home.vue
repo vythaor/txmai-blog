@@ -22,13 +22,18 @@ export default {
 		<ProjectsGrid />
 
 		<!-- Load more projects button -->
-		<div class="mt-10 sm:mt-20 flex justify-center">
+		<div class="mt-10 sm:mt-20 flex justify-center items-center">
 			<router-link
 				to="/projects"
-				class="font-general-medium flex items-center px-6 py-3 rounded-lg shadow-lg focus:ring-1 focus:ring-indigo-900 text-white text-lg sm:text-xl duration-300"
+				class="font-general-medium flex items-center px-6 py-3 rounded-lg shadow-lg focus:ring-1 focus:ring-indigo-900 text-white text-lg sm:text-xl duration-300 hover:text-cyan-300"
 				aria-label="More Projects"
 			>
-				<Button title="Browse more works" />
+				<Button title="Browse more works" class="font-general-italic underline"/>
+				<img
+						src="@/assets/icons/arrow-right.svg"
+						class="w-8 ml-4"
+						alt="Arrow Right icon"
+					/>	
 			</router-link>
 		</div>
 	</div>

@@ -28,23 +28,42 @@ export default {
 				>{{ project.category }}</span
 			>
 		</div>
-		<div class="border-b border-primary-light">
-			<div class="flex">
-				<div class="text-sm text-ternary-dark dark:text-ternary-light">
-					Skate
-				</div>
-				<div>
-					Figma
+		<div class="border-t border-t-2 border-primary-light px-4 py-6">
+			<div class="flex justify-between items-center">
+				<div class="flex items-center">
+					<div class="text-sm text-ternary-dark dark:text-ternary-light">
+						Stake
+					</div>
+					<img
+						src="@/assets/icons/figma.svg"
+						class="w-20 ml-4"
+						alt="Light Logo"
+						/>
+					<img
+						src="@/assets/icons/web3.svg"
+						class="w-18 ml-4"
+						alt="Light Logo"
+						/>
 				</div>
 			</div>
 		</div>
-		<div class="border-b border-primary-light">
-			<div class="flex">
-				<div class="text-sm text-ternary-dark dark:text-ternary-light">
-					Skate
+		<div class="border-t border-t-2 border-primary-light px-4 py-6">
+			<div class="flex justify-between items-center">
+				<div class="flex items-center">
+					<div class="text-sm text-ternary-dark dark:text-ternary-light">
+						Client
+					</div>
+					<img
+						src="@/assets/icons/aura.svg"
+						class="w-24 ml-4"
+						alt="Light Logo"
+						/>
 				</div>
 				<div>
-					Figma
+					<img
+					src="@/assets/icons/arrow-right.svg"
+					class="w-8"
+					alt="Light Logo"/>
 				</div>
 			</div>
 		</div>
