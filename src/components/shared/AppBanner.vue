@@ -31,7 +31,7 @@ export default {
 			
 			
 			<div
-					class="font-general-semibold mt-12 text-6xl md:text-6xl xl:text-6xl text-center sm:text-left text-ternary-dark dark:text-primary-light"
+					class="font-general-semibold mt-8 text-6xl md:text-6xl xl:text-6xl text-center sm:text-left text-ternary-dark dark:text-primary-light"
 			>
 			Xin chào! 👋 I’m Mai, 
 			<div class="flex flex-row mt-4">
@@ -47,9 +47,9 @@ export default {
 				</div>
 			</div>
 		</div>
-			<div class="flex justify-center sm:block mt-16">
+			<div class="flex flex-col justify-center mt-16">
 				<div
-					class="font-general-semibold mr-4 text-2xl sm:text-2xl xl:text-2xl text-center sm:text-left leading-none text-neutral-200"
+					class="font-general-semibold text-2xl sm:text-2xl xl:text-2xl text-center sm:text-left leading-none text-neutral-200 mb-6"
 				>
 				Visit my cool stuff below
 				</div>
@@ -60,71 +60,80 @@ export default {
 					aria-label="Download Resume"
 				> 
 				</a>-->
-				<div class="flex flex-row">
+				<div class="flex items-center">
 					<!-- Works -->
-					<div class="flex-initial">
-						<div class="flex justify-center items-center sm:w-42 mt-6 mb-6 sm:mb-0 text-lg 
-						bg-gradient-to-r from-blue-800 from-50% to-cyan-300 to-87% w-36 sm:w-48 mt-12 mb-6 sm:mb-0 rounded-xl p-0.5">
-							<div class="flex justify-center w-full bg-primary-dark text-white rounded-xl p-2">
-								<i
-									data-feather="arrow-down-circle"
-									class="ml-0 sm:ml-1 mr-2 sm:mr-3 w-5 sm:w-6 duration-100 mt-1"
-								></i>
+						<div class="flex justify-center items-center sm:w-42 sm:mb-0 text-lg 
+						bg-gradient-to-r from-blue-800 from-50% to-cyan-300 to-87% w-36 sm:w-48 mb-6 sm:mb-0 rounded-xl p-0.5 cursor-pointer">
+							<div class="flex justify-center w-full bg-primary-dark text-white rounded-xl p-2.5">
+								<img
+									src="@/assets/icons/work.svg"
+									class="w-8"
+									alt="Work icon"
+								/>	
 								<span
-									class="text-2xl sm:text-2xl font-general-medium duration-100"
+									class="text-2xl sm:text-2xl font-general-medium duration-100 ml-4"
 									>Works
 							</span>
 							</div>
 						</div>
-					</div>
 					<!-- Blogs -->
-					<div class="flex-initial ml-5">
-						<div class="flex justify-center items-center w-36 sm:w-48 mt-12 mb-6 sm:mb-0 text-lg bg-gray-900
+					<div class="flex ml-5 justify-center items-center w-36 sm:w-48 mb-6 sm:mb-0 text-lg bg-gray-900
 						shadow-[inset_0_1px_1px_0px_rgba(218,218,218,0.25)]
-							py-2.5 sm:py-3 rounded-lg focus:ring-1 focus:ring-indigo-900 hover:bg-indigo-500 text-cyan-200 hover:text-white duration-500">
-						<i
-							data-feather="arrow-down-circle"
-							class="ml-0 sm:ml-1 mr-2 sm:mr-3 w-5 sm:w-6 duration-100"
-						></i>
+							py-2.5 sm:py-3 rounded-lg focus:ring-1 focus:ring-cyan-300 hover:bg-cyan-300 cursor-pointer text-cyan-200 hover:text-white duration-500">
+							<img
+								src="@/assets/icons/blogs.svg"
+								class="w-8"
+								alt="Blog icon"
+							/>	
 						<span
-							class="text-2xl sm:text-2xl font-general-medium duration-100"
+							class="text-2xl sm:text-2xl font-general-medium duration-10 ml-4"
 							>Blogs</span
 						>
-						</div>
 					</div>
 					<!-- About me -->
-					<!-- Blogs -->
-					<div class="flex-initial ml-5">
-						<div class="flex justify-center items-center w-36 sm:w-48 mt-12 mb-6 sm:mb-0 text-lg bg-gray-900
-						shadow-[inset_0_1px_1px_0px_rgba(218,218,218,0.25)]
-							py-2.5 sm:py-3 rounded-lg focus:ring-1 focus:ring-indigo-900 hover:bg-indigo-500 text-cyan-200 hover:text-white duration-500">
-						<i
-							data-feather="arrow-down-circle"
-							class="ml-0 sm:ml-1 mr-2 sm:mr-3 w-5 sm:w-6 duration-100"
-						></i>
-						<span
-							class="text-2xl sm:text-2xl font-general-medium duration-100"
-							>About me</span
-						>
-						</div>
+					<div class="flex ml-5 justify-center items-center w-36 sm:w-48 mb-6 sm:mb-0 text-lg bg-gray-900
+					shadow-[inset_0_1px_1px_0px_rgba(218,218,218,0.25)]
+						py-2.5 sm:py-3 rounded-lg focus:ring-1 focus:ring-cyan-300 hover:bg-cyan-300 cursor-pointer text-cyan-200 hover:text-white duration-500">
+						<img
+							src="@/assets/icons/about.svg"
+							class="w-8"
+							alt="About icon"
+						/>	
+					<span
+						class="text-2xl sm:text-2xl font-general-medium duration-100 ml-4"
+						>About me</span
+					>
 					</div>
 				</div>
+			</div>
+			<div class="flex justify-center mt-16 animate-bounce">
+				<img
+					src="@/assets/icons/arrow-down.svg"
+					class="w-12"
+					alt="Down icon"
+				/>	
 			</div>
 		</div>
 
 		<!-- Banner right illustration -->
-		<!-- <div class="w-full md:w-2/3 text-right float-right">
+		<div class="text-left right-0 absolute">
 			<img
-				v-if="theme === 'light'"
-				src="@/assets/images/developer.svg"
-				alt="Developer"
+				src="@/assets/images/triangle-right.svg"
+				alt="Shape"
+				class="absolute w-1/2 right-0 top-72 hover:motion-safe:animate-pulse"
 			/>
 			<img
-				v-else
-				src="@/assets/images/developer-dark.svg"
-				alt="Developer"
+				src="@/assets/images/grid.svg"
+				alt="Shape"
 			/>
-		</div> -->
+		</div>
+		<div class="text-left float-left">
+			<img
+				src="@/assets/images/triangle-left.svg"
+				alt="Shape"
+				class="absolute w-1/5 left-0 top-40 hover:motion-safe:animate-ping"
+			/>
+		</div>
 	</section>
 </template>
 

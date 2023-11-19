@@ -50,7 +50,7 @@ export default {
 
 <template>
 	<!-- Projects grid -->
-	<section class="pt-10 sm:pt-14">
+	<section class>
 		<!-- Projects grid title -->
 		<!-- <div class="text-center">
 			<p
@@ -61,21 +61,21 @@ export default {
 		</div> -->
 
 		<!-- Filter and search projects -->
-		<div class="mt-10 sm:mt-10">
+		<div class>
 			<h6 
 			class="font-general-regular
 					text-center text-secondary-dark
-					dark:text-ternary-light
+					dark:text-cyan-300
 					text-md
 					sm:text-xl
 					font-normal
-					mb-4
+					mb-8
 				"
 			>
 				my work
 			</h6>
 			<h3
-				class="ffont-general-regular
+				class="font-general-regular
 					text-center text-secondary-dark
 					dark:text-ternary-light
 					text-5xl
@@ -90,8 +90,6 @@ export default {
 				class="
 					flex
 					justify-between
-					border-b border-primary-light
-					dark:border-secondary-dark
 					pb-3
 					gap-2
 				"

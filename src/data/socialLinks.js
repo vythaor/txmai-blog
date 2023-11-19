@@ -3,24 +3,24 @@ export const socialLinks = [
 		id: 1,
 		name: 'Facebook',
 		icon: 'globe',
-		url: 'https://www.stoman.me/',
+		url: 'https://www.facebook.com/xomodapxichlohehe',
 	},
 	{
 		id: 2,
 		name: 'Linkedin',
 		icon: 'github',
-		url: 'https://github.com/realstoman',
+		url: 'https://linkedin.com',
 	},
 	{
 		id: 3,
 		name: 'Dribbble',
-		icon: 'twitter',
-		url: 'https://twitter.com/realstoman',
+		icon: 'dribbble',
+		url: 'https://dribbble.com',
 	},
 	{
 		id: 4,
 		name: 'Behance',
-		icon: 'linkedin',
-		url: 'https://www.linkedin.com/in/realstoman',
+		icon: 'behance',
+		url: 'https://www.behance.net',
 	}
 ];

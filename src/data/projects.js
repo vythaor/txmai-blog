@@ -6,13 +6,13 @@ const projects = [
 		id: 1,
 		title: 'Holistic Design for digital products in the right time',
 		category: 'Holistic Design for digital products in the right time description',
-		img: require('@/assets/images/web-project-2.jpg'),
+		img: require('@/assets/images/ui-project-1.jpg'),
 	},
 	{
 		id: 2,
 		title: 'Holistic Design for digital products in the right time',
 		category: 'Holistic Design for digital products in the right time description',
-		img: require('@/assets/images/mobile-project-2.jpg'),
+		img: require('@/assets/images/ui-project-2.jpg'),
 	},
 	{
 		id: 3,
