@@ -6,6 +6,11 @@ import projects from '../../data/projects';
 
 export default {
 	components: { ProjectSingle },
+	props: {
+		onlyFeature: {
+			require: false
+		}
+	},
 	data: () => {
 		return {
 			projects,
@@ -17,30 +22,11 @@ export default {
 	computed: {
 		// Get the filtered projects
 		filteredProjects() {
-			if (this.selectedCategory) {
-				return this.filterProjectsByCategory();
-			} else if (this.searchProject) {
-				return this.filterProjectsBySearch();
-			}
-			return this.projects;
-		},
-	},
-	methods: {
-		// Filter projects by category
-		filterProjectsByCategory() {
-			return this.projects.filter((item) => {
-				let category =
-					item.category.charAt(0).toUpperCase() +
-					item.category.slice(1);
-				console.log(category);
-				return category.includes(this.selectedCategory);
-			});
-		},
-		// Filter projects by title search
-		filterProjectsBySearch() {
-			let project = new RegExp(this.searchProject, 'i');
-			return this.projects.filter((el) => el.title.match(project));
-		},
+            if (this.onlyFeature) {
+                return this.projects.filter(p => p.isFeature === true);
+            }
+            return this.projects;
+        },
 	},
 	mounted() {
 		feather.replace();
@@ -61,7 +47,7 @@ export default {
 		</div> -->
 
 		<!-- Filter and search projects -->
-		<div class>
+		<div>
 			<h6 
 			class="font-general-regular
 					text-center text-secondary-dark
