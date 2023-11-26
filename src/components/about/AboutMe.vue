@@ -20,9 +20,7 @@ export default {
 </script>
 
 <template>
-	<div class="block sm:flex sm:gap-10 mt-10 sm:mt-20">
-		<!-- About profile image -->
-		<div class="w-full sm:w-1/4 mb-7 sm:mb-0">
+		<!-- <div class="w-full sm:w-1/4 mb-7 sm:mb-0">
 			<img
 				src="@/assets/images/profile.jpeg"
 				class="rounded-xl w-96"
@@ -30,7 +28,6 @@ export default {
 			/>
 		</div>
 
-		<!-- About details -->
 		<div class="w-full sm:w-3/4 text-left">
 			<p
 				v-for="bio in bios"
@@ -39,6 +36,79 @@ export default {
 			>
 				{{ bio.bio }}
 			</p>
+		</div> -->
+		<!-- <div
+      className="flex w-[1104px] items-center relative border-b [border-bottom-style:dashed] border-base-color-gray-400 ${className}`"
+    >
+      <Item className="!ml-[-1.00px] !flex-[0_0_auto]" selected text="Lifestyle" />
+      <Item className="!flex-[0_0_auto]" selected={false} text="Design process" />
+      <Item className="!flex-[0_0_auto]" selected={false} text="What I do when I’m not working?" />
+    </div> -->
+	<div class="container mx-auto p-4">
+		<div class="sm:gap-10 text-ternary-dark dark:text-ternary-light mb-12">
+			<div class="text-sm text-base text-center text-gray-500 border-b [border-bottom-style:dashed] border-base-color-gray-400">
+				<ul class="flex flex-wrap -mb-px">
+					<li class="me-2">
+						<a href="#" class="inline-block p-4 border-b-2 border-transparent border-cyan-300 active dark:text-cyan-300 rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300" aria-current="page">Lifestyle</a>
+					</li>
+					<li class="me-2">
+						<a href="#" class="inline-block p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300">Design process</a>
+					</li>
+					<li class="me-2">
+						<a href="#" class="inline-block p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300">What I do when I’m not working?</a>
+					</li>
+				</ul>
+			</div>
 		</div>
-	</div>
+		<!-- <div class="flex flex-col md:flex-row">
+			<div class="md:w-1/2 p-4">
+			<div class="bg-white p-6 rounded-md shadow-md">
+				<h2 class="text-2xl font-semibold mb-4">Column 1</h2>
+				<p>This is the content of the first column. You can add your text, images, or other elements here.</p>
+			</div>
+			</div>
+			<div class="md:w-1/2 p-4">
+			<div class="bg-white p-6 rounded-md shadow-md">
+				<h2 class="text-2xl font-semibold mb-4">Column 2</h2>
+				<p>This is the content of the second column. You can add your text, images, or other elements here.</p>
+			</div>
+			</div>
+		</div> -->
+		<div class="flex flex-col md:flex-row">
+			<!-- First Column -->
+			<div class="md:w-2/3 mr-8">
+				<div class="h-48 flex-col justify-start items-start flex">
+					<div class="text-cyan-200 text-2xl font-normal mb-6">about me</div>
+					<div class="text-white text-5xl font-semibold md:w-2/3 text-left leading-relaxed">Fulfilling & diverse lifestyle</div>
+				</div>
+				<div class="text-white text-xl font-normal leading-relaxed text-left mt-12">
+					Running provides me with physical and mental well-being, 
+					while graphic design lets me explore your artistic side, and product design allows me to apply my skills in a meaningful and professional context. 
+					<br/>Together, these pursuits contribute to a fulfilling and diverse lifestyle.
+				</div>
+			</div>
+			<div class="md:w-1/3">
+				<div class="flex-col justify-start items-start gap-4 inline-flex">
+					<div class="text-white text-base font-normal font-['Poppins'] leading-tight">By balancing personal interests in</div>
+					<div class="h-96 flex-col justify-start items-start gap-2 flex">
+					<div class="justify-start items-start gap-6 inline-flex">
+						<div class="w-52 h-48 p-6 bg-neutral-800 rounded-2xl flex-col justify-between items-start inline-flex">
+						<div class="w-10 h-10 px-1.5 py-1 flex-col justify-center items-center flex"></div>
+						<div class="self-stretch"><span style="text-cyan-200 text-xl font-semibold">Running       </span><span style="text-cyan-200 text-xl font-normal font-['Poppins'] leading-loose">for Fun</span></div>
+						</div>
+						<div class="w-52 h-48 p-6 bg-neutral-800 rounded-2xl flex-col justify-between items-start inline-flex">
+						<div class="w-8 h-8 p-0.5 justify-center items-center inline-flex"></div>
+						<div class="self-stretch"><span style="text-cyan-200 text-xl font-semibold leading-normal">Graphic Design </span><span style="text-cyan-200 text-xl font-normal font-['Poppins'] leading-loose">for Fun</span></div>
+						</div>
+					</div>
+					<div class="text-white text-base font-normal font-['Poppins'] leading-tight">with professional role in</div>
+					<div class="self-stretch h-36 p-6 bg-neutral-800 rounded-2xl flex-col justify-between items-start flex">
+						<div class="w-8 h-8 px-0.5 pt-1 pb-0.5 justify-center items-center inline-flex"></div>
+						<div class="self-stretch"><span style="text-cyan-200 text-xl font-semibold font-['Poppins'] leading-normal">Product design </span><span style="text-cyan-200 text-xl font-normal font-['Poppins'] leading-loose">for a Living</span></div>
+					</div>
+					</div>
+				</div>
+			</div>
+		</div>
+</div>
 </template>
