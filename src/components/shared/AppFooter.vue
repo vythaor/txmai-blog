@@ -48,7 +48,7 @@ export default {
 				>
 					My socials
 				</div>
-				<ul class="ml-12 flex gap-4 sm:gap-8 ml-16 text-xl text-white">
+				<ul class="ml-8 flex gap-4 sm:gap-8 ml-16 text-xl text-white">
 					<a
 						v-for="social in socials"
 						:key="social.id"

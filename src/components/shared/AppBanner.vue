@@ -27,7 +27,7 @@ export default {
 		class="flex flex-col sm:justify-between items-center sm:flex-row mt-6 sm:mt-10"
 	>
 		<!-- Banner left contents -->
-		<div class=" flex flex-col w-full md:w-3/3 text-left">
+		<div class=" flex flex-col w-full md:w-3/3 text-left z-50">
 			
 			
 			<div
@@ -62,6 +62,9 @@ export default {
 				</a>-->
 				<div class="flex items-center">
 					<!-- Works -->
+					<router-link
+						to="/works"
+						>
 						<div class="flex justify-center items-center sm:w-42 sm:mb-0 text-lg 
 						bg-gradient-to-r from-blue-800 from-50% to-cyan-300 to-87% w-36 sm:w-48 mb-6 sm:mb-0 rounded-xl p-0.5 cursor-pointer">
 							<div class="flex justify-center w-full bg-primary-dark text-white rounded-xl p-2.5">
@@ -76,7 +79,11 @@ export default {
 							</span>
 							</div>
 						</div>
+					</router-link>
 					<!-- Blogs -->
+					<router-link
+						to="/blogs"
+						>
 					<div class="flex ml-5 justify-center items-center w-36 sm:w-48 mb-6 sm:mb-0 text-lg bg-gray-900
 						shadow-[inset_0_1px_1px_0px_rgba(218,218,218,0.25)]
 							py-2.5 sm:py-3 rounded-lg focus:ring-1 focus:ring-cyan-300 hover:bg-cyan-300 cursor-pointer text-cyan-200 hover:text-white duration-500">
@@ -90,20 +97,25 @@ export default {
 							>Blogs</span
 						>
 					</div>
+					</router-link>
 					<!-- About me -->
-					<div class="flex ml-5 justify-center items-center w-36 sm:w-48 mb-6 sm:mb-0 text-lg bg-gray-900
-					shadow-[inset_0_1px_1px_0px_rgba(218,218,218,0.25)]
-						py-2.5 sm:py-3 rounded-lg focus:ring-1 focus:ring-cyan-300 hover:bg-cyan-300 cursor-pointer text-cyan-200 hover:text-white duration-500">
-						<img
-							src="@/assets/icons/about.svg"
-							class="w-8"
-							alt="About icon"
-						/>	
-					<span
-						class="text-2xl sm:text-2xl font-general-medium duration-100 ml-4"
-						>About me</span
-					>
-					</div>
+					<router-link
+						to="/about"
+						>
+						<div class="flex ml-5 justify-center items-center w-36 sm:w-48 mb-6 sm:mb-0 text-lg bg-gray-900
+						shadow-[inset_0_1px_1px_0px_rgba(218,218,218,0.25)]
+							py-2.5 sm:py-3 rounded-lg focus:ring-1 focus:ring-cyan-300 hover:bg-cyan-300 cursor-pointer text-cyan-200 hover:text-white duration-500">
+							<img
+								src="@/assets/icons/about.svg"
+								class="w-8"
+								alt="About icon"
+							/>	
+						<span
+							class="text-2xl sm:text-2xl font-general-medium duration-100 ml-4"
+							>About me</span
+						>
+						</div>
+					</router-link>
 				</div>
 			</div>
 			<div class="flex justify-center mt-16 animate-bounce">
@@ -116,18 +128,18 @@ export default {
 		</div>
 
 		<!-- Banner right illustration -->
-		<div class="text-left right-0 absolute">
+		<div class="text-left right-0 absolute z-0">
 			<img
 				src="@/assets/images/triangle-right.svg"
 				alt="Shape"
-				class="absolute w-1/2 right-0 top-72 hover:motion-safe:animate-pulse"
+				class="absolute w-1/2 right-0 top-72 hover:motion-safe:animate-pulse z-0"
 			/>
 			<img
 				src="@/assets/images/grid.svg"
 				alt="Shape"
 			/>
 		</div>
-		<div class="text-left float-left">
+		<div class="text-left float-left z-0">
 			<img
 				src="@/assets/images/triangle-left.svg"
 				alt="Shape"

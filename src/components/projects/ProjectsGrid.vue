@@ -84,7 +84,7 @@ export default {
 					mb-4
 				"
 			>
-			SCALABLE ECOSYSTEM PRODUCTS
+			Scalable ecosystem products
 			</h3>
 			<div
 				class="

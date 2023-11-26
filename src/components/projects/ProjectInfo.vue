@@ -53,7 +53,7 @@ export default {
 					{{ projectInfo.objectivesHeading }}
 				</p>
 				<p
-					class="font-general-regular text-primary-dark dark:text-ternary-light"
+					class="font-general-regular text-primary-light dark:text-ternary-light"
 				>
 					{{ projectInfo.objectivesDetails }}
 				</p>
@@ -67,7 +67,7 @@ export default {
 					{{ projectInfo.technologies[0].title }}
 				</p>
 				<p
-					class="font-general-regular text-primary-dark dark:text-ternary-light"
+					class="font-general-regular text-ternary-light dark:text-ternary-light"
 				>
 					{{ projectInfo.technologies[0].techs.join(', ') }}
 				</p>
