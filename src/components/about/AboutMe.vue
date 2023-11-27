@@ -60,20 +60,6 @@ export default {
 				</ul>
 			</div>
 		</div>
-		<!-- <div class="flex flex-col md:flex-row">
-			<div class="md:w-1/2 p-4">
-			<div class="bg-white p-6 rounded-md shadow-md">
-				<h2 class="text-2xl font-semibold mb-4">Column 1</h2>
-				<p>This is the content of the first column. You can add your text, images, or other elements here.</p>
-			</div>
-			</div>
-			<div class="md:w-1/2 p-4">
-			<div class="bg-white p-6 rounded-md shadow-md">
-				<h2 class="text-2xl font-semibold mb-4">Column 2</h2>
-				<p>This is the content of the second column. You can add your text, images, or other elements here.</p>
-			</div>
-			</div>
-		</div> -->
 		<div class="flex flex-col md:flex-row">
 			<!-- First Column -->
 			<div class="md:w-2/3 mr-8">
@@ -110,5 +96,55 @@ export default {
 				</div>
 			</div>
 		</div>
-</div>
+		<div class="w-full flex-col justify-start items-start gap-6 inline-flex mt-12">
+			<div class="w-1/2 self-stretch justify-between items-center inline-flex">
+				<div class="text-white text-3xl font-semibold leading-10">Work experience</div>
+				<div class="flex-col justify-start items-start gap-2.5 inline-flex">
+					<div class="h-10 px-4 py-2.5 rounded-lg justify-center items-center gap-4 inline-flex">
+						<div class="text-center text-white italic text-2xl font-normal underline leading-loose">Download CV</div>
+				</div>
+			</div>
+			</div>
+			<div class="w-1/2 h-72 p-6 bg-neutral-900 rounded-2xl flex-col justify-start items-start gap-4 flex text-ternary-dark dark:text-primary-light">
+			<div class="self-stretch h-56 flex-col justify-start items-start flex">
+				<div class="self-stretch py-4 justify-between items-center inline-flex">
+				<div class="justify-start items-center gap-2 flex">
+					<div class="w-11 h-11 relative">
+						<img src="@/assets/images/fpt.png" />
+					</div>
+					<div class="flex-col justify-center items-start gap-1 inline-flex">
+					<div class="text-neutral-950 text-base font-normal font-['Poppins'] leading-tight">FPT Design</div>
+					<div class="text-neutral-500 text-base font-normal font-['Poppins'] leading-tight">10/2022 - Current</div>
+					</div>
+				</div>
+				<div class="text-neutral-950 text-base font-normal font-['Poppins'] leading-tight">Product designer</div>
+				</div>
+				<div class="self-stretch py-4 border-t border-neutral-400 justify-between items-center inline-flex">
+				<div class="justify-start items-center gap-2 flex">
+					<div class="w-11 h-11 relative">
+						<img src="@/assets/images/aperia.png" />
+					</div>
+					<div class="flex-col justify-center items-start gap-1 inline-flex">
+					<div class="text-neutral-950 text-base font-normal font-['Poppins'] leading-tight">Aperia </div>
+					<div class="text-neutral-500 text-base font-normal font-['Poppins'] leading-tight">09/2021 - 09/2022</div>
+					</div>
+				</div>
+				<div class="text-neutral-950 text-base font-normal font-['Poppins'] leading-tight">Product designer</div>
+				</div>
+				<div class="self-stretch py-4 border-t border-neutral-400 justify-between items-center inline-flex">
+				<div class="justify-start items-center gap-2 flex">
+					<div class="w-11 h-11 relative">
+						<img src="@/assets/images/nashtech.png" />
+					</div>
+					<div class="flex-col justify-center items-start gap-1 inline-flex">
+					<div class="text-neutral-950 text-base font-normal font-['Poppins'] leading-tight">NashTech Global</div>
+					<div class="text-neutral-500 text-base font-normal font-['Poppins'] leading-tight">2018 - 08/2021</div>
+					</div>
+				</div>
+				<div class="text-neutral-950 text-base font-normal font-['Poppins'] leading-tight">Senior multimedia designer</div>
+				</div>
+			</div>
+			</div>
+		</div>
+	</div>
 </template>

@@ -9,6 +9,9 @@ export default {
 	props: {
 		onlyFeature: {
 			require: false
+		},
+		onlyContribute: {
+			require: false
 		}
 	},
 	data: () => {
@@ -24,6 +27,12 @@ export default {
 		filteredProjects() {
             if (this.onlyFeature) {
                 return this.projects.filter(p => p.isFeature === true);
+            }
+            return this.projects;
+        },
+		contributeProjects() {
+            if (this.onlyFeature) {
+                return this.projects.filter(p => p.isContribute === true);
             }
             return this.projects;
         },
@@ -58,7 +67,7 @@ export default {
 					mb-8
 				"
 			>
-				my work
+				my works
 			</h6>
 			<h3
 				class="font-general-regular

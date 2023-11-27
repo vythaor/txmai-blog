@@ -19,7 +19,7 @@ export default {
 		<AppBanner class="mb-5 sm:mb-8" />
 
 		<!-- Projects -->
-		<ProjectsGrid :onlyFeature="true" />
+		<ProjectsGrid :onlyFeature="true" :isContribute="true"/>
 
 		<!-- Load more projects button -->
 		<div class="mt-10 sm:mt-20 flex justify-center items-center">

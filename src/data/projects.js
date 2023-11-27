@@ -9,7 +9,8 @@ const projects = [
 		img: require('@/assets/images/ui-project-1.jpg'),
 		skate: require('@/assets/icons/web3.svg'),
 		client: require('@/assets/icons/aura.svg'),
-		isFeature: true
+		isFeature: true,
+		isContribute: true 
 	},
 	{
 		id: 2,
@@ -18,7 +19,9 @@ const projects = [
 		img: require('@/assets/images/ui-project-2.jpg'),
 		skate: require('@/assets/icons/web3.svg'),
 		client: require('@/assets/icons/aura.svg'),
-		isFeature: true
+		isFeature: true,
+		isContribute: true 
+
 	},
 	{
 		id: 3,
@@ -27,7 +30,8 @@ const projects = [
 		img: require('@/assets/images/ui-project-4.png'),
 		skate: require('@/assets/icons/bpi.svg'),
 		client: require('@/assets/icons/fiserv.svg'),
-		isFeature: false
+		isFeature: false,
+		isContribute: true 
 	},
 	{
 		id: 4,
@@ -36,7 +40,7 @@ const projects = [
 		img: require('@/assets/images/ui-project-3.jpg'),
 		skate: require('@/assets/icons/bpi.svg'),
 		client: require('@/assets/icons/costco.svg'),
-		isFeature: true
+		isFeature: true,
 	},
 	{
 		id: 5,
@@ -45,7 +49,8 @@ const projects = [
 		img: require('@/assets/images/ui-project-5.png'),
 		skate: require('@/assets/icons/bpi.svg'),
 		client: require('@/assets/icons/costco.svg'),
-		isFeature: false
+		isFeature: false,
+		isContribute: false
 	},
 	{
 		id: 6,
@@ -54,7 +59,8 @@ const projects = [
 		img: require('@/assets/images/ui-project-3.jpg'),
 		skate: require('@/assets/icons/bpi.svg'),
 		client: require('@/assets/icons/costco.svg'),
-		isFeature: false
+		isFeature: false,
+		isContribute: false
 	}
 ];
 
