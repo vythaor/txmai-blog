@@ -11,6 +11,10 @@ module.exports = {
 
 	darkMode: 'class',
 	theme: {
+		fontFamily: {
+			jost: ['Jost'],
+			poppins: ['Poppins'],
+		},
 		extend: {
 			colors: {
 				'primary-light': '#F7F8FC',

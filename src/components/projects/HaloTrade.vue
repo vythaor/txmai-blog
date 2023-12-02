@@ -54,7 +54,7 @@ export default {
                     alt="bg"
                 />
                 <div
-                    class="text-lime-400 text-5xl font-semibold font-['Jost'] leading-10 tracking-widest before:content-['Introduction'] before:absolute before:top-0 before:left-0 before:opacity-60 before:text-lime-400 before:text-5xl before:blur-sm before:font-semibold before:leading-10 before:tracking-widest relative"
+                    class="font-jost text-lime-400 text-5xl font-semibold leading-10 tracking-widest before:content-['Introduction'] before:absolute before:top-0 before:left-0 before:opacity-60 before:text-lime-400 before:text-5xl before:blur-sm before:font-semibold before:leading-10 before:tracking-widest relative"
                 >
                     Introduction
                 </div>
