@@ -34,6 +34,9 @@ module.exports = {
 					'2xl': '8rem',
 				},
 			},
+			animation: {
+				wiggle: 'wiggle 1s ease-in-out infinite'
+			}
 		},
 	},
 	plugins: [require('@tailwindcss/forms')],
