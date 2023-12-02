@@ -2,70 +2,95 @@
 import feather from 'feather-icons';
 
 export default {
-	props: ['projectInfo'],
+    props: ['projectInfo'],
 
-	mounted() {
-		feather.replace();
-	},
-	updated() {
-		feather.replace();
-	},
+    mounted() {
+        feather.replace();
+    },
+    updated() {
+        feather.replace();
+    },
 };
 </script>
 
 <template>
-	<div class="mt-14 bg-#060606">
-		<!-- Single project left section details -->
-		<div class="w-full text-left">
+    <div class="mt-14 bg-#060606">
+        <!-- Single project left section details -->
+        <div class="w-full text-left">
             <!-- <img
                 src="@/assets/images/halo/bg-1.png"
 				class="rounded-xl cursor-pointer"
 				alt="bg"
 			/> -->
-		</div>
-		<div class="bg-[url('@/assets/images/halo/bg-1.png')] bg-cover bg-center bg-no-repeat h-screen">
-			<div class="p-24 grid place-items-center">
-				<p class="text-7xl bold text-transparent bg-clip-text text-gradient bg-gradient-to-r from-lime-500 to-emerald-500">
-					HALLOTRADE
-				</p>
-				<img
-					src="@/assets/images/halo/s1-item1.png"
-					class="rounded-xl cursor-pointer w-2/5 mt-12"
-					alt="bg"
-				/>
-				<img
-					src="@/assets/images/halo/s1-item2.png"
-					class="absolute z-99 rounded-xl cursor-pointer mt-32"
-					alt="bg"
-				/>
-			</div>
-		</div>
-		<div class="container mx-auto flex mt-12">
-			<div class="relative flex-1 w-1/2 flex flex-col justify-center place-items-center">
-				<img
-					src="@/assets/images/halo/s2-mascot.png"
-					class="rounded-xl cursor-pointer"
-					alt="bg"
-				/>
-				<div class="text-lime-400 text-5xl font-semibold font-['Jost'] leading-10 tracking-widest">Introduction</div>
-			</div>
-			<img
-					src="@/assets/images/halo/s2-fireflies.png"
-					class="rounded-xl cursor-pointer absolute top-100 left-0"
-					alt="bg"
-				/>
-			<div style="background: linear-gradient(180deg, rgba(241, 255, 231, 0.05) 0%, rgba(241, 255, 231, 0.02) 100%);
-backdrop-filter: blur(6px);" class="p-8 flex-2 w-1/2 rounded-[16px]">
-				<div class="text-left">
-					<span class="text-stone-200 text-xl font-semibold leading-9">HaloTrade</span>
-					<span class="text-stone-200 text-xl font-normal leading-9"> </span>
-					<span class="text-zinc-400 text-xl font-normal leading-9"> is  DeFi Trading Platform on the Aura Network blockchain. The goal of this project is to deliver a scalable Design System for DeFi Trading Platform</span></div>
-				</div>
-		</div>
+        </div>
+        <div
+            class="bg-[url('@/assets/images/halo/bg-1.png')] bg-cover bg-center bg-no-repeat h-screen"
+        >
+            <div class="p-24 grid place-items-center">
+                <p
+                    class="text-7xl bold text-transparent bg-clip-text text-gradient bg-gradient-to-r from-lime-500 to-emerald-500"
+                >
+                    HALLOTRADE
+                </p>
+                <img
+                    src="@/assets/images/halo/s1-item1.png"
+                    class="rounded-xl cursor-pointer w-2/5 mt-12"
+                    alt="bg"
+                />
+                <img
+                    src="@/assets/images/halo/s1-item2.png"
+                    class="absolute z-99 rounded-xl cursor-pointer mt-32"
+                    alt="bg"
+                />
+            </div>
+        </div>
+        <div class="mx-auto flex px-[138px] py-[67px]">
+            <div
+                class="relative w-1/2 flex flex-col justify-center place-items-center"
+            >
+                <img
+                    src="@/assets/images/halo/s2-mascot.png"
+                    class="rounded-xl cursor-pointer"
+                    alt="bg"
+                />
+                <div
+                    class="text-lime-400 text-5xl font-semibold font-['Jost'] leading-10 tracking-widest before:content-['Introduction'] before:absolute before:top-0 before:left-0 before:opacity-60 before:text-lime-400 before:text-5xl before:blur-sm before:font-semibold before:leading-10 before:tracking-widest relative"
+                >
+                    Introduction
+                </div>
+            </div>
+            <img
+                src="@/assets/images/halo/s2-fireflies.png"
+                class="rounded-xl cursor-pointer absolute top-100 left-0 z-[-1]"
+                alt="bg"
+            />
+            <div
+                style="
+                    background: linear-gradient(
+                        180deg,
+                        rgba(241, 255, 231, 0.05) 0%,
+                        rgba(241, 255, 231, 0.02) 100%
+                    );
+                    backdrop-filter: blur(6px);
+                "
+                class="p-10 w-1/2 rounded-2xl"
+            >
+                <div class="text-left">
+                    <span class="text-stone-200 text-xl font-semibold leading-9"
+                        >HaloTrade</span
+                    >
+                    <span class="text-stone-200 text-xl font-normal leading-9">
+                    </span>
+                    <span class="text-zinc-400 text-xl font-normal leading-9">
+                        is DeFi Trading Platform on the Aura Network blockchain.
+                        The goal of this project is to deliver a scalable Design
+                        System for DeFi Trading Platform</span
+                    >
+                </div>
+            </div>
+        </div>
 
-		<!-- Single project right section details -->
-		<div class="w-full sm:w-2/3 text-left mt-10 sm:mt-0">
-		
-		</div>
-	</div>
+        <!-- Single project right section details -->
+        <div class="w-full sm:w-2/3 text-left mt-10 sm:mt-0"></div>
+    </div>
 </template>
