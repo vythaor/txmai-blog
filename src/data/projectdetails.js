@@ -1,10 +1,14 @@
 const projectdetails = [
     //project 1
-	{
-		id: 1,
-		singleProjectHeader: {
+    {
+        id: 'halo-trade',
+        component: import(
+            /* webpackChunkName: "project-details" */ '@/components/projects/HaloTrade.vue'
+        ),
+        singleProjectHeader: {
             singleProjectTitle: 'Aura HaloTrade',
-            singleProjectName: 'A scalable Design System for DeFi Trading Platform',
+            singleProjectName:
+                'A scalable Design System for DeFi Trading Platform',
             // singleProjectDate: 'March 2023',
             // singleProjectTag: 'Freelance Project',
         },
@@ -62,13 +66,17 @@ const projectdetails = [
                 },
             ],
         },
-	},
+    },
     //project 1
-	{
-		id: 2,
-		singleProjectHeader: {
+    {
+        id: 'aura-scan',
+        component: import(
+            /* webpackChunkName: "project-details" */ '@/components/projects/AuraScan.vue'
+        ),
+        singleProjectHeader: {
             singleProjectTitle: 'project 2',
-            singleProjectName: 'A scalable Design System for DeFi Trading Platform',
+            singleProjectName:
+                'A scalable Design System for DeFi Trading Platform',
             // singleProjectDate: 'March 2023',
             // singleProjectTag: 'Freelance Project',
         },
@@ -126,6 +134,6 @@ const projectdetails = [
                 },
             ],
         },
-	}
+    },
 ];
 export default projectdetails;
