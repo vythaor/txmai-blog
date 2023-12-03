@@ -20,16 +20,16 @@ export default {
                 </p>
                 <span class="font-general-regular text-sm text-ternary-dark dark:text-ternary-light">{{ project.category }}</span>
             </div>
-            <div class="border-t-2 border-primary-light px-4 py-6">
+            <div class="px-4 py-6 border-t border-b border-neutral-500 justify-start items-center">
                 <div class="flex justify-between items-center">
                     <div class="flex items-center">
                         <div class="text-sm text-ternary-dark dark:text-ternary-light">Stake</div>
-                        <img src="@/assets/icons/figma.svg" class="w-20 ml-4" alt="Light Logo" />
+                        <img src="@/assets/icons/figma.svg" class="w-10 ml-4" alt="Light Logo" />
                         <img :src="project.skate" class="w-18 ml-4" alt="Light Logo" />
                     </div>
                 </div>
             </div>
-            <div class="border-t-2 border-primary-light px-4 py-6">
+            <div class="border-neutral-500 justify-end items-center px-4 py-6">
                 <div class="flex justify-between items-center">
                     <div class="flex items-center">
                         <div class="text-sm text-ternary-dark dark:text-ternary-light">Client</div>

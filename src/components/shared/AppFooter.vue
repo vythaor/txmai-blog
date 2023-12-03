@@ -24,13 +24,13 @@ export default {
         <div class="flex flex-row justify-between">
             <div class="flex flex-col">
                 <router-link to="/"
-                    ><img v-if="theme === 'light'" src="@/assets/images/logo.svg" class="w-16" alt="Dark Logo" />
-                    <img v-else src="@/assets/images/logo.svg" class="w-16" alt="Light Logo" />
+                    ><img v-if="theme === 'light'" src="@/assets/images/logo.svg" class="w-12" alt="Dark Logo" />
+                    <img v-else src="@/assets/images/logo.svg" class="w-12" alt="Light Logo" />
                 </router-link>
                 <!-- Footer social links -->
                 <div class="flex mt-6 items-center">
                     <div class="font-normal text-base sm:text-base text-primary-dark dark:text-primary-light">My socials</div>
-                    <ul class="ml-8 flex gap-4 sm:gap-8 ml-16 text-xl text-white">
+                    <ul class="ml-8 flex gap-4 sm:gap-8 text-xl text-white">
                         <a
                             v-for="social in socials"
                             :key="social.id"

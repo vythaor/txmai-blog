@@ -1,24 +1,32 @@
 <script>
+import HaloCard from './HaloCard.vue';
 export default {
     name: 'HaloTradeProject',
+    components: {
+        HaloCard,
+    },
 };
 </script>
 
 <template>
     <div class="mt-14 bg-neutral-950">
         <div class="bg-[url('@/assets/images/halo/bg-1.png')] bg-auto bg-center h-screen">
-            <div class="p-24 grid place-items-center">
-                <p class="text-7xl bold text-transparent bg-clip-text text-gradient bg-gradient-to-r from-lime-500 to-emerald-500">HALLOTRADE</p>
-                <img src="@/assets/images/halo/s1-item1.png" class="rounded-xl cursor-pointer w-2/5 mt-12" alt="bg" />
-                <img src="@/assets/images/halo/s1-item2.png" class="absolute z-99 rounded-xl cursor-pointer mt-32" alt="bg" />
+            <div class="relative p-24 grid place-items-center">
+                <p
+                    class="text-7xl bold font-jost text-transparent bg-clip-text text-gradient bg-gradient-to-r from-lime-500 to-emerald-500 before:content-['HALOTRADE'] before:opacity-40 before:text-5xl before:absolute before:top-8 before:left-0"
+                >
+                    HALLOTRADE
+                </p>
+                <img src="@/assets/images/halo/s1-item1.png" class="absolute z-99 rounded-xl cursor-pointer mt-36" alt="bg" />
+                <img src="@/assets/images/halo/s1-item2.png" class="rounded-xl cursor-pointer mt-24" alt="bg" />
             </div>
         </div>
-        <div class="bg-[url('@/assets/images/halo/s2-shape.png')] bg-no-repeat">
+        <div class="bg-[url('@/assets/images/halo/s2-shape.png')] bg-cover bg-no-repeat">
             <div class="mx-auto flex px-[138px] py-[67px]">
                 <div class="relative w-1/2 flex flex-col place-items-center">
                     <img src="@/assets/images/halo/s2-mascot.png" class="rounded-xl cursor-pointer" alt="bg" />
                     <div
-                        class="text-lime-400 text-5xl font-semibold font-['Jost'] leading-10 tracking-widest before:content-['Introduction'] before:absolute before:top-0 before:left-0 before:opacity-60 before:text-lime-400 before:text-5xl before:blur-sm before:font-semibold before:leading-10 before:tracking-widest relative"
+                        class="text-lime-400 text-5xl font-semibold font-jost leading-10 tracking-widest before:content-['Introduction'] before:absolute before:top-0 before:left-0 before:opacity-60 before:text-lime-400 before:text-5xl before:blur-sm before:font-semibold before:leading-10 before:tracking-widest relative"
                     >
                         Introduction
                     </div>
@@ -27,13 +35,13 @@ export default {
                     style="
                         background: linear-gradient(180deg, rgba(241, 255, 231, 0.05) 0%, rgba(241, 255, 231, 0.02) 100%);
                         backdrop-filter: blur(6px);
+                        border-radius: var(--border-radius-large, 16px);
                     "
-                    class="flex flex-col justify-between h-72 px-10 w-1/2 rounded-2xl"
+                    class="flex flex-col px-10 w-1/2 p-10 rounded-2xl"
                 >
-                    <div class="h-px bg-gradient-to-l from-lime-500 from-1% via-lime-500 via-70% to-lime-500 to-5% rounded-xl"></div>
-                    <div class="text-left">
+                    <div class="text-left font-jost">
                         <span class="text-stone-200 text-xl font-semibold leading-9">HaloTrade</span>
-                        <span class="text-stone-200 text-xl font-normal leading-9"> </span>
+                        <span class="text-stone-200 text-xl font-normal leading-9"></span>
                         <span class="text-zinc-400 text-xl font-normal leading-9">
                             is DeFi Trading Platform on the Aura Network blockchain. The goal of this project is to deliver a scalable Design System
                             for DeFi Trading Platform</span
@@ -41,17 +49,21 @@ export default {
                     </div>
                     <div class="flex items-center space-x-4 mt-4">
                         <div class="text-white text-xs font-semibold uppercase leading-none">stake</div>
-                        <img src="@/assets/icons/figma.svg" class="w-20 ml-4" alt="Light Logo" />
+                        <div class="flex items-center text-neutral-200 text-xs font-semibold leading-none">
+                            <img src="@/assets/icons/figma.svg" class="ml-4" alt="Light Logo" />
+                            <span class="ml-1">Figma</span>
+                        </div>
                         <img src="@/assets/icons/web3.svg" class="w-18 ml-4" alt="Light Logo" />
                         <div class="h-8 border border-neutral-500"></div>
                         <div class="text-white text-xs font-semibold uppercase leading-none">Client</div>
                         <img src="@/assets/icons/aura.svg" class="w-24 ml-4" alt="Light Logo" />
                     </div>
-                    <div class="h-px rotate-180 bg-gradient-to-l from-lime-500 via-lime-500 to-lime-500 rounded-xl"></div>
+                    <img class="absolute right-0 top-0" src="@/assets/images/halo/line-bottom.svg" alt="line" />
+                    <img class="absolute left-0 bottom-0" src="@/assets/images/halo/line-top.svg" alt="line" />
                 </div>
             </div>
             <div
-                class="mt-16 text-lime-400 text-5xl text-center font-semibold font-['Jost'] leading-10 tracking-widest before:content-['Aura_Ecosystem'] before:text-center before:absolute before:opacity-60 before:text-lime-400 before:text-5xl before:blur-sm before:font-semibold before:leading-10 before:tracking-widest relative"
+                class="mt-16 text-lime-400 text-5xl text-center font-semibold font-jost leading-10 tracking-widest before:content-['Aura_Ecosystem'] before:text-center before:absolute before:opacity-60 before:text-lime-400 before:text-5xl before:blur-sm before:font-semibold before:leading-10 before:tracking-widest relative"
             >
                 Aura Ecosystem
             </div>
@@ -72,55 +84,45 @@ export default {
             </div>
         </div>
         <!-- Responsibilities -->
-        <div class="bg-[url('@/assets/images/halo/s3-shape.png')] bg-no-repeat">
+        <div class="bg-[url('@/assets/images/halo/s3-shape.png')] bg-cover bg-no-repeat">
             <div
-                class="p-28 text-lime-400 text-5xl font-semibold font-['Jost'] leading-10 tracking-widest before:content-['My_responsibilities'] before:p-28 before:absolute before:top-0 before:left-0 before:opacity-60 before:text-lime-400 before:text-5xl before:blur-sm before:font-semibold before:leading-10 before:tracking-widest relative"
+                class="p-28 text-lime-400 text-5xl font-semibold font-jost leading-10 tracking-widest before:content-['My_responsibilities'] before:p-28 before:absolute before:top-0 before:left-0 before:opacity-60 before:text-lime-400 before:text-5xl before:blur-sm before:font-semibold before:leading-10 before:tracking-widest relative"
             >
                 My responsibilities
             </div>
-            <div class="flex gap-10">
-                <img src="@/assets/images/halo/s3-mascot.png" alt="Light Logo" />
-                <div
-                    class="w-96 h-44 p-6 rounded-2xl backdrop-blur-2xl justify-start items-start gap-5 inline-flex"
-                    style="
-                        background: linear-gradient(180deg, rgba(241, 255, 231, 0.05) 0%, rgba(241, 255, 231, 0.02) 100%);
-                        backdrop-filter: blur(6px);
-                    "
-                >
-                    <div class="w-4 h-8 relative">
-                        <div class="left-0 top-0 absolute text-lime-400 text-3xl font-semibold leading-loose">1</div>
-                    </div>
-                    <div class="grow shrink basis-0 flex-col justify-start items-start gap-2 inline-flex">
-                        <div class="self-stretch text-stone-200 text-lg font-semibold leading-loose">Design planning & review</div>
-                        <div class="self-stretch text-zinc-400 text-lg font-normal leading-7">
-                            Defined timelines. Provided guidance to junior designers, and fostered a collaborative and creative work environment.
-                        </div>
-                    </div>
-                    <div class="w-96 h-px left-0 top-0 absolute bg-gradient-to-l from-lime-500 via-lime-500 to-lime-500 rounded-xl"></div>
-                    <div
-                        class="w-96 h-px left-[430px] top-[174px] absolute origin-top-left rotate-180 bg-gradient-to-l from-lime-500 via-lime-500 to-lime-500 rounded-xl"
-                    ></div>
-                </div>
-                <div
-                    class="w-96 h-44 p-6 rounded-2xl backdrop-blur-2xl justify-start items-start gap-5 inline-flex"
-                    style="
-                        background: linear-gradient(180deg, rgba(241, 255, 231, 0.05) 0%, rgba(241, 255, 231, 0.02) 100%);
-                        backdrop-filter: blur(6px);
-                    "
-                >
-                    <div class="w-4 h-8 relative">
-                        <div class="left-0 top-0 absolute text-lime-400 text-3xl font-semibold leading-loose">2</div>
-                    </div>
-                    <div class="grow shrink basis-0 flex-col justify-start items-start gap-2 inline-flex">
-                        <div class="self-stretch text-stone-200 text-lg font-semibold leading-loose">Research and Analysis</div>
-                        <div class="self-stretch text-zinc-400 text-lg font-normal leading-7">
-                            Explored best practices for scalability, modularity, and usability in design systems.
-                        </div>
-                    </div>
-                    <div class="w-96 h-px left-0 top-0 absolute bg-gradient-to-l from-lime-500 via-lime-500 to-lime-500 rounded-xl"></div>
-                    <div
-                        class="w-96 h-px left-[430px] top-[174px] absolute origin-top-left rotate-180 bg-gradient-to-l from-lime-500 via-lime-500 to-lime-500 rounded-xl"
-                    ></div>
+            <div class="relative">
+                <img class="absolute left-0" src="@/assets/images/halo/s3-mascot.png" alt="Light Logo" />
+                <div class="grid grid-cols-2 gap-10">
+                    <HaloCard
+                        order="1"
+                        title="Design planning & review"
+                        desc="Defined timelines. Provided guidance to junior designers, and fostered a collaborative and creative work environment."
+                    />
+                    <HaloCard
+                        order="2"
+                        title="Research and Analysis"
+                        desc="Explored best practices for scalability, modularity, and usability in design systems."
+                    />
+                    <HaloCard
+                        order="3"
+                        title="Research and Analysis"
+                        desc="Explored best practices for scalability, modularity, and usability in design systems."
+                    />
+                    <HaloCard
+                        order="4"
+                        title="Research and Analysis"
+                        desc="Explored best practices for scalability, modularity, and usability in design systems."
+                    />
+                    <HaloCard
+                        order="5"
+                        title="Research and Analysis"
+                        desc="Explored best practices for scalability, modularity, and usability in design systems."
+                    />
+                    <HaloCard
+                        order="6"
+                        title="Research and Analysis"
+                        desc="Explored best practices for scalability, modularity, and usability in design systems."
+                    />
                 </div>
             </div>
         </div>
@@ -128,7 +130,7 @@ export default {
 
         <!-- Design Process -->
         <div
-            class="p-28 text-lime-400 text-5xl font-semibold font-['Jost'] leading-10 tracking-widest before:content-['Design_process'] before:p-28 before:absolute before:top-0 before:left-0 before:opacity-60 before:text-lime-400 before:text-5xl before:blur-sm before:font-semibold before:leading-10 before:tracking-widest relative"
+            class="p-28 text-lime-400 text-5xl font-semibold font-jost leading-10 tracking-widest before:content-['Design_process'] before:p-28 before:absolute before:top-0 before:left-0 before:opacity-60 before:text-lime-400 before:text-5xl before:blur-sm before:font-semibold before:leading-10 before:tracking-widest relative"
         >
             Design process
         </div>
@@ -136,36 +138,18 @@ export default {
         <!-- End Design Process -->
 
         <!-- Outcome -->
-        <div class="bg-[url('@/assets/images/halo/s5-shape.png')] bg-no-repeat">
+        <div class="bg-[url('@/assets/images/halo/s5-shape.png')] bg-cover bg-no-repeat">
             <div
-                class="p-28 text-lime-400 text-5xl font-semibold font-['Jost'] leading-10 tracking-widest before:content-['Outcomes'] before:p-28 before:absolute before:top-0 before:left-0 before:opacity-60 before:text-lime-400 before:text-5xl before:blur-sm before:font-semibold before:leading-10 before:tracking-widest relative"
+                class="p-28 text-lime-400 text-5xl font-semibold font-jost leading-10 tracking-widest before:content-['Outcomes'] before:p-28 before:absolute before:top-0 before:left-0 before:opacity-60 before:text-lime-400 before:text-5xl before:blur-sm before:font-semibold before:leading-10 before:tracking-widest relative"
             >
                 Outcomes
             </div>
             <div class="flex justify-center gap-8">
-                <div class="flex flex-col">
-                    <div
-                        class="w-96 h-44 p-6 rounded-2xl backdrop-blur-2xl justify-start items-start gap-5 inline-flex"
-                        style="
-                            background: linear-gradient(180deg, rgba(241, 255, 231, 0.05) 0%, rgba(241, 255, 231, 0.02) 100%);
-                            backdrop-filter: blur(6px);
-                        "
-                    >
-                        <div class="w-4 h-8 relative">
-                            <div class="left-0 top-0 absolute text-lime-400 text-3xl font-semibold leading-loose">1</div>
-                        </div>
-                        <div class="grow shrink basis-0 flex-col justify-start items-start gap-2 inline-flex">
-                            <div class="self-stretch text-stone-200 text-lg font-semibold leading-loose">Design planning & review</div>
-                            <div class="self-stretch text-zinc-400 text-lg font-normal leading-7">
-                                Defined timelines. Provided guidance to junior designers, and fostered a collaborative and creative work environment.
-                            </div>
-                        </div>
-                        <div class="w-96 h-px left-0 top-0 absolute bg-gradient-to-l from-lime-500 via-lime-500 to-lime-500 rounded-xl"></div>
-                        <div
-                            class="w-96 h-px left-[430px] top-[174px] absolute origin-top-left rotate-180 bg-gradient-to-l from-lime-500 via-lime-500 to-lime-500 rounded-xl"
-                        ></div>
-                    </div>
-                </div>
+                <HaloCard
+                    order="1"
+                    title="Consistent User Experience"
+                    desc="across the trading platform, enhancing usability and reducing cognitive load for users."
+                />
                 <video controls class="w-1/2 rounded-md shadow-md">
                     <source src="@/assets/images/halo/video-halo-variables.mp4" type="video/mp4" />
                     Your browser does not support the video tag
@@ -177,7 +161,7 @@ export default {
         <!-- Product screen -->
         <div class="bg-[url('@/assets/images/halo/s6-shape.png')] bg-no-repeat">
             <div
-                class="p-28 text-lime-400 text-5xl font-semibold font-['Jost'] leading-10 tracking-widest before:content-['Product_screens'] before:p-28 before:absolute before:top-0 before:left-0 before:opacity-60 before:text-lime-400 before:text-5xl before:blur-sm before:font-semibold before:leading-10 before:tracking-widest relative"
+                class="p-28 text-lime-400 text-5xl font-semibold font-jost leading-10 tracking-widest before:content-['Product_screens'] before:p-28 before:absolute before:top-0 before:left-0 before:opacity-60 before:text-lime-400 before:text-5xl before:blur-sm before:font-semibold before:leading-10 before:tracking-widest relative"
             >
                 Product screens
             </div>

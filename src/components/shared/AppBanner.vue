@@ -27,22 +27,22 @@ export default {
         <!-- Banner left contents -->
         <div class="flex flex-col w-full md:w-3/3 text-left z-50">
             <div
-                class="font-general-semibold mt-8 text-6xl md:text-6xl xl:text-6xl text-center sm:text-left text-ternary-dark dark:text-primary-light"
+                class="font-semibold mt-8 text-6xl md:text-6xl xl:text-6xl text-center sm:text-left text-ternary-dark dark:text-primary-light"
             >
                 Xin chào! 👋 I’m Mai,
                 <div class="flex flex-row mt-4">
                     <div
-                        class="font-general-semibold mr-4 text-6xl sm:text-6xl xl:text-6xl text-center sm:text-left leading-none text-ternary-dark dark:text-primary-light"
+                        class="font-semibold mr-4 text-6xl sm:text-6xl xl:text-6xl text-center sm:text-left leading-none text-ternary-dark dark:text-primary-light"
                     >
                         a
                     </div>
-                    <div class="font-general-semibold text-6xl sm:text-6xl xl:text-6xl text-center sm:text-left leading-none text-brand">
+                    <div class="font-semibold text-6xl sm:text-6xl xl:text-6xl text-center sm:text-left leading-none text-brand">
                         Product Designer
                     </div>
                 </div>
             </div>
             <div class="flex flex-col justify-center mt-16">
-                <div class="font-general-semibold text-2xl sm:text-2xl xl:text-2xl text-center sm:text-left leading-none text-neutral-200 mb-6">
+                <div class="font-semibold text-2xl sm:text-2xl xl:text-2xl text-center sm:text-left leading-none text-neutral-200 mb-6">
                     Visit my cool stuff below
                 </div>
                 <!-- <a
@@ -60,7 +60,7 @@ export default {
                         >
                             <div class="flex justify-center w-full bg-primary-dark text-white rounded-xl p-2.5">
                                 <img src="@/assets/icons/work.svg" class="w-8" alt="Work icon" />
-                                <span class="text-2xl sm:text-2xl font-general-medium duration-100 ml-4">Works </span>
+                                <span class="text-2xl sm:text-2xl font-medium duration-100 ml-4">Works </span>
                             </div>
                         </div>
                     </router-link>
@@ -70,7 +70,7 @@ export default {
                             class="flex ml-5 justify-center items-center w-36 sm:w-48 mb-6 sm:mb-0 text-lg bg-gray-900 shadow-[inset_0_1px_1px_0px_rgba(218,218,218,0.25)] py-2.5 sm:py-3 rounded-lg focus:ring-1 focus:ring-cyan-300 hover:bg-cyan-300 cursor-pointer text-brand hover:text-white duration-500"
                         >
                             <img src="@/assets/icons/blogs.svg" class="w-8" alt="Blog icon" />
-                            <span class="text-2xl sm:text-2xl font-general-medium duration-10 ml-4">Blogs</span>
+                            <span class="text-2xl sm:text-2xl font-medium duration-10 ml-4">Blogs</span>
                         </div>
                     </router-link>
                     <!-- About me -->
@@ -79,7 +79,7 @@ export default {
                             class="flex ml-5 justify-center items-center w-36 sm:w-48 mb-6 sm:mb-0 text-lg bg-gray-900 shadow-[inset_0_1px_1px_0px_rgba(218,218,218,0.25)] py-2.5 sm:py-3 rounded-lg focus:ring-1 focus:ring-cyan-300 hover:bg-cyan-300 cursor-pointer text-brand hover:text-white duration-500"
                         >
                             <img src="@/assets/icons/about.svg" class="w-8" alt="About icon" />
-                            <span class="text-2xl sm:text-2xl font-general-medium duration-100 ml-4">About me</span>
+                            <span class="text-2xl sm:text-2xl font-medium duration-100 ml-4">About me</span>
                         </div>
                     </router-link>
                 </div>
