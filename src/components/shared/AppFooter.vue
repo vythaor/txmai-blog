@@ -20,17 +20,17 @@ export default {
 </script> 
 
 <template>
-    <div class="px-[168px] pt-6 pb-[68px] border-t-2 border-primary-light border-dashed dark:border-secondary-dark">
-        <div class="flex flex-row justify-between">
-            <div class="flex flex-col">
+    <div class="sm:px-[168px] pt-6 sm:pb-[68px] px-[24px] pb-[24px] border-t-2 border-primary-light border-dashed dark:border-secondary-dark">
+        <div class="flex flex-col sm:flex-row justify-between">
+            <div class="flex flex-col sm:flex-row">
                 <router-link to="/"
                     ><img v-if="theme === 'light'" src="@/assets/images/logo.svg" class="w-12" alt="Dark Logo" />
                     <img v-else src="@/assets/images/logo.svg" class="w-12" alt="Light Logo" />
                 </router-link>
                 <!-- Footer social links -->
-                <div class="flex mt-6 items-center">
+                <div class="flex flex-col sm:flex-row mt-6 items-center">
                     <div class="font-normal text-base sm:text-base text-primary-dark dark:text-primary-light">My socials</div>
-                    <ul class="ml-8 flex gap-4 sm:gap-8 text-xl text-white">
+                    <ul class="ml-8 flex flex-col sm:flex-row gap-4 sm:gap-8 text-xl text-white">
                         <a
                             v-for="social in socials"
                             :key="social.id"

@@ -1,15 +1,19 @@
 <script>
 import HaloCard from './HaloCard.vue';
+import { FigmaIcon, Web3Icon } from '@/components/icons';
+
 export default {
     name: 'HaloTradeProject',
     components: {
         HaloCard,
+        FigmaIcon,
+        Web3Icon,
     },
 };
 </script>
 
 <template>
-    <div class="mt-14 bg-neutral-950">
+    <div class="bg-neutral-950">
         <div class="bg-[url('@/assets/images/halo/bg-1.png')] bg-auto bg-center h-screen">
             <div class="relative p-24 grid place-items-center">
                 <p
@@ -47,16 +51,18 @@ export default {
                             for DeFi Trading Platform</span
                         >
                     </div>
-                    <div class="flex items-center space-x-4 mt-4">
-                        <div class="text-white text-xs font-semibold uppercase leading-none">stake</div>
-                        <div class="flex items-center text-neutral-200 text-xs font-semibold leading-none">
-                            <img src="@/assets/icons/figma.svg" class="ml-4" alt="Light Logo" />
-                            <span class="ml-1">Figma</span>
+                    <div class="pt-4">
+                        <div class="flex gap-6">
+                            <div class="flex items-center gap-4 pr-6 border-r border-neutral-500">
+                                <div class="text-white text-xs font-semibold font-inter uppercase leading-none">Stake</div>
+                                <FigmaIcon />
+                                <Web3Icon />
+                            </div>
+                            <div class="flex items-center gap-4">
+                                <div class="text-white text-xs font-semibold font-inter uppercase leading-none">Client</div>
+                                <img src="@/assets/images/aurascan/aura-network.png" alt="Aura Network" />
+                            </div>
                         </div>
-                        <img src="@/assets/icons/web3.svg" class="w-18 ml-4" alt="Light Logo" />
-                        <div class="h-8 border border-neutral-500"></div>
-                        <div class="text-white text-xs font-semibold uppercase leading-none">Client</div>
-                        <img src="@/assets/icons/aura.svg" class="w-24 ml-4" alt="Light Logo" />
                     </div>
                     <img class="absolute right-0 top-0" src="@/assets/images/halo/line-bottom.svg" alt="line" />
                     <img class="absolute left-0 bottom-0" src="@/assets/images/halo/line-top.svg" alt="line" />
@@ -90,9 +96,9 @@ export default {
             >
                 My responsibilities
             </div>
-            <div class="relative">
-                <img class="absolute left-0" src="@/assets/images/halo/s3-mascot.png" alt="Light Logo" />
-                <div class="grid grid-cols-2 gap-10">
+            <div class="flex items-start">
+                <img class="mt-24" src="@/assets/images/halo/s3-mascot.png" alt="Light Logo" />
+                <div class="grid grid-cols-2 content-center gap-10 px-30">
                     <HaloCard
                         order="1"
                         title="Design planning & review"
@@ -138,22 +144,37 @@ export default {
         <!-- End Design Process -->
 
         <!-- Outcome -->
-        <div class="bg-[url('@/assets/images/halo/s5-shape.png')] bg-cover bg-no-repeat">
-            <div
-                class="p-28 text-lime-400 text-5xl font-semibold font-jost leading-10 tracking-widest before:content-['Outcomes'] before:p-28 before:absolute before:top-0 before:left-0 before:opacity-60 before:text-lime-400 before:text-5xl before:blur-sm before:font-semibold before:leading-10 before:tracking-widest relative"
-            >
-                Outcomes
-            </div>
-            <div class="flex justify-center gap-8">
-                <HaloCard
-                    order="1"
-                    title="Consistent User Experience"
-                    desc="across the trading platform, enhancing usability and reducing cognitive load for users."
-                />
-                <video controls class="w-1/2 rounded-md shadow-md">
-                    <source src="@/assets/images/halo/video-halo-variables.mp4" type="video/mp4" />
-                    Your browser does not support the video tag
-                </video>
+        <div class="relative">
+            <img src="@/assets/images/halo/s5-shape.png" />
+            <div class="absolute top-[5%] left-[5%] sm:top-[5%] sm:left-[5%]">
+                <div
+                    class="p-16 text-lime-400 text-5xl font-semibold font-jost leading-10 tracking-widest before:content-['Outcomes'] before:p-16 before:absolute before:top-0 before:left-0 before:opacity-60 before:text-lime-400 before:text-5xl before:blur-sm before:font-semibold before:leading-10 before:tracking-widest relative"
+                >
+                    Outcomes
+                </div>
+                <div class="flex justify-center gap-8 content-start">
+                    <div class="flex flex-col gap-8">
+                        <HaloCard
+                            order="1"
+                            title="Consistent User Experience"
+                            desc="across the trading platform, enhancing usability and reducing cognitive load for users."
+                        />
+                        <HaloCard
+                            order="2"
+                            title="Improved trading experience"
+                            desc="enabling users to execute trades quickly and easily across multiple tokenized assets."
+                        />
+                        <HaloCard
+                            order="3"
+                            title="Streamlined Development"
+                            desc="supported faster development with a library of reusable components."
+                        />
+                    </div>
+                    <video controls class="w-1/2 rounded-md shadow-md">
+                        <source src="@/assets/images/halo/video-halo-variables.mp4" type="video/mp4" />
+                        Your browser does not support the video tag
+                    </video>
+                </div>
             </div>
         </div>
         <!-- End outcome -->
@@ -174,7 +195,10 @@ export default {
                 <img src="@/assets/images/halo/s7-screens.png" alt="item" />
                 <div class="absolute right-0">
                     <div class="text-white text-7xl font-normal font-['Redig'] leading-10 tracking-tight">Visit our work</div>
-                    <div class="text-white text-2xl font-normal font-['Inter'] leading-normal tracking-widest">halotrade.zone</div>
+                    <div class="text-white text-2xl font-normal font-['Inter'] leading-normal tracking-widest">
+                        <a href="https://halotrade.zone" target="_blank">halotrade.zone
+                        </a>
+                        </div>
                     <img src="@/assets/images/halo/s7-desktop.png" alt="item" />
                 </div>
             </div>
@@ -195,7 +219,7 @@ export default {
                             <span class="text-4xl">Read my article </span>
                             <span class="text-4xl bold">Building smart components</span>
                         </div>
-                        <div class="h-12 px-6 py-2.5 bg-gray-900 rounded-xl justify-center items-center gap-4 inline-flex">
+                        <div class="h-12 px-6 py-2.5 bg-gray-900 rounded-xl justify-center items-center gap-4 inline-flex mt-8">
                             <div class="text-center text-brand text-2xl font-semibold leading-loose">Dive in Now</div>
                         </div>
                     </div>

@@ -18,13 +18,13 @@ export default {
 <template>
     <div>
         <div
-            class="w-96 h-44 p-6 rounded-2xl backdrop-blur-2xl justify-start items-start gap-5 inline-flex"
+            class="w-96 h-44 p-6 flex items-start rounded-2xl backdrop-blur-2xl justify-start gap-5 font-jost"
             style="background: linear-gradient(180deg, rgba(241, 255, 231, 0.05) 0%, rgba(241, 255, 231, 0.02) 100%); backdrop-filter: blur(6px)"
         >
-            <div class="w-4 h-8 relative">
-                <div class="left-0 top-0 absolute text-lime-400 text-3xl font-semibold leading-loose">{{ order }}</div>
+            <div class="relative">
+                <div class="text-lime-400 text-3xl font-semibold leading-loose">{{ order }}</div>
             </div>
-            <div class="grow shrink basis-0 flex-col justify-start items-start gap-2 inline-flex">
+            <div>
                 <div class="self-stretch text-stone-200 text-lg font-semibold leading-loose">{{ title }}</div>
                 <div class="self-stretch text-zinc-400 text-lg font-normal leading-7">
                     {{ desc }}
