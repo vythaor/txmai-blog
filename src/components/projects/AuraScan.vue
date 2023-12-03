@@ -49,7 +49,7 @@
         <div class="px-[100px] relative" @click="stylingResponsibilities">
             <div class="absolute top-[15%] text-white text-5xl font-semibold leading-[72px]">My responsibilities</div>
             <div class="relative mx-[80px]">
-                <img src="@/assets/images/aurascan/Vector-1.svg" alt="" class="tw-full" ref="vector" @load="stylingResponsibilities" />
+                <img src="@/assets/images/aurascan/Vector-1.svg" alt="" class="w-full" ref="vector" @load="stylingResponsibilities" />
                 <div class="absolute w-full flex justify-between translate-x-[-85px]" :style="{ top: `${(vectorHeight * 48) / 100 - 52}px` }">
                     <div class="flex flex-col items-center text-center">
                         <div class="w-[145px] h-[104px] p-[33px] bg-slate-800 rounded-full flex-col justify-center items-center gap-2.5 inline-flex">
