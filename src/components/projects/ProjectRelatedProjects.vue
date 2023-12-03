@@ -36,7 +36,7 @@ export default {
                         <img class="h-[30px] max-w-fit" src="@/assets/icons/aura.svg" />
                     </div>
                 </div>
-                <div class="bg-gray-900 rounded-xl shadow-inner shadow-brand/50 flex-col justify-center items-center gap-2.5 inline-flex">
+                <div class="rounded-xl flex-col justify-center items-center gap-2.5 inline-flex">
                     <div class="h-10 px-4 py-2.5  justify-center items-center gap-4 inline-flex">
                         <div class="text-center text-brand text-xl font-semibold leading-normal flex justify-between gap-4 cursor-pointer">
                             View

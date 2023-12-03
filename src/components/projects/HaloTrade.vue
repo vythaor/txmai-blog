@@ -1,15 +1,6 @@
 <script>
-import feather from 'feather-icons';
-
 export default {
-    props: ['projectInfo'],
-
-    mounted() {
-        feather.replace();
-    },
-    updated() {
-        feather.replace();
-    },
+    name: 'HaloTradeProject',
 };
 </script>
 
@@ -176,7 +167,7 @@ export default {
                     </div>
                 </div>
                 <video controls class="w-1/2 rounded-md shadow-md">
-                    <source src="video-halo-variables.mov" type="video/quicktime" />
+                    <source src="@/assets/images/halo/video-halo-variables.mp4" type="video/mp4" />
                     Your browser does not support the video tag
                 </video>
             </div>

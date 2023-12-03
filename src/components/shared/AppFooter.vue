@@ -20,8 +20,8 @@ export default {
 </script> 
 
 <template>
-    <div class="container mx-auto mb-12 sm:mb-12">
-        <div class="flex flex-row justify-between pt-6 sm:pt-30 pb-8 mt-20 border-t-2 border-primary-light border-dashed dark:border-secondary-dark">
+    <div class="px-[168px] pt-6 pb-[68px] border-t-2 border-primary-light border-dashed dark:border-secondary-dark">
+        <div class="flex flex-row justify-between">
             <div class="flex flex-col">
                 <router-link to="/"
                     ><img v-if="theme === 'light'" src="@/assets/images/logo.svg" class="w-16" alt="Dark Logo" />

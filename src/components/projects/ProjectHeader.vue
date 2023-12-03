@@ -1,7 +1,7 @@
 <script>
 export default {
     props: {
-        singleProjectHeader: {
+        project: {
             type: Object,
             default: () => ({}),
         },
@@ -14,9 +14,9 @@ export default {
         <!-- Project heading and meta info -->
         <div class="font-general-medium text-center text-3xl sm:text-4xl font-bold text-primary-dark dark:text-primary-light mt-14 sm:mt-20 mb-7">
             <div class="font-general-regular text-center text-secondary-dark dark:text-cyan-300 text-md sm:text-xl font-n italic mb-8">
-                {{ singleProjectHeader.singleProjectTitle }}
+                {{ project.name }}
             </div>
-            {{ singleProjectHeader.singleProjectName }}
+            <div v-html="project.title"></div>
         </div>
         <!-- <div class="flex">
 			<div class="flex items-center mr-10">

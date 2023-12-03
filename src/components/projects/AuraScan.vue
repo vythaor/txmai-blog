@@ -3,6 +3,6 @@
 </template>
 <script>
 export default {
-    name: 'Project2',
+    name: 'AuraScanProject',
 };
 </script>

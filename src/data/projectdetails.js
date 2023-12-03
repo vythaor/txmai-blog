@@ -2,16 +2,9 @@ const projectdetails = [
     //project 1
     {
         id: 'halo-trade',
-        component: import(
-            /* webpackChunkName: "project-details" */ '@/components/projects/HaloTrade.vue'
-        ),
-        singleProjectHeader: {
-            singleProjectTitle: 'Aura HaloTrade',
-            singleProjectName:
-                'A scalable Design System for DeFi Trading Platform',
-            // singleProjectDate: 'March 2023',
-            // singleProjectTag: 'Freelance Project',
-        },
+        component: import(/* webpackChunkName: "project-details" */ '@/components/projects/HaloTrade.vue'),
+        name: 'Aura HaloTrade',
+        title: 'A scalable Design System for DeFi Trading Platform',
         // projectImages: [
         //     {
         //         id: 1,
@@ -67,19 +60,12 @@ const projectdetails = [
             ],
         },
     },
-    //project 1
+    //project 2
     {
         id: 'aura-scan',
-        component: import(
-            /* webpackChunkName: "project-details" */ '@/components/projects/AuraScan.vue'
-        ),
-        singleProjectHeader: {
-            singleProjectTitle: 'project 2',
-            singleProjectName:
-                'A scalable Design System for DeFi Trading Platform',
-            // singleProjectDate: 'March 2023',
-            // singleProjectTag: 'Freelance Project',
-        },
+        component: import(/* webpackChunkName: "project-details" */ '@/components/projects/AuraScan.vue'),
+        name: 'AuraScan',
+        title: '<p>Blockchain Explorer for Transparent</p><p class="mt-4">Transaction Monitoring</p>',
         // projectImages: [
         //     {
         //         id: 1,

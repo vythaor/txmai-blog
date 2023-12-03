@@ -14,16 +14,12 @@ export default {
     }),
     computed: {
         projectDetail() {
-            return (
-                projectdetails.find((p) => p.id == this.$route.params.id) || {}
-            );
+            return projectdetails.find((p) => p.id == this.$route.params.id) || {};
         },
     },
     methods: {
         getComponent() {
-            return this.projectDetail?.component?.then(
-                (module) => (this.component = module.default)
-            );
+            return this.projectDetail?.component?.then((module) => (this.component = module.default));
         },
     },
     mounted() {
@@ -35,16 +31,12 @@ export default {
 <template>
     <div class="">
         <!-- Project header -->
-        <ProjectHeader
-            :singleProjectHeader="projectDetail.singleProjectHeader"
-        />
+        <ProjectHeader :project="projectDetail" />
 
         <!-- Project Detail -->
         <component :is="component"></component>
         <!-- Project related projects -->
-        <ProjectRelatedProjects
-            :relatedProject="projectDetail.relatedProject"
-        />
+        <ProjectRelatedProjects :relatedProject="projectDetail.relatedProject" />
     </div>
 </template>
 

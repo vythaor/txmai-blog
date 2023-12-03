@@ -56,7 +56,7 @@ export default {
                     <!-- Works -->
                     <router-link to="/works">
                         <div
-                            class="flex justify-center items-center sm:w-42 sm:mb-0 text-lg bg-gradient-to-r from-blue-800 from-50% to-cyan-300 to-87% w-36 sm:w-48 mb-6 sm:mb-0 rounded-xl p-0.5 cursor-pointer"
+                            class="flex justify-center items-center sm:w-42 sm:mb-0 text-lg bg-gradient-to-r from-blue-800 from-50% to-cyan-300 to-87% w-36 sm:w-48 mb-6 rounded-xl p-0.5 cursor-pointer"
                         >
                             <div class="flex justify-center w-full bg-primary-dark text-white rounded-xl p-2.5">
                                 <img src="@/assets/icons/work.svg" class="w-8" alt="Work icon" />
