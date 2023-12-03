@@ -4,51 +4,7 @@ const projectdetails = [
         id: 'halo-trade',
         component: import(/* webpackChunkName: "project-details" */ '@/components/projects/HaloTrade.vue'),
         name: 'Aura HaloTrade',
-        title: 'A scalable Design System for DeFi Trading Platform',
-        // projectImages: [
-        //     {
-        //         id: 1,
-        //         title: 'Car Control',
-        //         img: require('@/assets/images/ui-project-1.jpg'),
-        //     },
-        // ],
-        // projectInfo: {
-        //     clientHeading: 'About Client',
-        //     companyInfos: [
-        //         {
-        //             id: 1,
-        //             title: 'Name',
-        //             details: 'Personal Client',
-        //         },
-        //         {
-        //             id: 2,
-        //             title: 'Appstore',
-        //             details: `In development`,
-        //         }
-        //     ],
-        //     technologies: [
-        //         {
-        //             title: 'Tools & Technologies',
-        //             tools: [
-        //                 'Figma',
-        //                 'Photoshop',
-        //                 'Illustrator'
-        //             ],
-        //             techs: [
-        //                 'UI Design',
-        //                 'UX Design'
-        //             ]
-        //         },
-        //     ],
-        //     projectDetailsHeading: 'Project Goals',
-        //     projectDetails: [
-        //         {
-        //             id: 1,
-        //             details:
-        //                 'Car-controlling application is designed to provide seamless control over your vehicle through your smartphone. Compatible with a wide range of car models, this app connects to your car\'s onboard system via Bluetooth or an internet connection, allowing you to access and manage various functions remotely.',
-        //         },
-        //     ],
-        // },
+        title: `<p>A scalable Design System</p> <p class="mt-4">for DeFi Trading Platform</p>`,
         relatedProject: {
             relatedProjectsHeading: 'Related Projects',
             relatedProjects: [
