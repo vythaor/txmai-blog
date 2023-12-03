@@ -64,7 +64,7 @@ export default {
 			<!-- First Column -->
 			<div class="md:w-2/3 mr-8">
 				<div class="h-48 flex-col justify-start items-start flex">
-					<div class="text-cyan-200 text-2xl font-normal mb-6">about me</div>
+					<div class="text-brand text-2xl font-normal mb-6">about me</div>
 					<div class="text-white text-5xl font-semibold md:w-2/3 text-left leading-relaxed">Fulfilling & diverse lifestyle</div>
 				</div>
 				<div class="text-white text-xl font-normal leading-relaxed text-left mt-12">
@@ -80,17 +80,17 @@ export default {
 					<div class="justify-start items-start gap-6 inline-flex">
 						<div class="w-52 h-48 p-6 bg-neutral-800 rounded-2xl flex-col justify-between items-start inline-flex">
 						<div class="w-10 h-10 px-1.5 py-1 flex-col justify-center items-center flex"></div>
-						<div class="self-stretch"><span style="text-cyan-200 text-xl font-semibold">Running       </span><span style="text-cyan-200 text-xl font-normal font-['Poppins'] leading-loose">for Fun</span></div>
+						<div class="self-stretch"><span style="text-brand text-xl font-semibold">Running       </span><span style="text-brand text-xl font-normal font-['Poppins'] leading-loose">for Fun</span></div>
 						</div>
 						<div class="w-52 h-48 p-6 bg-neutral-800 rounded-2xl flex-col justify-between items-start inline-flex">
 						<div class="w-8 h-8 p-0.5 justify-center items-center inline-flex"></div>
-						<div class="self-stretch"><span style="text-cyan-200 text-xl font-semibold leading-normal">Graphic Design </span><span style="text-cyan-200 text-xl font-normal font-['Poppins'] leading-loose">for Fun</span></div>
+						<div class="self-stretch"><span style="text-brand text-xl font-semibold leading-normal">Graphic Design </span><span style="text-brand text-xl font-normal font-['Poppins'] leading-loose">for Fun</span></div>
 						</div>
 					</div>
 					<div class="text-white text-base font-normal font-['Poppins'] leading-tight">with professional role in</div>
 					<div class="self-stretch h-36 p-6 bg-neutral-800 rounded-2xl flex-col justify-between items-start flex">
 						<div class="w-8 h-8 px-0.5 pt-1 pb-0.5 justify-center items-center inline-flex"></div>
-						<div class="self-stretch"><span style="text-cyan-200 text-xl font-semibold font-['Poppins'] leading-normal">Product design </span><span style="text-cyan-200 text-xl font-normal font-['Poppins'] leading-loose">for a Living</span></div>
+						<div class="self-stretch"><span style="text-brand text-xl font-semibold font-['Poppins'] leading-normal">Product design </span><span style="text-brand text-xl font-normal font-['Poppins'] leading-loose">for a Living</span></div>
 					</div>
 					</div>
 				</div>

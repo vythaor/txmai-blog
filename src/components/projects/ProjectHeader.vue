@@ -12,12 +12,8 @@ export default {
 <template>
     <div>
         <!-- Project heading and meta info -->
-        <div
-            class="font-general-medium text-center text-3xl sm:text-4xl font-bold text-primary-dark dark:text-primary-light mt-14 sm:mt-20 mb-7"
-        >
-            <div
-                class="font-general-regular text-center text-secondary-dark dark:text-cyan-300 text-md sm:text-xl font-n italic mb-8"
-            >
+        <div class="font-general-medium text-center text-3xl sm:text-4xl font-bold text-primary-dark dark:text-primary-light mt-14 sm:mt-20 mb-7">
+            <div class="font-general-regular text-center text-secondary-dark dark:text-cyan-300 text-md sm:text-xl font-n italic mb-8">
                 {{ singleProjectHeader.singleProjectTitle }}
             </div>
             {{ singleProjectHeader.singleProjectName }}
