@@ -11,10 +11,10 @@ export default {
     },
     data: () => ({
         component: null,
-    }),
+    }), 
     computed: {
         projectDetail() {
-            return projectdetails.find((p) => p.id == this.$route.params.id) || {};
+             return projectdetails.find((p) => p.id == this.$route.params.id) || {};
         },
     },
     methods: {

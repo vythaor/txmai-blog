@@ -30,7 +30,7 @@ export default {
                         <img class="h-[30px] max-w-fit" src="@/assets/icons/web3.svg" />
                     </div>
                 </div>
-                <div class="justify-start items-center flex">
+                <div class="ustify-start items-center flex">
                     <div class="text-neutral-200 text-sm font-normal leading-none tracking-tight mr-6">Client</div>
                     <div class="w-24 p-2 bg-white rounded border border-neutral-300 justify-center items-center flex">
                         <img class="h-[30px] max-w-fit" src="@/assets/icons/aura.svg" />
