@@ -48,7 +48,7 @@
         </div>
         <div class="px-[100px] relative" @click="stylingResponsibilities">
             <div class="absolute top-[15%] text-white text-5xl font-semibold leading-[72px]">My responsibilities</div>
-            <div class="relative mx-[80px]">
+            <div class="relative mx-[10%]">
                 <img src="@/assets/images/aurascan/Vector-1.svg" alt="" class="w-full" ref="vector" @load="stylingResponsibilities" />
                 <div class="absolute w-full flex justify-between translate-x-[-85px]" :style="{ top: `${(vectorHeight * 48) / 100 - 52}px` }">
                     <div class="flex flex-col items-center text-center">
@@ -143,8 +143,8 @@
             </div>
         </div>
 
-        <div class="p-[100px] pt-0 relative">
-            <div class="mx-[80px]">
+        <div class="px-[100px] relative">
+            <div class="mx-[10%]">
                 <img src="@/assets/images/aurascan/Vector-2.svg" class="w-[60%]" />
             </div>
             <div class="absolute top-[-20px] left-20 right-20">
@@ -153,7 +153,7 @@
                 <div class="mt-[8%] text-white flex flex-col gap-y-6">
                     <div class="flex justify-between gap-x-2">
                         <div
-                            class="p-8 bg-gradient-to-b from-[#1A282B]/[0.07] from-0% via-[#1A282B]/[0.19] via-[0.01%] to-[#24262E]/[0.38] to-100% rounded-tl-2xl rounded-2xl backdrop-blur-[10px] justify-start items-start gap-4 inline-flex basis-[50%]"
+                            class="z-10 p-8 bg-gradient-to-b from-[#1A282B]/[0.07] from-0% via-[#1A282B]/[0.19] via-[0.01%] to-[#24262E]/[0.38] to-100% rounded-tl-2xl rounded-2xl backdrop-blur-[10px] justify-start items-start gap-4 inline-flex basis-[50%]"
                         >
                             <div
                                 class="w-[52px] h-[52px] px-3 py-2 bg-gradient-to-r from-teal-900 via-gray-700 to-yellow-900 rounded-[999px] border border-teal-300 flex-col justify-center items-center gap-2.5 inline-flex"
@@ -166,7 +166,7 @@
                             </div>
                         </div>
                         <div
-                            class="p-8 bg-gradient-to-b from-[#1A282B]/[0.07] from-0% via-[#1A282B]/[0.19] via-[0.01%] to-[#24262E]/[0.38] to-100% rounded-tl-2xl rounded-2xl backdrop-blur-[10.5px] justify-start items-start gap-4 inline-flex basis-[50%]"
+                            class="z-10 p-8 bg-gradient-to-b from-[#1A282B]/[0.07] from-0% via-[#1A282B]/[0.19] via-[0.01%] to-[#24262E]/[0.38] to-100% rounded-tl-2xl rounded-2xl backdrop-blur-[10.5px] justify-start items-start gap-4 inline-flex basis-[50%]"
                         >
                             <div
                                 class="w-[52px] h-[52px] px-3 py-2 bg-gradient-to-r from-teal-900 via-gray-700 to-yellow-900 rounded-[999px] border border-teal-300 flex-col justify-center items-center gap-2.5 inline-flex"
@@ -192,7 +192,7 @@
                     </div>
                     <div class="flex justify-between gap-x-2">
                         <div
-                            class="p-8 bg-gradient-to-b from-[#1A282B]/[0.07] from-0% via-[#1A282B]/[0.19] via-[0.01%] to-[#24262E]/[0.38] to-100% rounded-tl-2xl rounded-2xl backdrop-blur-[10.5px] justify-start items-start gap-4 inline-flex basis-[50%]"
+                            class="z-10 p-8 bg-gradient-to-b from-[#1A282B]/[0.07] from-0% via-[#1A282B]/[0.19] via-[0.01%] to-[#24262E]/[0.38] to-100% rounded-tl-2xl rounded-2xl backdrop-blur-[10.5px] justify-start items-start gap-4 inline-flex basis-[50%]"
                         >
                             <div
                                 class="w-[52px] h-[52px] px-3 py-2 bg-gradient-to-r from-teal-900 via-gray-700 to-yellow-900 rounded-[999px] border border-teal-300 flex-col justify-center items-center gap-2.5 inline-flex"
@@ -205,7 +205,7 @@
                             </div>
                         </div>
                         <div
-                            class="p-8 bg-gradient-to-b from-[#1A282B]/[0.07] from-0% via-[#1A282B]/[0.19] via-[0.01%] to-[#24262E]/[0.38] to-100% rounded-tl-2xl rounded-2xl backdrop-blur-[10.5px] justify-start items-start gap-4 inline-flex basis-[50%]"
+                            class="z-10 p-8 bg-gradient-to-b from-[#1A282B]/[0.07] from-0% via-[#1A282B]/[0.19] via-[0.01%] to-[#24262E]/[0.38] to-100% rounded-tl-2xl rounded-2xl backdrop-blur-[10.5px] justify-start items-start gap-4 inline-flex basis-[50%]"
                         >
                             <div
                                 class="w-[52px] h-[52px] px-3 py-2 bg-gradient-to-r from-teal-900 via-gray-700 to-yellow-900 rounded-[999px] border border-teal-300 flex-col justify-center items-center gap-2.5 inline-flex"
@@ -221,6 +221,36 @@
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="px-[100px] relative">
+            <div class="absolute top-[10%] left-[15%] text-white text-5xl font-semibold leading-[72px]">Product screens</div>
+            <div class="px-[20%]">
+                <img src="@/assets/images/aurascan/Vector-3.svg" class="w-[63.3%]" />
+                <div>
+                    <img
+                        src="@/assets/images/aurascan/astronaut-2.png"
+                        class="absolute top-[18%] left-[calc(10.5%-25px)] w-[20%] bg-blend-multiply mix-blend-lighten"
+                    />
+                    <img src="@/assets/images/aurascan/light-1.svg" class="absolute top-[-17%] left-0 w-[50%] bg-blend-multiply mix-blend-lighten" />
+                </div>
+                <div class="absolute top-[20%] left-[30%]">
+                    <img src="@/assets/images/aurascan/macbook.png" class="max-w-[70%]" />
+                    <img src="@/assets/images/aurascan/Frame_1000002775.png" class="absolute top-[35%] right-[15%] max-w-[25%]" />
+                </div>
+            </div>
+        </div>
+        <div class="relative">
+            <img src="@/assets/images/aurascan/Desktop.png" class="mt-[-10%] max-w-[55%]" />
+            <img src="@/assets/images/aurascan/Account.png" class="mt-[-4.5%] ml-[10.5%] max-w-[36.8%]" />
+            <div class="absolute top-[6%] right-[6%] flex gap-[5%] max-w-[40.6%]">
+                <div>
+                    <img src="@/assets/images/aurascan/Frame_1000002776.png" />
+                </div>
+                <div class="mt-[10%]">
+                    <img src="@/assets/images/aurascan/Frame_1000002777.png" />
                 </div>
             </div>
         </div>
