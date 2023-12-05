@@ -227,8 +227,8 @@
 
         <div class="px-[100px] relative">
             <div class="absolute top-[10%] left-[15%] text-white text-5xl font-semibold leading-[72px]">Product screens</div>
-            <div class="px-[20%]">
-                <img src="@/assets/images/aurascan/Vector-3.svg" class="w-[63.3%]" />
+            <div class="px-[20%] mt-[-2px]">
+                <img src="@/assets/images/aurascan/Vector-3.svg" class="w-[calc(63.3%-1px)]" />
                 <div>
                     <img
                         src="@/assets/images/aurascan/astronaut-2.png"
