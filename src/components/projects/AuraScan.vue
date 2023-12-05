@@ -245,11 +245,11 @@
         <div class="relative">
             <img src="@/assets/images/aurascan/Desktop.png" class="mt-[-10%] max-w-[55%]" />
             <img src="@/assets/images/aurascan/Account.png" class="mt-[-4.5%] ml-[10.5%] max-w-[36.8%]" />
-            <div class="absolute top-[6%] right-[6%] flex gap-[5%] max-w-[40.6%]">
+            <div class="absolute top-[6%] right-[6%] flex gap-[5%] max-w-[38.6%]">
                 <div>
                     <img src="@/assets/images/aurascan/Frame_1000002776.png" />
                 </div>
-                <div class="mt-[10%]">
+                <div class="mt-[21%]">
                     <img src="@/assets/images/aurascan/Frame_1000002777.png" />
                 </div>
             </div>
