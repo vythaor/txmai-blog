@@ -226,7 +226,7 @@
             <img src="@/assets/images/aurascan/Frame_1000002776.png" class="absolute top-[49.29%] left-[57.01%] max-w-[15.28%]"/> 
             <img src="@/assets/images/aurascan/Frame_1000002777.png" class="absolute top-[54.26%] left-[75.9%] max-w-[15.28%]"/> 
         </div>
-        <div class="relative mt-[-2%]">
+        <div class="relative mt-[-3%]">
             <img src="@/assets/images/aurascan/Visit-work.png" />
             <div class="absolute translate-x-[-50%] top-[50%] translate-y-[-20%] left-[50%]">
                 <div class="flex items-start">
