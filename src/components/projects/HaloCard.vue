@@ -18,7 +18,7 @@ export default {
 <template>
     <div>
         <div
-            class="w-96 h-44 p-6 flex items-start rounded-2xl backdrop-blur-2xl justify-start gap-5 font-jost"
+            class="w-[406px] h-full p-6 flex items-start rounded-2xl backdrop-blur-2xl justify-start gap-5 font-jost"
             style="background: linear-gradient(180deg, rgba(241, 255, 231, 0.05) 0%, rgba(241, 255, 231, 0.02) 100%); backdrop-filter: blur(6px)"
         >
             <div class="relative">

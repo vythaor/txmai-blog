@@ -13,7 +13,7 @@ export default {
 </script>
 
 <template>
-    <div class="bg-neutral-950">
+    <div class="bg-neutral-950 w-full">
         <div class="relative">
             <img src="@/assets/images/halo/bg-1.png" alt="bg" />
             <div class="absolute top-0 left-0 z-99 p-24 w-full grid place-items-center">
@@ -166,8 +166,8 @@ export default {
                 >
                     Outcomes
                 </div>
-                <div class="flex justify-center gap-8 content-start">
-                    <div class="flex flex-col">
+                <div class="w-full flex justify-center gap-8 items-start">
+                    <div class="flex flex-col gap-8">
                         <HaloCard
                             order="1"
                             title="Consistent User Experience"
@@ -184,10 +184,12 @@ export default {
                             desc="supported faster development with a library of reusable components."
                         />
                     </div>
-                    <video controls class="w-1/2 rounded-md shadow-md">
+                    <div class="flex-1">
+                    <video controls class="rounded-md shadow-md pr-[120px]">
                         <source src="@/assets/images/halo/video-halo-variables.mp4" type="video/mp4" />
                         Your browser does not support the video tag
                     </video>
+                </div>
                 </div>
             </div>
         </div>
@@ -202,7 +204,7 @@ export default {
                 >
                     Product screens
                 </div>
-                <div class="w-full flex justify-center items-center ml-24">
+                <div class="w-full flex justify-center items-center p-24">
                     <img src="@/assets/images/halo/s6-screens.png" alt="item" />
                 </div>
             </div>
