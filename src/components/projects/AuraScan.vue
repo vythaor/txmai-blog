@@ -218,7 +218,7 @@
 
         <div class="relative mt-[-2px]">
             <img src="@/assets/images/aurascan/product-screen-2.png" />
-            <div class="absolute top-[10%] left-[7%] text-white text-5xl font-semibold leading-[72px]">Product screens</div>
+            <div class="absolute top-[7.32%] left-[7.08%] text-white text-5xl font-semibold leading-[72px]">Product screens</div>
             <img src="@/assets/images/aurascan/macbook.png" class="absolute top-[12.4%] left-[26%] max-w-[58%]" />
             <img src="@/assets/images/aurascan/Frame_1000002775.png" class="absolute top-[22.22%] right-[4.4%] max-w-[18.5%]" />
             <img src="@/assets/images/aurascan/Desktop.png" class="absolute top-[46%] left-[3.96%] max-w-[43.33%] z-10" />
