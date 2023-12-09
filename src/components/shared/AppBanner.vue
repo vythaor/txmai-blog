@@ -42,7 +42,7 @@ export default {
                 </div>
             </div>
             <div class="flex flex-col justify-center mt-16">
-                <div class="font-semibold text-2xl sm:text-2xl xl:text-2xl text-center sm:text-left leading-none text-neutral-200 mb-6">
+                <div class="font-normal text-2xl sm:text-2xl xl:text-2xl text-center sm:text-left leading-none text-neutral-200 mb-6">
                     Visit my cool stuff below
                 </div>
                 <!-- <a
@@ -67,7 +67,7 @@ export default {
                     <!-- Blogs -->
                     <router-link to="/blogs">
                         <div
-                            class="flex ml-5 justify-center items-center w-36 sm:w-48 mb-6 sm:mb-0 text-lg bg-gray-900 shadow-[inset_0_1px_1px_0px_rgba(218,218,218,0.25)] py-2.5 sm:py-3 rounded-lg focus:ring-1 focus:ring-cyan-300 hover:bg-cyan-300 cursor-pointer text-brand hover:text-white duration-500"
+                            class="flex ml-5 justify-center items-center w-36 sm:w-48 mb-6 sm:mb-0 text-lg bg-gray-900 shadow-[inset_0_1px_1px_0px_rgba(218,218,218,0.25)] py-2.5 sm:py-3 rounded-lg focus:ring-1 focus:ring-cyan-300 hover:bg-cyan-300 cursor-pointer text-white hover:text-white duration-500"
                         >
                             <img src="@/assets/icons/blogs.svg" class="w-8" alt="Blog icon" />
                             <span class="text-2xl sm:text-2xl font-medium duration-10 ml-4">Blogs</span>
@@ -76,7 +76,7 @@ export default {
                     <!-- About me -->
                     <router-link to="/about">
                         <div
-                            class="flex ml-5 justify-center items-center w-36 sm:w-48 mb-6 sm:mb-0 text-lg bg-gray-900 shadow-[inset_0_1px_1px_0px_rgba(218,218,218,0.25)] py-2.5 sm:py-3 rounded-lg focus:ring-1 focus:ring-cyan-300 hover:bg-cyan-300 cursor-pointer text-brand hover:text-white duration-500"
+                            class="flex ml-5 justify-center items-center w-36 sm:w-48 mb-6 sm:mb-0 text-lg bg-gray-900 shadow-[inset_0_1px_1px_0px_rgba(218,218,218,0.25)] py-2.5 sm:py-3 rounded-lg focus:ring-1 focus:ring-cyan-300 hover:bg-cyan-300 cursor-pointer text-white hover:text-white duration-500"
                         >
                             <img src="@/assets/icons/about.svg" class="w-8" alt="About icon" />
                             <span class="text-2xl sm:text-2xl font-medium duration-100 ml-4">About me</span>
@@ -90,13 +90,13 @@ export default {
         </div>
 
         <!-- Banner right illustration -->
-        <div class="text-left right-0 absolute z-0">
+        <!-- <div class="text-left right-0 absolute z-0">
             <img src="@/assets/images/triangle-right.svg" alt="Shape" class="absolute w-1/2 right-0 top-72 hover:motion-safe:animate-pulse z-0" />
             <img src="@/assets/images/grid.svg" alt="Shape" />
         </div>
         <div class="text-left float-left z-0">
             <img src="@/assets/images/triangle-left.svg" alt="Shape" class="absolute w-1/5 left-0 top-40 hover:motion-safe:animate-ping" />
-        </div>
+        </div> -->
     </section>
 </template>
 

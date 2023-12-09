@@ -57,7 +57,7 @@ export default {
 
         <!-- Filter and search projects -->
         <div>
-            <h6 class="font-general-regular text-center text-secondary-dark dark:text-cyan-300 text-md sm:text-xl font-normal mb-8">my works</h6>
+            <h6 class="font-general-regular text-center text-secondary-dark dark:text-ternary-light text-md sm:text-xl font-normal mb-8">my works</h6>
             <h3 class="font-general-regular text-center text-secondary-dark dark:text-ternary-light text-5xl sm:text-5xl font-semibold mb-4">
                 Scalable ecosystem products
             </h3>

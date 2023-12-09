@@ -20,7 +20,7 @@ export default {
 </script> 
 
 <template>
-    <div class="sm:px-[168px] pt-6 sm:pb-[68px] px-[24px] pb-[24px] border-t-2 border-primary-light border-dashed dark:border-secondary-dark">
+    <div class="sm:px-[168px] pt-6 sm:pb-[68px] px-[24px] pb-[24px] border-t border-primary-light border-dashed dark:border-neutral-500">
         <div class="flex flex-col sm:flex-row justify-between">
             <div class="flex flex-col sm:flex-row">
                 <router-link to="/"
@@ -45,11 +45,11 @@ export default {
             </div>
             <div class="flex flex-col text-left bg-neutral-800 font-general-normal p-5 rounded-xl">
                 <div class="flex items-center mb-4">
-                    <img src="@/assets/icons/phone.svg" class="w-12" alt="Phone icon" />
+                    <img src="@/assets/icons/phone.svg" alt="Phone icon" />
                     <div class="ml-4 text-2xl text-brand">(+84) 78 444 3157</div>
                 </div>
                 <div class="flex items-center">
-                    <img src="@/assets/icons/mail.svg" class="w-12" alt="Mail icon" />
+                    <img src="@/assets/icons/mail.svg" alt="Mail icon" />
                     <div class="ml-4 text-2xl text-brand font-general-normal">xuanmai1308@gmail.com</div>
                 </div>
             </div>

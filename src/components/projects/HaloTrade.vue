@@ -14,8 +14,9 @@ export default {
 
 <template>
     <div class="bg-neutral-950">
-        <div class="bg-[url('@/assets/images/halo/bg-1.png')] bg-auto bg-center h-screen">
-            <div class="relative p-24 grid place-items-center">
+        <div class="relative">
+            <img src="@/assets/images/halo/bg-1.png" alt="bg" />
+            <div class="absolute top-0 left-0 z-99 p-24 w-full grid place-items-center">
                 <p
                     class="text-7xl bold font-jost text-transparent bg-clip-text text-gradient bg-gradient-to-r from-lime-500 to-emerald-500 before:content-['HALOTRADE'] before:opacity-40 before:text-5xl before:absolute before:top-8 before:left-0"
                 >
@@ -25,8 +26,9 @@ export default {
                 <img src="@/assets/images/halo/s1-item2.png" class="rounded-xl cursor-pointer mt-24" alt="bg" />
             </div>
         </div>
-        <div class="bg-[url('@/assets/images/halo/s2-shape.png')] bg-cover bg-no-repeat">
-            <div class="mx-auto flex px-[138px] py-[67px]">
+        <div class="relative">
+            <img src="@/assets/images/halo/s2-shape.png" alt="bg" class="absolute z-0" />
+            <div class="relative p-24 flex">
                 <div class="relative w-1/2 flex flex-col place-items-center">
                     <img src="@/assets/images/halo/s2-mascot.png" class="rounded-xl cursor-pointer" alt="bg" />
                     <div
@@ -73,7 +75,7 @@ export default {
             >
                 Aura Ecosystem
             </div>
-            <div class="mt-12 flex flex-col justify-around items-center">
+            <div class="relative mt-12 flex flex-col justify-around items-center">
                 <div>
                     <img src="@/assets/images/halo/s2-eco-1.png" alt="item" class="wiggle" />
                 </div>
@@ -90,45 +92,57 @@ export default {
             </div>
         </div>
         <!-- Responsibilities -->
-        <div class="bg-[url('@/assets/images/halo/s3-shape.png')] bg-cover bg-no-repeat">
-            <div
-                class="p-28 text-lime-400 text-5xl font-semibold font-jost leading-10 tracking-widest before:content-['My_responsibilities'] before:p-28 before:absolute before:top-0 before:left-0 before:opacity-60 before:text-lime-400 before:text-5xl before:blur-sm before:font-semibold before:leading-10 before:tracking-widest relative"
-            >
-                My responsibilities
-            </div>
-            <div class="flex items-start">
-                <img class="mt-24" src="@/assets/images/halo/s3-mascot.png" alt="Light Logo" />
-                <div class="grid grid-cols-2 content-center gap-10 px-30">
-                    <HaloCard
-                        order="1"
-                        title="Design planning & review"
-                        desc="Defined timelines. Provided guidance to junior designers, and fostered a collaborative and creative work environment."
-                    />
-                    <HaloCard
-                        order="2"
-                        title="Research and Analysis"
-                        desc="Explored best practices for scalability, modularity, and usability in design systems."
-                    />
-                    <HaloCard
-                        order="3"
-                        title="Research and Analysis"
-                        desc="Explored best practices for scalability, modularity, and usability in design systems."
-                    />
-                    <HaloCard
-                        order="4"
-                        title="Research and Analysis"
-                        desc="Explored best practices for scalability, modularity, and usability in design systems."
-                    />
-                    <HaloCard
-                        order="5"
-                        title="Research and Analysis"
-                        desc="Explored best practices for scalability, modularity, and usability in design systems."
-                    />
-                    <HaloCard
-                        order="6"
-                        title="Research and Analysis"
-                        desc="Explored best practices for scalability, modularity, and usability in design systems."
-                    />
+        <div class="relative">
+            <img src="@/assets/images/halo/s3-shape.png" alt="bg" />
+            <div class="absolute top-0">
+                <div
+                    class="p-28 text-lime-400 text-5xl font-semibold font-jost leading-10 tracking-widest before:content-['My_responsibilities'] before:p-28 before:absolute before:top-0 before:left-0 before:opacity-60 before:text-lime-400 before:text-5xl before:blur-sm before:font-semibold before:leading-10 before:tracking-widest"
+                >
+                    My responsibilities
+                </div>
+                <div class="flex items-start">
+                    <img class="mt-24" src="@/assets/images/halo/s3-mascot.png" alt="Light Logo" />
+                    <div class="w-full">
+                        <div class="flex ml-20">
+                            <HaloCard
+                                order="1"
+                                title="Design planning & review"
+                                desc="Defined timelines. Provided guidance to junior designers, and fostered a collaborative and creative work environment."
+                            />
+                            <HaloCard
+                                class="ml-10"
+                                order="2"
+                                title="Research and Analysis"
+                                desc="Explored best practices for scalability, modularity, and usability in design systems."
+                            />
+                        </div>
+                        <div class="flex m-10">
+                            <HaloCard
+                                order="3"
+                                title="Research and Analysis"
+                                desc="Explored best practices for scalability, modularity, and usability in design systems."
+                            />
+                            <HaloCard
+                                class="ml-10"
+                                order="4"
+                                title="Research and Analysis"
+                                desc="Explored best practices for scalability, modularity, and usability in design systems."
+                            />
+                        </div>
+                        <div class="flex">
+                            <HaloCard
+                                order="5"
+                                title="Research and Analysis"
+                                desc="Explored best practices for scalability, modularity, and usability in design systems."
+                            />
+                            <HaloCard
+                                class="ml-10"
+                                order="6"
+                                title="Research and Analysis"
+                                desc="Explored best practices for scalability, modularity, and usability in design systems."
+                            />
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -153,7 +167,7 @@ export default {
                     Outcomes
                 </div>
                 <div class="flex justify-center gap-8 content-start">
-                    <div class="flex flex-col gap-8">
+                    <div class="flex flex-col">
                         <HaloCard
                             order="1"
                             title="Consistent User Experience"
@@ -180,33 +194,36 @@ export default {
         <!-- End outcome -->
 
         <!-- Product screen -->
-        <div class="bg-[url('@/assets/images/halo/s6-shape.png')] bg-no-repeat">
-            <div
-                class="p-28 text-lime-400 text-5xl font-semibold font-jost leading-10 tracking-widest before:content-['Product_screens'] before:p-28 before:absolute before:top-0 before:left-0 before:opacity-60 before:text-lime-400 before:text-5xl before:blur-sm before:font-semibold before:leading-10 before:tracking-widest relative"
-            >
-                Product screens
-            </div>
-            <div class="flex justify-center">
-                <img src="@/assets/images/halo/s6-screens.png" alt="item" />
+        <div class="relative">
+            <img src="@/assets/images/halo/s6-shape.png" />
+            <div class="absolute top-0 w-full">
+                <div
+                    class="p-20 text-lime-400 text-5xl font-semibold font-jost leading-10 tracking-widest before:content-['Product_screens'] before:p-20 before:absolute before:top-0 before:left-0 before:opacity-60 before:text-lime-400 before:text-5xl before:blur-sm before:font-semibold before:leading-10 before:tracking-widest relative"
+                >
+                    Product screens
+                </div>
+                <div class="w-full flex justify-center items-center ml-24">
+                    <img src="@/assets/images/halo/s6-screens.png" alt="item" />
+                </div>
             </div>
         </div>
-        <div class="bg-[url('@/assets/images/halo/s7-shape.png')] bg-no-repeat p-40">
-            <div class="flex">
+        <div class="relative">
+            <img src="@/assets/images/halo/s7-shape.png" />
+            <div class="absolute top-[5%] flex w-full items-center">
                 <img src="@/assets/images/halo/s7-screens.png" alt="item" />
-                <div class="absolute right-0">
+                <div class="absolute right-16 text-center">
                     <div class="text-white text-7xl font-normal font-['Redig'] leading-10 tracking-tight">Visit our work</div>
-                    <div class="text-white text-2xl font-normal font-['Inter'] leading-normal tracking-widest">
-                        <a href="https://halotrade.zone" target="_blank">halotrade.zone
-                        </a>
-                        </div>
-                    <img src="@/assets/images/halo/s7-desktop.png" alt="item" />
+                    <div class="text-white text-2xl font-normal font-['Inter'] leading-normal tracking-widest mt-4">
+                        <a href="https://halotrade.zone" target="_blank" class=" hover:text-lime-400">halotrade.zone </a>
+                    </div>
+                    <img src="@/assets/images/halo/s7-desktop.png" alt="item" class="mt-10 ilter drop-shadow-xl" style="filter: drop-shadow(-18px -11px 65px rgba(27, 36, 20, 0.64));"/>
                 </div>
             </div>
             <!-- End Product screen -->
         </div>
 
         <!-- Single project right section details -->
-        <div class="flex justify-center">
+        <div class="flex justify-center py-24">
             <div class="w-full px-24">
                 <div
                     class="pt-24 pb-20 bg-gradient-to-r from-lime-500 via-green-500 to-teal-600 rounded-3xl flex-col justify-center items-center gap-8"
