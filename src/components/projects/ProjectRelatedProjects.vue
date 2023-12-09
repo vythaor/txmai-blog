@@ -8,7 +8,7 @@ export default {
 </script>
 
 <template>
-    <div class="px-[168px] py-[80px] border-t-2 border-primary-light dark:border-secondary-dark">
+    <div class="px-[168px] py-[80px] border-t-2 mt-[-4px] border-primary-light dark:border-secondary-dark">
         <p class="text-brand italic">my works</p>
         <p class="text-primary-light mt-4 text-5xl font-semibold leading-10">Other projects</p>
         <div class="mt-6">
