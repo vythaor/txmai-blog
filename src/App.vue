@@ -56,10 +56,6 @@ export default {
 	-moz-osx-font-smoothing: grayscale;
 }
 
-img {
-	transform: scale(0.999);
-}
-
 .vue-back-to-top {
 	@apply p-2 bg-gray-900 text-white transition
         duration-500

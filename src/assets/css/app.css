@@ -11,22 +11,28 @@
 
 /* Custom Styles Below */
 
-body {
-	font-family: 'Poppins-Regular';
+@font-face {
+    font-family: 'Redig';
+    src: url('../fonts/Redig/Redig-Regular.woff2') format('woff2'),
+		url('../fonts/Redig/Redig-Regular.woff') format('woff'),
+		url('../fonts/Redig/Redig-Regular.ttf') format('truetype');
 }
 
+body {
+    font-family: 'Poppins-Regular';
+}
 
 .font-general-extralight {
-	font-family: 'Poppins-Extralight';
+    font-family: 'Poppins-Extralight';
 }
 
 .font-general-bold-italic {
-	font-family: 'Poppins-BoldItalic';
+    font-family: 'Poppins-BoldItalic';
 }
 
 /* Active class for navigation menu */
 .router-link-active,
 .router-link-exact-active {
-	@apply text-cyan-800;
-	@apply text-cyan-600 dark:text-cyan-300;
+    @apply text-cyan-800;
+    @apply text-cyan-600 dark:text-cyan-300;
 }

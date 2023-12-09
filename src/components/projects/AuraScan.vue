@@ -46,11 +46,11 @@
                 Aura Ecosystem
             </div>
         </div>
-        <div class="px-[100px] relative" @click="stylingResponsibilities">
-            <div class="absolute top-[15%] text-white text-5xl font-semibold leading-[72px]">My responsibilities</div>
-            <div class="relative mx-[10%]">
-                <img src="@/assets/images/aurascan/Vector-1.svg" alt="" class="w-full" ref="vector" @load="stylingResponsibilities" />
-                <div class="absolute w-full flex justify-between translate-x-[-85px]" :style="{ top: `${(vectorHeight * 48) / 100 - 52}px` }">
+        <div class="relative mt-[-2px]">
+            <img src="@/assets/images/aurascan/Frame-1000002929.png" />
+            <div class="absolute left-[7%] top-[7%] text-white text-5xl font-semibold leading-[72px]">My responsibilities</div>
+            <div class="absolute top-[calc(22.8%-52px)] left-[calc(11.5%-65px)] right-[calc(18.5%-65px)]">
+                <div class="absolute w-full flex justify-between">
                     <div class="flex flex-col items-center text-center">
                         <div class="w-[145px] h-[104px] p-[33px] bg-slate-800 rounded-full flex-col justify-center items-center gap-2.5 inline-flex">
                             <div class="w-[45px] h-[45px] relative">
@@ -141,116 +141,105 @@
                     </div>
                 </div>
             </div>
-        </div>
-
-        <div class="px-[100px] relative">
-            <div class="mx-[10%]">
-                <img src="@/assets/images/aurascan/Vector-2.svg" class="w-[60%]" />
-            </div>
-            <div class="absolute top-[-20px] left-20 right-20">
-                <div class="text-white text-5xl font-semibold leading-[72px]">Challenges Approaches</div>
-
-                <div class="mt-[8%] text-white flex flex-col gap-y-6">
-                    <div class="flex justify-between gap-x-2">
+            <div class="absolute left-[7%] top-[46%] text-white text-5xl font-semibold leading-[72px]">Challenges Approaches</div>
+            <div class="absolute left-[7%] right-[7%] top-[55%] text-white flex flex-col gap-y-6">
+                <div class="flex justify-between gap-x-2">
+                    <div
+                        class="z-10 p-8 bg-gradient-to-b from-[#1A282B]/[0.07] from-0% via-[#1A282B]/[0.19] via-[0.01%] to-[#24262E]/[0.38] to-100% rounded-tl-2xl rounded-2xl backdrop-blur-[10px] justify-start items-start gap-4 inline-flex basis-[50%]"
+                    >
                         <div
-                            class="z-10 p-8 bg-gradient-to-b from-[#1A282B]/[0.07] from-0% via-[#1A282B]/[0.19] via-[0.01%] to-[#24262E]/[0.38] to-100% rounded-tl-2xl rounded-2xl backdrop-blur-[10px] justify-start items-start gap-4 inline-flex basis-[50%]"
+                            class="w-[52px] h-[52px] px-3 py-2 bg-gradient-to-r from-teal-900 via-gray-700 to-yellow-900 rounded-[999px] border border-teal-300 flex-col justify-center items-center gap-2.5 inline-flex"
                         >
-                            <div
-                                class="w-[52px] h-[52px] px-3 py-2 bg-gradient-to-r from-teal-900 via-gray-700 to-yellow-900 rounded-[999px] border border-teal-300 flex-col justify-center items-center gap-2.5 inline-flex"
-                            >
-                                <div class="text-2xl font-medium leading-normal">C</div>
-                            </div>
-                            <div class="grow shrink basis-0 text-2xl leading-[30px]">
-                                <span class="text-neutral-200 font-semibold">Inconsistent Visual Design</span>
-                                <span class="text-neutral-400 font-normal"> in typography, colors, icons and components</span>
-                            </div>
+                            <div class="text-2xl font-medium leading-normal">C</div>
                         </div>
+                        <div class="grow shrink basis-0 text-2xl leading-[30px]">
+                            <span class="text-neutral-200 font-semibold">Inconsistent Visual Design</span>
+                            <span class="text-neutral-400 font-normal"> in typography, colors, icons and components</span>
+                        </div>
+                    </div>
+                    <div
+                        class="z-10 p-8 bg-gradient-to-b from-[#1A282B]/[0.07] from-0% via-[#1A282B]/[0.19] via-[0.01%] to-[#24262E]/[0.38] to-100% rounded-tl-2xl rounded-2xl backdrop-blur-[10.5px] justify-start items-start gap-4 inline-flex basis-[50%]"
+                    >
                         <div
-                            class="z-10 p-8 bg-gradient-to-b from-[#1A282B]/[0.07] from-0% via-[#1A282B]/[0.19] via-[0.01%] to-[#24262E]/[0.38] to-100% rounded-tl-2xl rounded-2xl backdrop-blur-[10.5px] justify-start items-start gap-4 inline-flex basis-[50%]"
+                            class="w-[52px] h-[52px] px-3 py-2 bg-gradient-to-r from-teal-900 via-gray-700 to-yellow-900 rounded-[999px] border border-teal-300 flex-col justify-center items-center gap-2.5 inline-flex"
                         >
-                            <div
-                                class="w-[52px] h-[52px] px-3 py-2 bg-gradient-to-r from-teal-900 via-gray-700 to-yellow-900 rounded-[999px] border border-teal-300 flex-col justify-center items-center gap-2.5 inline-flex"
-                            >
-                                <div class="text-2xl font-medium leading-normal">A</div>
+                            <div class="text-2xl font-medium leading-normal">A</div>
+                        </div>
+                        <div class="flex flex-col gap-6 grow shrink basis-0 text-2xl leading-[30px]">
+                            <div>
+                                <span class="text-neutral-200 font-semibold">Conduct a visual audit</span>
+                                <span class="text-neutral-400 font-normal">
+                                    and develop a plan to unify the visual elements across the platform.
+                                </span>
                             </div>
-                            <div class="flex flex-col gap-6 grow shrink basis-0 text-2xl leading-[30px]">
-                                <div>
-                                    <span class="text-neutral-200 font-semibold">Conduct a visual audit</span>
-                                    <span class="text-neutral-400 font-normal">
-                                        and develop a plan to unify the visual elements across the platform.
-                                    </span>
-                                </div>
 
-                                <div>
-                                    <span class="text-neutral-200 font-semibold">Provide design guidelines</span>
-                                    <span class="text-neutral-400 font-normal">
-                                        to the development team to maintain consistency during implementation.
-                                    </span>
-                                </div>
+                            <div>
+                                <span class="text-neutral-200 font-semibold">Provide design guidelines</span>
+                                <span class="text-neutral-400 font-normal">
+                                    to the development team to maintain consistency during implementation.
+                                </span>
                             </div>
                         </div>
                     </div>
-                    <div class="flex justify-between gap-x-2">
+                </div>
+                <div class="flex justify-between gap-x-2">
+                    <div
+                        class="z-10 p-8 bg-gradient-to-b from-[#1A282B]/[0.07] from-0% via-[#1A282B]/[0.19] via-[0.01%] to-[#24262E]/[0.38] to-100% rounded-tl-2xl rounded-2xl backdrop-blur-[10.5px] justify-start items-start gap-4 inline-flex basis-[50%]"
+                    >
                         <div
-                            class="z-10 p-8 bg-gradient-to-b from-[#1A282B]/[0.07] from-0% via-[#1A282B]/[0.19] via-[0.01%] to-[#24262E]/[0.38] to-100% rounded-tl-2xl rounded-2xl backdrop-blur-[10.5px] justify-start items-start gap-4 inline-flex basis-[50%]"
+                            class="w-[52px] h-[52px] px-3 py-2 bg-gradient-to-r from-teal-900 via-gray-700 to-yellow-900 rounded-[999px] border border-teal-300 flex-col justify-center items-center gap-2.5 inline-flex"
                         >
-                            <div
-                                class="w-[52px] h-[52px] px-3 py-2 bg-gradient-to-r from-teal-900 via-gray-700 to-yellow-900 rounded-[999px] border border-teal-300 flex-col justify-center items-center gap-2.5 inline-flex"
-                            >
-                                <div class="text-2xl font-medium leading-normal">C</div>
-                            </div>
-                            <div class="grow shrink basis-0 text-2xl leading-[30px]">
-                                <span class="text-neutral-200 font-semibold">Lack of Mobile Responsiveness </span>
-                                <span class="text-neutral-400 font-normal"> though the blockchain explorer handles extensive and intricate data</span>
-                            </div>
+                            <div class="text-2xl font-medium leading-normal">C</div>
                         </div>
+                        <div class="grow shrink basis-0 text-2xl leading-[30px]">
+                            <span class="text-neutral-200 font-semibold">Lack of Mobile Responsiveness </span>
+                            <span class="text-neutral-400 font-normal"> though the blockchain explorer handles extensive and intricate data</span>
+                        </div>
+                    </div>
+                    <div
+                        class="z-10 p-8 bg-gradient-to-b from-[#1A282B]/[0.07] from-0% via-[#1A282B]/[0.19] via-[0.01%] to-[#24262E]/[0.38] to-100% rounded-tl-2xl rounded-2xl backdrop-blur-[10.5px] justify-start items-start gap-4 inline-flex basis-[50%]"
+                    >
                         <div
-                            class="z-10 p-8 bg-gradient-to-b from-[#1A282B]/[0.07] from-0% via-[#1A282B]/[0.19] via-[0.01%] to-[#24262E]/[0.38] to-100% rounded-tl-2xl rounded-2xl backdrop-blur-[10.5px] justify-start items-start gap-4 inline-flex basis-[50%]"
+                            class="w-[52px] h-[52px] px-3 py-2 bg-gradient-to-r from-teal-900 via-gray-700 to-yellow-900 rounded-[999px] border border-teal-300 flex-col justify-center items-center gap-2.5 inline-flex"
                         >
-                            <div
-                                class="w-[52px] h-[52px] px-3 py-2 bg-gradient-to-r from-teal-900 via-gray-700 to-yellow-900 rounded-[999px] border border-teal-300 flex-col justify-center items-center gap-2.5 inline-flex"
-                            >
-                                <div class="text-2xl font-medium leading-normal">A</div>
-                            </div>
-                            <div class="grow shrink basis-0 text-2xl leading-[30px]">
-                                <p class="text-neutral-200 font-semibold">Optimize for mobile interactions.</p>
-                                <p class="text-neutral-400 font-normal">
-                                    Consider touch-friendly elements, responsive layouts, and efficient use of screen space to provide an optimal
-                                    mobile experience
-                                </p>
-                            </div>
+                            <div class="text-2xl font-medium leading-normal">A</div>
+                        </div>
+                        <div class="grow shrink basis-0 text-2xl leading-[30px]">
+                            <p class="text-neutral-200 font-semibold">Optimize for mobile interactions.</p>
+                            <p class="text-neutral-400 font-normal">
+                                Consider touch-friendly elements, responsive layouts, and efficient use of screen space to provide an optimal mobile
+                                experience
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="px-[100px] relative">
-            <div class="absolute top-[10%] left-[15%] text-white text-5xl font-semibold leading-[72px]">Product screens</div>
-            <div class="px-[20%] mt-[-2px]">
-                <img src="@/assets/images/aurascan/Vector-3.svg" class="w-[calc(63.3%-1px)]" />
-                <div>
-                    <img
-                        src="@/assets/images/aurascan/astronaut-2.png"
-                        class="absolute top-[18%] left-[calc(10.5%-25px)] w-[20%] bg-blend-multiply mix-blend-lighten"
-                    />
-                    <img src="@/assets/images/aurascan/light-1.svg" class="absolute top-[-17%] left-0 w-[50%] bg-blend-multiply mix-blend-lighten" />
-                </div>
-                <div class="absolute top-[20%] left-[30%]">
-                    <img src="@/assets/images/aurascan/macbook.png" class="max-w-[70%]" />
-                    <img src="@/assets/images/aurascan/Frame_1000002775.png" class="absolute top-[35%] right-[15%] max-w-[25%]" />
-                </div>
-            </div>
+        <div class="relative mt-[-2px]">
+            <img src="@/assets/images/aurascan/product-screen-2.png" />
+            <div class="absolute top-[10%] left-[7%] text-white text-5xl font-semibold leading-[72px]">Product screens</div>
+            <img src="@/assets/images/aurascan/macbook.png" class="absolute top-[12.4%] left-[26%] max-w-[58%]" />
+            <img src="@/assets/images/aurascan/Frame_1000002775.png" class="absolute top-[22.22%] right-[4.4%] max-w-[18.5%]" />
+            <img src="@/assets/images/aurascan/Desktop.png" class="absolute top-[46%] left-[3.96%] max-w-[43.33%] z-10" />
+            <img src="@/assets/images/aurascan/Account.png" class="absolute top-[60%] left-[8%] max-w-[35.2%]" />
+            <img src="@/assets/images/aurascan/Frame_1000002776.png" class="absolute top-[49.29%] left-[57.01%] max-w-[15.28%]"/> 
+            <img src="@/assets/images/aurascan/Frame_1000002777.png" class="absolute top-[54.26%] left-[75.9%] max-w-[15.28%]"/> 
         </div>
-        <div class="relative">
-            <img src="@/assets/images/aurascan/Desktop.png" class="mt-[-10%] max-w-[55%]" />
-            <img src="@/assets/images/aurascan/Account.png" class="mt-[-4.5%] ml-[10.5%] max-w-[36.8%]" />
-            <div class="absolute top-[6%] right-[6%] flex gap-[5%] max-w-[38.6%]">
-                <div>
-                    <img src="@/assets/images/aurascan/Frame_1000002776.png" />
-                </div>
-                <div class="mt-[21%]">
-                    <img src="@/assets/images/aurascan/Frame_1000002777.png" />
+        <div class="relative mt-[-2%]">
+            <img src="@/assets/images/aurascan/Visit-work.png" />
+            <div class="absolute translate-x-[-50%] top-[50%] translate-y-[-20%] left-[50%]">
+                <div class="flex items-start">
+                    <img src="@/assets/images/aurascan/logo-1.png" class="max-w-[20%] self-center mr-4" />
+                    <div class="text-white">
+                        <div class="text-[120px] font-normal font-['Redig'] leading-[120px] tracking-[0.6px]">Visit our work</div>
+                        <a
+                            class="text-5xl font-normal font-['Inter'] leading-[48px] tracking-[11.76px] mt-3"
+                            href="https://aurascan.io"
+                            target="_blank"
+                            >aurascan.io</a
+                        >
+                    </div>
                 </div>
             </div>
         </div>
