@@ -41,6 +41,7 @@ const projects = [
         skate: require('@/assets/icons/bpi.svg'),
         client: require('@/assets/icons/costco.svg'),
         isFeature: true,
+        isContribute: true,
     },
     {
         id: 5,

@@ -68,10 +68,10 @@ const routes = [
         // which is lazy-loaded when the route is visited.
         component: () =>
             import(
-                /* webpackChunkName: "projects" */ '../views/BlogItem.vue'
+                /* webpackChunkName: "projects" */ '../views/SingleBlog.vue'
             ),
         meta: {
-            title: 'MTX - Single Project',
+            title: 'MTX - Blog',
         },
     },
 ];

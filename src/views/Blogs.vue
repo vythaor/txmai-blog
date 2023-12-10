@@ -1,5 +1,5 @@
 <script>
-import BlogItem from './BlogItem.vue';
+import BlogItem from '../components/blogs/BlogItem.vue';
 import blogs from '../data/blogs';
 
 export default {
