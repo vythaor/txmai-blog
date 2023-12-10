@@ -22,7 +22,7 @@ export default {
             </h3>
             <div class="flex justify-between pb-3 gap-2"></div>
         </div>
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-6 sm:gap-10">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-6 sm:gap-10 pb-8">
             <BlogItem v-for="blog in blogs" :key="blog.id" :blog="blog" />
         </div>
     </div>

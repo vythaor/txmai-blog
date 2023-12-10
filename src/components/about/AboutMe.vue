@@ -87,11 +87,11 @@ export default {
                                             <img src="@/assets/images/fpt.png" />
                                         </div>
                                         <div class="flex-col justify-center items-start gap-1 inline-flex">
-                                            <div class="text-neutral-950 text-base font-normal leading-tight">FPT Design</div>
-                                            <div class="text-neutral-500 text-base font-normal leading-tight">10/2022 - Current</div>
+                                            <div class="text-neutral-200 text-base font-normal leading-tight">FPT Design</div>
+                                            <div class="text-neutral-50 text-base font-normal leading-tight">10/2022 - Current</div>
                                         </div>
                                     </div>
-                                    <div class="text-neutral-950 text-base font-normal leading-tight">Product designer</div>
+                                    <div class="text-neutral-200 text-base font-normal leading-tight">Product designer</div>
                                 </div>
                                 <div class="self-stretch py-4 border-t border-dashed border-neutral-500 justify-between items-center inline-flex">
                                     <div class="justify-start items-center gap-2 flex">
@@ -99,11 +99,11 @@ export default {
                                             <img src="@/assets/images/aperia.png" />
                                         </div>
                                         <div class="flex-col justify-center items-start gap-1 inline-flex">
-                                            <div class="text-neutral-950 text-base font-normal leading-tight">Aperia</div>
-                                            <div class="text-neutral-500 text-base font-normal leading-tight">09/2021 - 09/2022</div>
+                                            <div class="text-neutral-200 text-base font-normal leading-tight">Aperia</div>
+                                            <div class="text-neutral-50 text-base font-normal leading-tight">09/2021 - 09/2022</div>
                                         </div>
                                     </div>
-                                    <div class="text-neutral-950 text-base font-normal leading-tight">Product designer</div>
+                                    <div class="text-neutral-200 text-base font-normal leading-tight">Product designer</div>
                                 </div>
                                 <div class="self-stretch py-4 border-t border-dashed border-neutral-500 justify-between items-center inline-flex">
                                     <div class="justify-start items-center gap-2 flex">
@@ -111,11 +111,11 @@ export default {
                                             <img src="@/assets/images/nashtech.png" />
                                         </div>
                                         <div class="flex-col justify-center items-start gap-1 inline-flex">
-                                            <div class="text-neutral-950 text-base font-normal leading-tight">NashTech Global</div>
-                                            <div class="text-neutral-500 text-base font-normal leading-tight">2018 - 08/2021</div>
+                                            <div class="text-neutral-200 text-base font-normal leading-tight">NashTech Global</div>
+                                            <div class="text-neutral-50 text-base font-normal leading-tight">2018 - 08/2021</div>
                                         </div>
                                     </div>
-                                    <div class="text-neutral-950 text-base font-normal leading-tight">Senior multimedia designer</div>
+                                    <div class="text-neutral-200 text-base font-normal leading-tight">Senior multimedia designer</div>
                                 </div>
                             </div>
                         </div>

@@ -25,8 +25,8 @@ export default {
 </script>
 
 <template>
-	<div class="container mx-auto">
-		<ProjectsGrid title="my work" category="Scalable ecosystem products" :projectList="contributeProjects"/>
+	<div class="container mx-auto pb-20">
+		<ProjectsGrid title="my work" category="Scalable ecosystem products" :projectList="contributeProjects" class="mb-20"/>
 		<ProjectsGrid title="my work" category="Team contribution" :projectList="nonContributeProjects"/>
 	</div>
 </template>

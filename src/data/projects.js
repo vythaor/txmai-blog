@@ -39,17 +39,8 @@ const projects = [
         img: require('@/assets/images/ui-project-4.png'),
         skate: require('@/assets/icons/bpi.svg'),
         client: require('@/assets/icons/fiserv.svg'),
-        isFeature: true,
-        isContribute: true,
-    },
-    {
-        id: 4,
-        title: 'Diversity Dashboard; Warehouse Factsheet',
-        category: 'Power BI Dashboard for a multi-billion dollar global retailer',
-        img: require('@/assets/images/ui-project-3.jpg'),
-        skate: require('@/assets/icons/bpi.svg'),
-        client: require('@/assets/icons/costco.svg'),
         isFeature: false,
+        isContribute: true,
     },
     {
         id: 5,
