@@ -22,7 +22,7 @@ export default {
 		<ProjectsGrid :onlyFeature="true" :isContribute="true"/>
 
 		<!-- Load more projects button -->
-		<div class="mt-10 sm:mt-20 flex justify-center items-center">
+		<div class="mt-10 sm:mt-8 flex justify-center items-center mb-20">
 			<router-link
 				to="/works"
 				class="font-general-medium flex items-center px-6 py-3 rounded-lg shadow-lg focus:ring-1 focus:ring-indigo-900 text-white text-lg sm:text-xl duration-300 hover:text-cyan-300"

@@ -79,9 +79,7 @@ export default {
                                 </div>
                             </div>
                         </div>
-                        <div
-                            class="w-1/2 h-72 p-6 bg-neutral-900 rounded-2xl flex-col justify-start items-start gap-4 flex text-ternary-dark dark:text-primary-light"
-                        >
+                        <div class="w-1/2 h-72 p-6 bg-neutral-900 rounded-2xl flex-col justify-start items-start gap-4 flex text-primary-light">
                             <div class="self-stretch h-56 flex-col justify-start items-start flex">
                                 <div class="self-stretch py-4 justify-between items-center inline-flex">
                                     <div class="justify-start items-center gap-2 flex">
@@ -132,11 +130,44 @@ export default {
                     </div>
                 </Tab>
                 <Tab name="What I do when I'm not working">
-                    <div class="md:w-2/3 mr-8">
-                        <div class="h-48 flex-col justify-start items-start flex">
-                            <div class="text-brand text-2xl font-normal mb-6">about me</div>
-                            <div class="text-white text-5xl font-semibold md:w-2/3 text-left leading-relaxed">What I do when I'm not working</div>
+                    <div>
+                        <div class="text-left text-white">
+                            <div class="text-2xl font-normal mb-6">about me</div>
+                            <div class="text-5xl font-semibold text-left leading-relaxed">What I do when I'm not working</div>
                         </div>
+                        <div class="flex gap-12 mt-[52px]">
+                            <div class="w-1/2 bg-neutral-900 p-6 text-left rounded-2xl relative">
+                                <div class="text-white text-2xl font-semibold leading-loose">Tran Mai</div>
+                                <div class="flex items-center text-white text-xl font-normal">
+                                    Scan to find me on Strava
+                                    <img src="@/assets/images/about/strava.svg" />
+                                </div>
+                                <img src="@/assets/images/about/qr.png" class="mt-4" />
+                                <img src="@/assets/images/about/running.png" class="absolute right-0 bottom-0" />
+                            </div>
+                            <div class="w-1/2 text-white text-xl font-normal leading-loose text-left">
+                                If you can't find me at my desk, I'm either running, or just enjoying a cup of tea with my favorite sweet.
+                            </div>
+                        </div>
+                        <div class="text-left pt-12 w-1/2">
+                            <div class="text-white text-3xl font-semibold">My memorable trip</div>
+                            <div class="text-white text-xl font-normal leading-loose py-12">
+                                My unforgettable trip included a beach run, walking on the sand, feeling the morning breeze, witnessing the sunrise,
+                                savoring seafood and local dishes, going trekking, and immersing myself in nature.
+                            </div>
+                        </div>
+                        <!-- <div class="relative">
+                            <div class="flex gap-2">
+                                <img src="@/assets/images/about/p1.png" />
+                                <img src="@/assets/images/about/p2.png" />
+                                <img src="@/assets/images/about/p3.png" />
+                            </div>
+                            <div class="flex gap-2 pt-2 w-full h-auto">
+                                <img src="@/assets/images/about/p4.png" />
+                                <img src="@/assets/images/about/p5.png" />
+                                <img src="@/assets/images/about/p6.png" />
+                            </div>
+                        </div> -->
                     </div>
                 </Tab>
             </Tabs>

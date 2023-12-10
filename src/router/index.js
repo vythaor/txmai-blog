@@ -60,6 +60,20 @@ const routes = [
             title: 'MTX - Blogs',
         },
     },
+    {
+        path: '/blogs/:id',
+        name: 'blog',
+        // route level code-splitting
+        // this generates a separate chunk (projects.[hash].js) for this route
+        // which is lazy-loaded when the route is visited.
+        component: () =>
+            import(
+                /* webpackChunkName: "projects" */ '../views/BlogItem.vue'
+            ),
+        meta: {
+            title: 'MTX - Single Project',
+        },
+    },
 ];
 
 const router = createRouter({

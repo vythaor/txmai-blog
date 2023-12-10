@@ -91,13 +91,15 @@ export default {
             <div>
                 <div class="pt-8 text-black text-lg font-semibold">Collaborating with Stakeholders</div>
                 <div class="pt-2 text-neutral-900 text-lg font-normal">
-                    Worked closely with US product owner and other cross-functional team members to understand project requirements, provide design recommendations.
+                    Worked closely with US product owner and other cross-functional team members to understand project requirements, provide design
+                    recommendations.
                 </div>
             </div>
             <div>
                 <div class="pt-8 text-black text-lg font-semibold">Design System Development</div>
                 <div class="pt-2 text-neutral-900 text-lg font-normal">
-                    Contributed to the development and maintenance of a design system, ensuring consistency across different products and improving overall efficiency.
+                    Contributed to the development and maintenance of a design system, ensuring consistency across different products and improving
+                    overall efficiency.
                 </div>
             </div>
         </div>
@@ -105,17 +107,15 @@ export default {
     <!-- End Responsibilites -->
     <!-- Outcomes -->
     <div class="bg-black p-[168px]">
-        <div class="text-emerald-50 text-6xl font-semibold">
-            Outcomes
-        </div>
+        <div class="text-emerald-50 text-6xl font-semibold">Outcomes</div>
         <div class="flex pt-16 gap-6">
-        <img src="@/assets/images/fiserv/oc1.png" />
-        <img src="@/assets/images/fiserv/oc2.png" />
-        <img src="@/assets/images/fiserv/oc3.png" />
+            <img src="@/assets/images/fiserv/oc1.png" />
+            <img src="@/assets/images/fiserv/oc2.png" />
+            <img src="@/assets/images/fiserv/oc3.png" />
         </div>
         <div class="flex gap-10 pt-16">
-        <img src="@/assets/images/fiserv/oc4.png" />
-        <img src="@/assets/images/fiserv/oc5.png" />
+            <img src="@/assets/images/fiserv/oc4.png" />
+            <img src="@/assets/images/fiserv/oc5.png" />
         </div>
     </div>
     <!-- End Outcomes -->

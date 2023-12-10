@@ -66,7 +66,7 @@ export default {
         </div>
 
         <!-- Projects grid -->
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-6 sm:gap-10">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-6 sm:gap-10 mb-20">
             <ProjectSingle v-for="project in filteredProjects" :key="project.id" :project="project" />
         </div>
     </section>
