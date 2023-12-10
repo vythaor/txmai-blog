@@ -22,7 +22,7 @@ export default {
 <template>
     <div class="sm:px-[168px] pt-6 sm:pb-[68px] px-[24px] pb-[24px] border-t border-primary-light border-dashed dark:border-neutral-500">
         <div class="flex flex-col sm:flex-row justify-between">
-            <div class="flex flex-col sm:flex-row">
+            <div>
                 <router-link to="/"
                     ><img v-if="theme === 'light'" src="@/assets/images/logo.svg" class="w-12" alt="Dark Logo" />
                     <img v-else src="@/assets/images/logo.svg" class="w-12" alt="Light Logo" />
