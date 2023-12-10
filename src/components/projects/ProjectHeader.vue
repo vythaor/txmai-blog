@@ -16,7 +16,7 @@ export default {
             <div class="font-general-regular text-center text-secondary-dark dark:text-neutral-50 text-md sm:text-xl font-n italic mb-8">
                 {{ project.name }}
             </div>
-            <div v-html="project.title"></div>
+            <div class="self-stretch text-center text-white text-5xl font-semibold leading-[72px]" v-html="project.title"></div>
         </div>
     </div>
 </template>

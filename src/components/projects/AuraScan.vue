@@ -1,10 +1,10 @@
 <template>
     <div>
         <div class="relative">
-            <img src="@/assets/images/aurascan/astronaut.png" />
+            <img src="@/assets/images/aurascan/astronaut.png" class="w-full"/>
             <div class="absolute top-[5%] left-[5%] sm:top-[20%] sm:left-[10%] text-white flex flex-col gap-6 max-w-[520px]">
                 <p>
-                    <img src="@/assets/images/aurascan/logo.png" />
+                    <img src="@/assets/images/aurascan/logo.png" class="w-full"/>
                 </p>
                 <!-- <div
                 class="flex flex-col p-8 gap-4 bg-gradient-to-b from-[rgba(26, 40, 43, 0.07)] from-0% via-[rgba(26, 40, 43, 0.19)] via-0.01% to-[rgba(36, 38, 46, 0.38)] to-100% rounded-2xl"
@@ -41,13 +41,13 @@
             </div>
         </div>
         <div class="relative">
-            <img src="@/assets/images/aurascan/eco-system.png" alt="" />
+            <img src="@/assets/images/aurascan/eco-system.png" alt="" class="w-full"/>
             <div class="absolute top-[12%] left-[50%] translate-x-[-50%] text-center text-white text-5xl font-semibold leading-[72px]">
                 Aura Ecosystem
             </div>
         </div>
         <div class="relative mt-[-2px]">
-            <img src="@/assets/images/aurascan/Frame-1000002929.png" />
+            <img src="@/assets/images/aurascan/Frame-1000002929.png" class="w-full" />
             <div class="absolute left-[7%] top-[7%] text-white text-5xl font-semibold leading-[72px]">My responsibilities</div>
             <div class="absolute top-[calc(22.8%-52px)] left-[calc(11.5%-65px)] right-[calc(18.5%-65px)]">
                 <div class="absolute w-full flex justify-between">
@@ -217,20 +217,20 @@
         </div>
 
         <div class="relative mt-[-2px]">
-            <img src="@/assets/images/aurascan/product-screen-2.png" />
+            <img src="@/assets/images/aurascan/product-screen-2.png" class="w-full"/>
             <div class="absolute top-[7.32%] left-[7.08%] text-white text-5xl font-semibold leading-[72px]">Product screens</div>
-            <img src="@/assets/images/aurascan/macbook.png" class="absolute top-[12.4%] left-[26%] max-w-[58%]" />
-            <img src="@/assets/images/aurascan/Frame_1000002775.png" class="absolute top-[22.22%] right-[4.4%] max-w-[18.5%]" />
-            <img src="@/assets/images/aurascan/Desktop.png" class="absolute top-[46%] left-[3.96%] max-w-[43.33%] z-10" />
-            <img src="@/assets/images/aurascan/Account.png" class="absolute top-[60%] left-[8%] max-w-[35.2%]" />
-            <img src="@/assets/images/aurascan/Frame_1000002776.png" class="absolute top-[49.29%] left-[57.01%] max-w-[15.28%]"/> 
-            <img src="@/assets/images/aurascan/Frame_1000002777.png" class="absolute top-[54.26%] left-[75.9%] max-w-[15.28%]"/> 
+            <img src="@/assets/images/aurascan/macbook.png" class="absolute top-[12.4%] left-[26%] max-w-[58%] w-full" />
+            <img src="@/assets/images/aurascan/Frame_1000002775.png" class="absolute top-[22.22%] right-[4.4%] max-w-[18.5%] w-full" />
+            <img src="@/assets/images/aurascan/Desktop.png" class="absolute top-[46%] left-[3.96%] max-w-[43.33%] z-10 w-full" />
+            <img src="@/assets/images/aurascan/Account.png" class="absolute top-[60%] left-[8%] max-w-[35.2%] w-full" />
+            <img src="@/assets/images/aurascan/Frame_1000002776.png" class="absolute top-[49.29%] left-[57.01%] max-w-[15.28%] w-full"/> 
+            <img src="@/assets/images/aurascan/Frame_1000002777.png" class="absolute top-[54.26%] left-[75.9%] max-w-[15.28%] w-full"/> 
         </div>
         <div class="relative mt-[-3%]">
-            <img src="@/assets/images/aurascan/Visit-work.png" />
+            <img src="@/assets/images/aurascan/Visit-work.png" class="w-full"/>
             <div class="absolute translate-x-[-50%] top-[50%] translate-y-[-20%] left-[50%]">
                 <div class="flex items-start">
-                    <img src="@/assets/images/aurascan/logo-1.png" class="max-w-[20%] self-center mr-4" />
+                    <img src="@/assets/images/aurascan/logo-1.png" class="max-w-[20%] self-center mr-4 w-full" />
                     <div class="text-white">
                         <div class="text-[120px] font-normal font-['Redig'] leading-[120px] tracking-[0.6px]">Visit our work</div>
                         <a
@@ -252,24 +252,6 @@ export default {
     components: {
         FigmaIcon,
         Web3Icon,
-    },
-    data: () => ({
-        vectorHeight: 0,
-    }),
-    methods: {
-        stylingResponsibilities() {
-            const style = window.getComputedStyle(this.$refs.vector);
-            const height = parseInt(style.getPropertyValue('height'));
-
-            this.vectorHeight = height;
-        },
-    },
-    async mounted() {
-        this.stylingResponsibilities();
-        window.addEventListener('resize', this.stylingResponsibilities);
-    },
-    beforeUnmount() {
-        window.removeEventListener('resize', this.stylingResponsibilities);
     },
 };
 </script>
