@@ -23,13 +23,13 @@ const projects = [
         isContribute: true,
     },
     {
-        id: 3,
+        id: 'costco-wholesale',
         title: 'Dispute workstation; Paypoint',
         category: 'Global fintech products for banking',
         img: require('@/assets/images/ui-project-4.png'),
         skate: require('@/assets/icons/bpi.svg'),
         client: require('@/assets/icons/fiserv.svg'),
-        isFeature: false,
+        isFeature: true,
         isContribute: true,
     },
     {
@@ -40,7 +40,7 @@ const projects = [
         img: require('@/assets/images/ui-project-3.jpg'),
         skate: require('@/assets/icons/bpi.svg'),
         client: require('@/assets/icons/costco.svg'),
-        isFeature: true,
+        isFeature: false,
     },
     {
         id: 5,
