@@ -30,7 +30,7 @@ export default {
                 <!-- Footer social links -->
                 <div class="flex flex-col sm:flex-row mt-6 items-center">
                     <div class="hidden sm:block font-normal text-base sm:text-base text-primary-dark dark:text-primary-light">My socials</div>
-                    <ul class="sm:ml-8 flex sm:flex-col flex-row gap-4 sm:gap-8 text-lg sm:text-xl text-white">
+                    <ul class="sm:ml-8 flex flex-row gap-3 sm:gap-8 text-lg sm:text-xl text-white">
                         <a
                             v-for="social in socials"
                             :key="social.id"

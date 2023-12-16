@@ -13,17 +13,18 @@ export default {
 </script>
 
 <template>
-    <div class="bg-neutral-950 w-full">
-        <div class="relative">
-            <img src="@/assets/images/halo/bg-1.png" alt="bg" />
-            <div class="absolute top-0 left-0 z-99 p-24 w-full grid place-items-center">
-                <p
-                    class="text-7xl bold font-jost text-transparent bg-clip-text text-gradient bg-gradient-to-r from-lime-500 to-emerald-500 before:content-['HALOTRADE'] before:opacity-40 before:text-5xl before:absolute before:top-8 before:left-0"
-                >
-                    HALLOTRADE
-                </p>
-                <img src="@/assets/images/halo/s1-item1.png" class="absolute z-99 rounded-xl cursor-pointer mt-36" alt="bg" />
-                <img src="@/assets/images/halo/s1-item2.png" class="rounded-xl cursor-pointer mt-24" alt="bg" />
+    <div>
+        <div class="relative bg-[url('@/assets/images/halo/bg-1.png')] bg-cover h-0 pb-[calc(800/1440*100%)]">
+            <div class="absolute inset-0 h-full">
+                <div class="absolute top-0 left-0 z-99 p-24 w-full grid place-items-center">
+                    <p
+                        class="text-7xl bold font-jost text-transparent bg-clip-text text-gradient bg-gradient-to-r from-lime-500 to-emerald-500 before:content-['HALOTRADE'] before:opacity-40 before:text-5xl before:absolute before:top-8 before:left-0"
+                    >
+                        HALLOTRADE
+                    </p>
+                    <img src="@/assets/images/halo/s1-item1.png" class="absolute z-99 rounded-xl cursor-pointer mt-36" alt="bg" />
+                    <img src="@/assets/images/halo/s1-item2.png" class="rounded-xl cursor-pointer mt-24" alt="bg" />
+                </div>
             </div>
         </div>
         <div class="relative">
@@ -70,31 +71,16 @@ export default {
                     <img class="absolute left-0 bottom-0" src="@/assets/images/halo/line-top.svg" alt="line" />
                 </div>
             </div>
-            <div
-                class="mt-16 text-lime-400 text-5xl text-center font-semibold font-jost leading-10 tracking-widest before:content-['Aura_Ecosystem'] before:text-center before:absolute before:opacity-60 before:text-lime-400 before:text-5xl before:blur-sm before:font-semibold before:leading-10 before:tracking-widest relative"
-            >
-                Aura Ecosystem
-            </div>
-            <div class="relative mt-12 flex flex-col justify-around items-center">
-                <div>
-                    <img src="@/assets/images/halo/s2-eco-1.png" alt="item" class="wiggle" />
-                </div>
-                <div class="flex flex-row justify-between items-center gap-32 p-24">
-                    <img src="@/assets/images/halo/s2-eco-2.png" alt="item" class="w-[84px] h-[84px]" />
-                    <img src="@/assets/images/halo/s2-eco-3.png" alt="item" />
-                    <img src="@/assets/images/halo/s2-eco-4.png" alt="item" />
-                    <img src="@/assets/images/halo/s2-eco-5.png" alt="item" class="w-[84px] h-[84px]" />
-                </div>
-                <div class="flex flex-row gap-[32em]">
-                    <img src="@/assets/images/halo/s2-eco-6.png" alt="item" />
-                    <img src="@/assets/images/halo/s2-eco-7.png" alt="item" />
+            <div class="relative">
+                <img src="@/assets/images/aurascan/eco-system.png" alt="" class="w-full" />
+                <div class="absolute top-[12%] inset-0 mx-auto my-auto text-lime-400 text-5xl text-center font-semibold font-jost leading-10 tracking-widest before:content-['Aura_Ecosystem'] before:text-center before:absolute before:opacity-60 before:text-lime-400 before:text-5xl before:blur-sm before:font-semibold before:leading-10 before:tracking-widest">
+                    Aura Ecosystem
                 </div>
             </div>
         </div>
         <!-- Responsibilities -->
-        <div class="relative">
-            <img src="@/assets/images/halo/s3-shape.png" alt="bg" />
-            <div class="absolute top-0">
+        <div class="relative bg-[url('@/assets/images/halo/s3-shape.png')] bg-cover h-0 pb-[calc(1000/1440*100%)]">
+            <div class="absolute inset-0 h-full">
                 <div
                     class="p-28 text-lime-400 text-5xl font-semibold font-jost leading-10 tracking-widest before:content-['My_responsibilities'] before:p-28 before:absolute before:top-0 before:left-0 before:opacity-60 before:text-lime-400 before:text-5xl before:blur-sm before:font-semibold before:leading-10 before:tracking-widest"
                 >
@@ -102,46 +88,43 @@ export default {
                 </div>
                 <div class="flex items-start">
                     <img class="mt-24" src="@/assets/images/halo/s3-mascot.png" alt="Light Logo" />
-                    <div class="w-full">
-                        <div class="flex ml-20">
+                    <div class="grid grid-rows-3 grid-flow-col gap-10">
+						<div class="flex gap-10 ml-24">
                             <HaloCard
                                 order="1"
                                 title="Design planning & review"
                                 desc="Defined timelines. Provided guidance to junior designers, and fostered a collaborative and creative work environment."
                             />
                             <HaloCard
-                                class="ml-10"
                                 order="2"
                                 title="Research and Analysis"
                                 desc="Explored best practices for scalability, modularity, and usability in design systems."
                             />
-                        </div>
-                        <div class="flex m-10">
+						</div>
+						<div class="flex gap-10 ml-12">
                             <HaloCard
                                 order="3"
                                 title="Research and Analysis"
                                 desc="Explored best practices for scalability, modularity, and usability in design systems."
                             />
                             <HaloCard
-                                class="ml-10"
                                 order="4"
                                 title="Research and Analysis"
                                 desc="Explored best practices for scalability, modularity, and usability in design systems."
                             />
-                        </div>
-                        <div class="flex">
+						</div>
+						<div class="flex gap-10">
                             <HaloCard
                                 order="5"
                                 title="Research and Analysis"
                                 desc="Explored best practices for scalability, modularity, and usability in design systems."
                             />
                             <HaloCard
-                                class="ml-10"
                                 order="6"
                                 title="Research and Analysis"
                                 desc="Explored best practices for scalability, modularity, and usability in design systems."
                             />
-                        </div>
+						</div>
                     </div>
                 </div>
             </div>
@@ -185,42 +168,45 @@ export default {
                         />
                     </div>
                     <div class="flex-1">
-                    <video controls class="rounded-md shadow-md pr-[120px]">
-                        <source src="@/assets/images/halo/video-halo-variables.mp4" type="video/mp4" />
-                        Your browser does not support the video tag
-                    </video>
-                </div>
+                        <video controls class="rounded-md shadow-md pr-[120px]">
+                            <source src="@/assets/images/halo/video-halo-variables.mp4" type="video/mp4" />
+                            Your browser does not support the video tag
+                        </video>
+                    </div>
                 </div>
             </div>
         </div>
         <!-- End outcome -->
 
         <!-- Product screen -->
-        <div class="relative">
-            <img src="@/assets/images/halo/s6-shape.png" />
-            <div class="absolute top-0 w-full">
+        <div class="relative bg-[url('@/assets/images/halo/s6-shape.png')] bg-cover h-0 pb-[calc(965/1440*100%)]">
+            <div class="absolute top-0 inset-0 h-full">
                 <div
                     class="p-20 text-lime-400 text-5xl font-semibold font-jost leading-10 tracking-widest before:content-['Product_screens'] before:p-20 before:absolute before:top-0 before:left-0 before:opacity-60 before:text-lime-400 before:text-5xl before:blur-sm before:font-semibold before:leading-10 before:tracking-widest relative"
                 >
                     Product screens
                 </div>
-                <div class="w-full flex justify-center items-center p-24">
+                <div class="w-full flex justify-center items-center">
                     <img src="@/assets/images/halo/s6-screens.png" alt="item" />
                 </div>
             </div>
         </div>
-        <div class="relative">
-            <img src="@/assets/images/halo/s7-shape.png" />
-            <div class="absolute top-[5%] flex w-full items-center">
+        <div class="relative bg-[url('@/assets/images/halo/s7-shape.png')] bg-cover h-0 pb-[calc(1250/1440*100%)]">
+            <div class="absolute flex w-full items-center inset-0 h-full">
                 <img src="@/assets/images/halo/s7-screens.png" alt="item" />
-                <div class="absolute right-16 text-center">
+            </div>
+			<div class="text-center flex flex-col w-2/5 absolute right-[108px] top-[250px]">
                     <div class="text-white text-7xl font-normal font-['Redig'] leading-10 tracking-tight">Visit our work</div>
                     <div class="text-white text-2xl font-normal font-['Inter'] leading-normal tracking-widest mt-4">
-                        <a href="https://halotrade.zone" target="_blank" class=" hover:text-lime-400">halotrade.zone </a>
+                        <a href="https://halotrade.zone" target="_blank" class="hover:text-lime-400">halotrade.zone </a>
                     </div>
-                    <img src="@/assets/images/halo/s7-desktop.png" alt="item" class="mt-10 ilter drop-shadow-xl" style="filter: drop-shadow(-18px -11px 65px rgba(27, 36, 20, 0.64));"/>
+                    <img
+                        src="@/assets/images/halo/s7-desktop.png"
+                        alt="item"
+                        class="mt-10 ilter drop-shadow-xl"
+                        style="filter: drop-shadow(-18px -11px 65px rgba(27, 36, 20, 0.64))"
+                    />
                 </div>
-            </div>
             <!-- End Product screen -->
         </div>
 

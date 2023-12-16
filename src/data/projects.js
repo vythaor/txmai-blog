@@ -10,7 +10,7 @@ const projects = [
         skate: require('@/assets/icons/web3.svg'),
         client: require('@/assets/icons/aura.svg'),
         isFeature: true,
-        isContribute: true,
+        isContribute: false,
     },
     {
         id: 'aura-scan',
@@ -20,7 +20,7 @@ const projects = [
         skate: require('@/assets/icons/web3.svg'),
         client: require('@/assets/icons/aura.svg'),
         isFeature: true,
-        isContribute: true,
+        isContribute: false,
     },
     {
         id: 'luna',
@@ -30,7 +30,7 @@ const projects = [
         skate: require('@/assets/icons/bpi.svg'),
         client: require('@/assets/icons/costco.svg'),
         isFeature: false,
-        isContribute: true,
+        isContribute: false,
     },
     {
         id: 'costco-wholesale',

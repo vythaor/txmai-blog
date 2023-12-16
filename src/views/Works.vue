@@ -34,8 +34,8 @@ export default {
 
 <template>
 	<div class="container mx-auto pb-20">
-		<ProjectsGrid title="my work" category="Scalable ecosystem products" :projectList="nonContributeProjects" class="mb-20"/>
-		<ProjectsGrid title="my work" category="Team contribution" :projectList="contributeProjects"/>
+		<ProjectsGrid title="my work" category="Scalable ecosystem products" :projectList="contributeProjects" class="mb-20"/>
+		<ProjectsGrid title="my work" category="Team contribution" :projectList="nonContributeProjects"/>
 	</div>
 </template>
 

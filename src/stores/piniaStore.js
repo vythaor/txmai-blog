@@ -16,7 +16,6 @@ export const usePiniaStore = defineStore('store', {
   actions: {
     updateScreenWidth() {
       this.screenWidth = window.innerWidth;
-      console.log('sc', this.screenWidth)
     },
   },
 });
