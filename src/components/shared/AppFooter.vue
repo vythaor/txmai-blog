@@ -46,11 +46,11 @@ export default {
             <div class="flex flex-col text-left bg-neutral-800 font-general-normal p-5 rounded-xl">
                 <div class="flex items-center mb-4">
                     <img src="@/assets/icons/phone.svg" alt="Phone icon" />
-                    <div class="ml-4 text-2xl text-brand">(+84) 78 444 3157</div>
+                    <div class="ml-4 text-2xl text-white">(+84) 78 444 3157</div>
                 </div>
                 <div class="flex items-center">
                     <img src="@/assets/icons/mail.svg" alt="Mail icon" />
-                    <div class="ml-4 text-2xl text-brand font-general-normal">xuanmai1308@gmail.com</div>
+                    <div class="ml-4 text-2xl text-white font-general-normal">xuanmai1308@gmail.com</div>
                 </div>
             </div>
 

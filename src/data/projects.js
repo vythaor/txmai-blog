@@ -15,7 +15,7 @@ const projects = [
     {
         id: 'aura-scan',
         title: 'Aurascan',
-        category: 'Blockchain Explorer for Transparent Transaction Monitoring',
+        category: 'UI design for Blockchain Explorer',
         img: require('@/assets/images/ui-project-2.jpg'),
         skate: require('@/assets/icons/web3.svg'),
         client: require('@/assets/icons/aura.svg'),
@@ -23,14 +23,24 @@ const projects = [
         isContribute: true,
     },
     {
+        id: 'luna',
+        title: 'Luna MVP',
+        category: 'Blockchain Explorer for Transparent Transaction Monitoring',
+        img: require('@/assets/images/ui-project-3.jpg'),
+        skate: require('@/assets/icons/bpi.svg'),
+        client: require('@/assets/icons/costco.svg'),
+        isFeature: false,
+        isContribute: true,
+    },
+    {
         id: 'costco-wholesale',
         title: 'Diversity Dashboard; Warehouse Factsheet',
-        category: 'Power BI Dashboard for a multi-billion dollar global retailer ',
+        category: 'UX design for Power BI Dashboard for a multi-billion dollar global retailer',
         img: require('@/assets/images/ui-project-3.jpg'),
         skate: require('@/assets/icons/bpi.svg'),
         client: require('@/assets/icons/fiserv.svg'),
         isFeature: true,
-        isContribute: true,
+        isContribute: false,
     },
     {
         id: 'fiserv',
@@ -40,7 +50,7 @@ const projects = [
         skate: require('@/assets/icons/bpi.svg'),
         client: require('@/assets/icons/fiserv.svg'),
         isFeature: false,
-        isContribute: true,
+        isContribute: false,
     },
     {
         id: 5,
@@ -50,7 +60,7 @@ const projects = [
         skate: require('@/assets/icons/bpi.svg'),
         client: require('@/assets/icons/costco.svg'),
         isFeature: false,
-        isContribute: false,
+        isContribute: true,
     },
     {
         id: 6,
@@ -60,7 +70,7 @@ const projects = [
         skate: require('@/assets/icons/bpi.svg'),
         client: require('@/assets/icons/costco.svg'),
         isFeature: false,
-        isContribute: false,
+        isContribute: true,
     },
 ];
 

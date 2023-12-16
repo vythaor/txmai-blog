@@ -22,7 +22,7 @@ export default {
                                 <div class="text-brand text-2xl font-normal mb-6">about me</div>
                                 <div class="text-white text-5xl font-semibold md:w-2/3 text-left leading-relaxed">Fulfilling & diverse lifestyle</div>
                             </div>
-                            <div class="text-white text-xl font-normal leading-relaxed text-left mt-12">
+                            <div class="text-white text-base font-normal leading-relaxed text-left mt-12">
                                 Running provides me with physical and mental well-being, while graphic design lets me explore your artistic side, and
                                 product design allows me to apply my skills in a meaningful and professional context.
                                 <br />Together, these pursuits contribute to a fulfilling and diverse lifestyle.
@@ -75,7 +75,7 @@ export default {
                             <div class="text-white text-3xl font-semibold leading-10">Work experience</div>
                             <div class="flex-col justify-start items-start gap-2.5 inline-flex">
                                 <div class="h-10 px-4 py-2.5 rounded-lg justify-center items-center gap-4 inline-flex">
-                                    <div class="text-center text-white italic text-2xl font-normal underline leading-loose">Download CV</div>
+                                    <div class="text-center text-white italic text-xl font-normal underline leading-loose">Download CV</div>
                                 </div>
                             </div>
                         </div>
@@ -149,14 +149,7 @@ export default {
                                 If you can't find me at my desk, I'm either running, or just enjoying a cup of tea with my favorite sweet.
                             </div>
                         </div>
-                        <div class="text-left pt-12 w-1/2">
-                            <div class="text-white text-3xl font-semibold">My memorable trip</div>
-                            <div class="text-white text-xl font-normal leading-loose py-12">
-                                My unforgettable trip included a beach run, walking on the sand, feeling the morning breeze, witnessing the sunrise,
-                                savoring seafood and local dishes, going trekking, and immersing myself in nature.
-                            </div>
-                        </div>
-                        <!-- <div class="relative">
+                        <div class="relative pt-12">
                             <div class="flex gap-2">
                                 <img src="@/assets/images/about/p1.png" />
                                 <img src="@/assets/images/about/p2.png" />
@@ -167,7 +160,7 @@ export default {
                                 <img src="@/assets/images/about/p5.png" />
                                 <img src="@/assets/images/about/p6.png" />
                             </div>
-                        </div> -->
+                        </div>
                     </div>
                 </Tab>
             </Tabs>

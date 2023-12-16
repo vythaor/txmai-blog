@@ -25,24 +25,23 @@ export default {
 <template>
     <section class="flex flex-col sm:justify-between items-center sm:flex-row mt-6 sm:mt-10">
         <!-- Banner left contents -->
-        <div class="flex flex-col w-full md:w-3/3 text-left z-50">
+        <div class="flex flex-col w-full text-left z-50">
             <div
-                class="font-semibold mt-8 text-6xl md:text-6xl xl:text-6xl text-center sm:text-left text-ternary-dark dark:text-primary-light"
+                class="w-full sm:w-2/3 font-semibold mt-8 sm:text-6xl text-[32px] text-left sm:text-left text-primary-light"
             >
                 Xin chào! 👋 I’m Mai,
-                <div class="flex flex-row mt-4">
-                    <div
-                        class="font-semibold mr-4 text-6xl sm:text-6xl xl:text-6xl text-center sm:text-left leading-none text-ternary-dark dark:text-primary-light"
-                    >
-                        a
-                    </div>
-                    <div class="font-semibold text-6xl sm:text-6xl xl:text-6xl text-center sm:text-left leading-none text-brand">
+                <div class="flex flex-row mt-4 font-semibold sm:text-6xl text-[32px] leading-none text-primary-light">
+                        a &nbsp;
+                    <span class="text-brand">
                         Product Designer
-                    </div>
+                    </span>
                 </div>
             </div>
+            <div class="w-full sm:w-2/3 pt-6 text-white sm:text-base text-sm font-normal leading-snug">
+                Allow me to introduce myself as a design generalist with a diverse skill set in various areas, including UX design, design operations, building scalable design systems, and developing MVPs from the ground up.
+            </div>
             <div class="flex flex-col justify-center mt-16">
-                <div class="font-normal text-2xl sm:text-2xl xl:text-2xl text-center sm:text-left leading-none text-neutral-200 mb-6">
+                <div class="font-normal text-base sm:text-2xl xl:text-2xl text-center sm:text-left leading-none text-neutral-200 mb-6">
                     Visit my cool stuff below
                 </div>
                 <!-- <a
@@ -84,7 +83,7 @@ export default {
                     </router-link>
                 </div>
             </div>
-            <div class="flex justify-center mt-16 animate-bounce">
+            <div class="justify-center mt-16 animate-bounce hidden sm:flex">
                 <img src="@/assets/icons/arrow-down.svg" class="w-12" alt="Down icon" />
             </div>
         </div>
