@@ -27,9 +27,9 @@ export default {
                 </div>
             </div>
         </div>
-        <div class="relative">
-            <img src="@/assets/images/halo/s2-shape.png" alt="bg" class="absolute z-0" />
-            <div class="relative p-24 flex">
+        <div class="relative bg-[url('@/assets/images/halo/s2-shape.png')] bg-cover h-0 pb-[calc(372/1440*100%)]">
+            <div class="absolute inset-0 h-full">
+                <div class="p-24 flex">
                 <div class="relative w-1/2 flex flex-col place-items-center">
                     <img src="@/assets/images/halo/s2-mascot.png" class="rounded-xl cursor-pointer" alt="bg" />
                     <div
@@ -71,13 +71,14 @@ export default {
                     <img class="absolute left-0 bottom-0" src="@/assets/images/halo/line-top.svg" alt="line" />
                 </div>
             </div>
-            <div class="relative">
-                <img src="@/assets/images/aurascan/eco-system.png" alt="" class="w-full" />
+            </div>
+        </div>
+        <div class="relative">
+                <img src="@/assets/images/halo/eco.png" alt="" class="w-full" />
                 <div class="absolute top-[12%] inset-0 mx-auto my-auto text-lime-400 text-5xl text-center font-semibold font-jost leading-10 tracking-widest before:content-['Aura_Ecosystem'] before:text-center before:absolute before:opacity-60 before:text-lime-400 before:text-5xl before:blur-sm before:font-semibold before:leading-10 before:tracking-widest">
                     Aura Ecosystem
                 </div>
             </div>
-        </div>
         <!-- Responsibilities -->
         <div class="relative bg-[url('@/assets/images/halo/s3-shape.png')] bg-cover h-0 pb-[calc(1000/1440*100%)]">
             <div class="absolute inset-0 h-full">
