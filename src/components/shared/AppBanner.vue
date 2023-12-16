@@ -55,30 +55,30 @@ export default {
                     <!-- Works -->
                     <router-link to="/works">
                         <div
-                            class="flex justify-center items-center sm:w-42 sm:mb-0 text-lg bg-gradient-to-r from-blue-800 from-50% to-cyan-300 to-87% w-36 sm:w-48 mb-6 rounded-xl p-0.5 cursor-pointer hover:bg-cyan-300"
+                            class="flex justify-center items-center sm:w-48 w-48 sm:mb-0 text-lg bg-gradient-to-r from-blue-800 from-50% to-cyan-300 to-87% w-36 sm:w-48 mb-6 rounded-xl p-0.5 cursor-pointer hover:bg-cyan-300"
                         >
                             <div class="flex justify-center w-full bg-primary-dark text-white rounded-xl p-2.5">
                                 <img src="@/assets/icons/work.svg" class="w-8" alt="Work icon" />
-                                <span class="text-2xl sm:text-2xl font-medium duration-100 ml-4">Works </span>
+                                <span class="text-xl sm:text-2xl font-medium duration-100 ml-4">Works </span>
                             </div>
                         </div>
                     </router-link>
                     <!-- Blogs -->
                     <router-link to="/blogs">
                         <div
-                            class="flex ml-5 justify-center items-center w-36 sm:w-48 mb-6 sm:mb-0 text-lg bg-gray-900 shadow-[inset_0_1px_1px_0px_rgba(218,218,218,0.25)] py-2.5 sm:py-3 rounded-lg focus:ring-1 focus:ring-cyan-300 hover:bg-cyan-300 cursor-pointer text-white hover:text-white duration-500"
+                            class="flex sm:ml-5 justify-center items-center sm:w-48 w-48 mb-6 sm:mb-0 text-lg bg-gray-900 shadow-[inset_0_1px_1px_0px_rgba(218,218,218,0.25)] py-2.5 sm:py-3 rounded-lg focus:ring-1 focus:ring-cyan-300 hover:bg-cyan-300 cursor-pointer text-white hover:text-white duration-500"
                         >
                             <img src="@/assets/icons/blogs.svg" class="w-8" alt="Blog icon" />
-                            <span class="text-2xl sm:text-2xl font-medium duration-10 ml-4">Blogs</span>
+                            <span class="text-xl sm:text-2xl font-medium duration-10 ml-4">Blogs</span>
                         </div>
                     </router-link>
                     <!-- About me -->
                     <router-link to="/about">
                         <div
-                            class="flex ml-5 justify-center items-center w-36 sm:w-48 mb-6 sm:mb-0 text-lg bg-gray-900 shadow-[inset_0_1px_1px_0px_rgba(218,218,218,0.25)] py-2.5 sm:py-3 rounded-lg focus:ring-1 focus:ring-cyan-300 hover:bg-cyan-300 cursor-pointer text-white hover:text-white duration-500"
+                            class="flex sm:ml-5 justify-center items-center sm:w-48 w-48 mb-6 sm:mb-0 text-lg bg-gray-900 shadow-[inset_0_1px_1px_0px_rgba(218,218,218,0.25)] py-2.5 sm:py-3 rounded-lg focus:ring-1 focus:ring-cyan-300 hover:bg-cyan-300 cursor-pointer text-white hover:text-white duration-500"
                         >
                             <img src="@/assets/icons/about.svg" class="w-8" alt="About icon" />
-                            <span class="text-2xl sm:text-2xl font-medium duration-100 ml-4">About me</span>
+                            <span class="text-xl sm:text-2xl font-medium duration-100 ml-4">About me</span>
                         </div>
                     </router-link>
                 </div>

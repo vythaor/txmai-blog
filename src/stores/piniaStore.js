@@ -9,7 +9,6 @@ export const usePiniaStore = defineStore('store', {
 
   getters: {
     isSmallScreen: (state) => {
-      // You can define your logic here to determine if it's a small screen
       return state.screenWidth < 414; // Adjust the threshold as needed
     },
   },

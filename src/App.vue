@@ -17,25 +17,23 @@ export default {
     },
     mounted() {
         feather.replace();
-		window.addEventListener('resize', this.updateScreenSize);
+        window.addEventListener('resize', this.updateScreenSize);
     },
     updated() {
         feather.replace();
     },
-	computed: {
-    isSmallScreen() {
-      // Access the store instance
-      const piniaStore = usePiniaStore();
-      return piniaStore.isSmallScreen;
+    computed: {
+        isSmallScreen() {
+            const piniaStore = usePiniaStore();
+            return piniaStore.isSmallScreen;
+        },
     },
-  },
-  methods: {
-    updateScreenSize() {
-      // Access the store instance
-      const piniaStore = usePiniaStore();
-      piniaStore.updateScreenWidth();
+    methods: {
+        updateScreenSize() {
+            const piniaStore = usePiniaStore();
+            piniaStore.updateScreenWidth();
+        },
     },
-  },
 };
 </script>
 
