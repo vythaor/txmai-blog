@@ -19,7 +19,7 @@ export default {
                         <!-- First Column -->
                         <div class="md:w-2/3 mr-8">
                             <div class="h-48 flex-col justify-start items-start flex">
-                                <div class="text-brand text-2xl font-normal mb-6">about me</div>
+                                <div class="text-white text-2xl font-normal mb-6">about me</div>
                                 <div class="text-white text-5xl font-semibold md:w-2/3 text-left leading-relaxed">Fulfilling & diverse lifestyle</div>
                             </div>
                             <div class="text-white text-base font-normal leading-relaxed text-left mt-12">
