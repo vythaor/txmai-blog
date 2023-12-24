@@ -10,7 +10,7 @@ export default {
 </script>
 
 <template>
-    <div class="px-[168px] py-[80px] border-t-2 mt-[-4px] border-primary-light dark:border-secondary-dark">
+    <div class="pt-[80px] mt-[-4px]">
         <p class="text-white italic">my blogs</p>
         <p class="text-primary-light mt-4 text-5xl font-semibold leading-10">Other blogs</p>
         <div class="mt-6">
