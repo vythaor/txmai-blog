@@ -149,9 +149,9 @@ export default {
         <div class="bg-neutral-900 p-[168px]">
             <div class="text-emerald-50 text-6xl font-semibold">Outcomes</div>
             <div class="grid grid-rows-3 gap-10 pt-[60px]">
-                <img src="@/assets/images/beckman/oc-1.png" />
-                <img src="@/assets/images/beckman/oc-2.png" />
-                <img src="@/assets/images/beckman/oc-3.png" />
+                <img src="@/assets/images/beckman/oc-1.png" class="w-full" />
+                <img src="@/assets/images/beckman/oc-2.png" class="w-full" />
+                <img src="@/assets/images/beckman/oc-3.png" class="w-full" />
             </div>
         </div>
         <!-- End Outcomes -->
