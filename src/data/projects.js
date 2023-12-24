@@ -53,11 +53,11 @@ const projects = [
         isContribute: false,
     },
     {
-        id: 5,
+        id: 'beckman',
         title: 'Bidding/Pilot projects',
         category: 'HMI System for blood hematology analyzer; Website builder studio',
         img: require('@/assets/images/ui-project-5.png'),
-        skate: require('@/assets/icons/bpi.svg'),
+        skate: require('@/assets/images/hmi.svg'),
         client: require('@/assets/icons/costco.svg'),
         isFeature: false,
         isContribute: true,
