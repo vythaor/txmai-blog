@@ -114,5 +114,21 @@ const projectdetails = [
             ],
         },
     },
+    {
+        id: 'hmi',
+        component: import(/* webpackChunkName: "project-details" */ '@/components/projects/HMISystem.vue'),
+        name: 'HMI System for blood hematology analyzer',
+        title: 'Bidding/pilot projects',
+        relatedProject: {
+            relatedProjectsHeading: 'Related Projects',
+            relatedProjects: [
+                {
+                    id: 9,
+                    title: 'NFT Marketplace',
+                    img: require('@/assets/images/ui-project-1.jpg'),
+                },
+            ],
+        },
+    },
 ];
 export default projectdetails;
