@@ -1,13 +1,16 @@
 
 <script>
 // import ProjectRelatedProjects from '../components/projects/ProjectRelatedProjects.vue';
+import BlogHeader from '../components/blogs/BlogHeader.vue';
+import BlogRelated from '../components/blogs/BlogRelated.vue';
 import blogdetails from '../data/blogdetails';
 
 export default {
     name: 'SingleBlog',
     components: {
-        // ProjectRelatedProjects,
-    },
+    BlogHeader,
+    BlogRelated
+},
     data: () => ({
         component: null,
     }), 
@@ -28,12 +31,12 @@ export default {
 </script>
 
 <template>
-    <div class="">
-
-        <!-- Project Detail -->
+    <div class="container mx-auto pb-20">
+        <BlogHeader :blog="blogDetail"/>
+        <!-- Blog Detail -->
         <component :is="component"></component>
-        <!-- Project related projects -->
-        <!-- <ProjectRelatedProjects :relatedProject="projectDetail.relatedProject" /> -->
+        <!-- Blog related projects -->
+        <BlogRelated :relatedBlog="blogDetail.relatedBlog"/>
     </div>
 </template>
 
