@@ -93,7 +93,7 @@ export default {
             <div class="flex flex-col justify-center h-full top-0 px-[168px]">
                 <div class="text-gray-800 text-5xl font-semibold leading-10">The proposal</div>
                 <div class="text-neutral-900 text-lg font-normal py-8">
-                    <ul>
+                    <ul class="list-disc ml-4">
                         <li>UX Research & Design</li>
                         <li>UI Design</li>
                         <li>Design guideline</li>

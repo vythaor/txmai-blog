@@ -122,10 +122,65 @@ export default {
                     </div>
                 </Tab>
                 <Tab name="Design process">
-                    <div class="md:w-2/3 mr-8">
-                        <div class="h-48 flex-col justify-start items-start flex">
-                            <div class="text-brand text-2xl font-normal mb-6">about me</div>
-                            <div class="text-white text-5xl font-semibold md:w-2/3 text-left leading-relaxed">Design process</div>
+                    <div class="mr-8">
+                        <div class="h-48 flex-col flex text-left">
+                            <div class="text-white text-2xl font-normal mb-6">about me</div>
+                            <div class="text-white text-5xl font-semibold leading-relaxed">My design process</div>
+                        </div>
+                        <div class="grid grid-cols-2 gap-12 border-dashed  border-t border-neutral-500 py-12">
+                            <div class="text-left">
+                                <div class="text-white text-5xl font-semibold leading-10">1</div>
+                                <div class="text-white text-base font-normal leading-tight pt-8 pl-3">
+                                    <ul class="list-disc">
+                                        <li>Business requirements</li>
+                                        <li>Stakeholder sessions</li>
+                                        <li>Competitor analysis</li>
+                                        <li>Business requirements</li>
+                                        <li>Design strategy</li>
+                                        <li>Best practice and case studies review</li>
+                                        <li>Persona profile</li>
+                                        <li>User journey map</li>
+                                        <li>Site flow maps</li>
+                                        <li>Information Architecture</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="text-left">
+                                <div class="text-white text-5xl font-semibold leading-10">2</div>
+                                <div class="text-white text-base font-normal leading-tight pt-8 pl-3">
+                                    <ul class="list-disc">
+                                        <li>Wireframe</li>
+                                        <li>Interactive prototypes</li>
+                                        <li>Brand guideline intake</li>
+                                        <li>UI styleguides</li>
+                                        <li>Design system</li>
+                                        <li>High fidelity screens</li>
+                                        <li>Acceptance testing</li>
+                                        <li>Usability testing</li>
+                                        <li>Heuristic evaluation</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="text-left">
+                                <div class="text-white text-5xl font-semibold leading-10">3</div>
+                                <div class="text-white text-base font-normal leading-tight pt-8 pl-3">
+                                    <ul class="list-disc">
+                                        <li>Specification documents</li>
+                                        <li>Developer handoff export</li>
+                                        <li>Dev walk-throughs</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="text-left">
+                                <div class="text-white text-5xl font-semibold leading-10">4</div>
+                                <div class="text-white text-base font-normal leading-tight pt-8 pl-3">
+                                    <ul class="list-disc">
+                                        <li>User feedback</li>
+                                        <li>Site flow analytics</li>
+                                        <li>Support channel feedback</li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </Tab>

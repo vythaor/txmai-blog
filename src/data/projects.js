@@ -63,7 +63,7 @@ const projects = [
         isContribute: true,
     },
     {
-        id: 6,
+        id: 'workshop',
         title: 'Internal workshop',
         category: 'Holistic Design for digital products in the right time description',
         img: require('@/assets/images/ui-project-3.jpg'),
@@ -71,7 +71,7 @@ const projects = [
         client: require('@/assets/icons/costco.svg'),
         isFeature: false,
         isContribute: true,
-    },
+    }
 ];
 
 export default projects;

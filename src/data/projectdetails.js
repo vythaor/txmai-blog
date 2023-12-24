@@ -82,5 +82,37 @@ const projectdetails = [
             ],
         },
     },
+    {
+        id: 'luna',
+        component: import(/* webpackChunkName: "project-details" */ '@/components/projects/Luna.vue'),
+        name: 'Blockchain Explorer for Transparent Transaction Monitoring',
+        title: 'Luna MVP',
+        relatedProject: {
+            relatedProjectsHeading: 'Related Projects',
+            relatedProjects: [
+                {
+                    id: 9,
+                    title: 'NFT Marketplace',
+                    img: require('@/assets/images/ui-project-1.jpg'),
+                },
+            ],
+        },
+    },
+    {
+        id: 'workshop',
+        component: import(/* webpackChunkName: "project-details" */ '@/components/projects/Workshop.vue'),
+        name: 'Holistic Design for digital products in the right time description',
+        title: 'Internal workshop',
+        relatedProject: {
+            relatedProjectsHeading: 'Related Projects',
+            relatedProjects: [
+                {
+                    id: 9,
+                    title: 'NFT Marketplace',
+                    img: require('@/assets/images/ui-project-1.jpg'),
+                },
+            ],
+        },
+    },
 ];
 export default projectdetails;
