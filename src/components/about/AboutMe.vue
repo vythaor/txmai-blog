@@ -1,5 +1,6 @@
 <script>
-import { Tabs, Tab } from 'vue3-tabs-component';
+import Tabs from '@/components/reusable/Tabs.vue';
+import Tab from '@/components/reusable/Tab.vue';
 
 export default {
     name: 'About',
@@ -13,13 +14,13 @@ export default {
 <template>
     <div class="container mx-auto p-4">
         <div class="sm:gap-10 text-ternary-dark dark:text-ternary-light mb-12">
-            <Tabs wrapper-class="-mb-px text-base text-center text-gray-500">
-                <Tab name="About me">
+            <Tabs>
+                <Tab title="Lifestyle">
                     <div class="flex flex-col md:flex-row">
                         <!-- First Column -->
                         <div class="md:w-2/3 mr-8">
                             <div class="h-48 flex-col justify-start items-start flex">
-                                <div class="text-white text-2xl font-normal mb-6">about me</div>
+                                <div class="text-white text-2xl italic font-normal mb-6">about me</div>
                                 <div class="text-white text-5xl font-semibold md:w-2/3 text-left leading-relaxed">Fulfilling & diverse lifestyle</div>
                             </div>
                             <div class="text-white text-base font-normal leading-relaxed text-left mt-12">
@@ -121,10 +122,10 @@ export default {
                         </div>
                     </div>
                 </Tab>
-                <Tab name="Design process">
+                <Tab title="Design process">
                     <div class="mr-8">
                         <div class="h-48 flex-col flex text-left">
-                            <div class="text-white text-2xl font-normal mb-6">about me</div>
+                            <div class="text-white text-2xl italic font-normal mb-6">Design process</div>
                             <div class="text-white text-5xl font-semibold leading-relaxed">My design process</div>
                         </div>
                         <div class="grid grid-cols-2 gap-12 border-dashed  border-t border-neutral-500 py-12">
@@ -184,10 +185,10 @@ export default {
                         </div>
                     </div>
                 </Tab>
-                <Tab name="What I do when I'm not working">
+                <Tab title="What I do when I'm not working">
                     <div>
                         <div class="text-left text-white">
-                            <div class="text-2xl font-normal mb-6">about me</div>
+                            <div class="text-2xl font-normal italic mb-6">What I do when I'm not working</div>
                             <div class="text-5xl font-semibold text-left leading-relaxed">What I do when I'm not working</div>
                         </div>
                         <div class="flex gap-12 mt-[52px]">
