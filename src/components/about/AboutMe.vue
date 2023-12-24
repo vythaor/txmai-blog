@@ -12,7 +12,7 @@ export default {
 </script>
 
 <template>
-    <div class="container mx-auto p-4">
+    <div class="p-[168px]">
         <div class="sm:gap-10 text-ternary-dark dark:text-ternary-light mb-12">
             <Tabs>
                 <Tab title="Lifestyle">
@@ -123,12 +123,106 @@ export default {
                     </div>
                 </Tab>
                 <Tab title="Design process">
-                    <div class="mr-8">
-                        <div class="h-48 flex-col flex text-left">
-                            <div class="text-white text-2xl italic font-normal mb-6">Design process</div>
+                    <div class="my-12">
+                        <div class="flex-col flex text-left">
+                            <div class="text-white text-2xl italic font-normal mb-6">about me</div>
                             <div class="text-white text-5xl font-semibold leading-relaxed">My design process</div>
                         </div>
-                        <div class="grid grid-cols-2 gap-12 border-dashed  border-t border-neutral-500 py-12">
+                        <div class="my-12">
+                            <div class="flex justify-between">
+                                <div class="relative flex w-[50%]">
+                                    <div
+                                        class="relative z-10 w-[150px] h-[150px] rounded-full border-[11px] border-cyan-700 flex justify-center items-center"
+                                    >
+                                        <div
+                                            class="w-[128px] h-[128px] bg-[#171717] rounded-full border-[6px] border-cyan-200 flex justify-center items-center"
+                                        >
+                                            <div class="text-neutral-700 text-7xl font-semibold leading-[108px]">01</div>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="ml-[-50px] w-full h-[211px] pl-[90px] pr-6 py-6 bg-[#171717] rounded-2xl flex-col justify-start gap-2 inline-flex"
+                                    >
+                                        <div class="text-cyan-200 text-xl font-semibold leading-[25px]">Discovery & Research</div>
+                                        <div class="text-white text-base font-normal leading-tight">
+                                            Understand customers, product, requirement, industry
+                                        </div>
+                                        <div class="mt-4 text-white text-base font-normal leading-tight">Gather user context</div>
+                                        <div class="w-9 h-[18px] absolute right-[-30px] top-[82px] bg-[#171717]"></div>
+                                    </div>
+                                </div>
+                                <div class="relative flex ml-14 w-[50%]">
+                                    <div
+                                        class="relative z-10 w-[150px] h-[150px] rounded-full border-[11px] border-cyan-400 flex justify-center items-center"
+                                    >
+                                        <div
+                                            class="w-[128px] h-[128px] bg-neutral-900 rounded-full border-[6px] border-cyan-200 flex justify-center items-center"
+                                        >
+                                            <div class="text-neutral-700 text-7xl font-semibold leading-[108px]">02</div>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="relative w-full ml-[-50px] h-[211px] pl-[90px] pr-6 py-6 bg-[#083344] rounded-2xl flex-col gap-2 inline-flex"
+                                    >
+                                        <div class="text-cyan-200 text-xl font-semibold leading-[25px]">Design & Testing</div>
+                                        <div class="text-white text-base font-normal leading-tight">
+                                            Use research outcomes to inform prototyping and design
+                                        </div>
+                                        <div class="mt-4 text-white text-base font-normal leading-tight">
+                                            Test design with real users. stakeholder acceptance, iterate
+                                        </div>
+                                    </div>
+                                    <div class="w-9 h-[18px] absolute left-[-30px] top-[82px] bg-cyan-400"></div>
+                                </div>
+                            </div>
+                            <div class="mt-[92px] flex justify-between">
+                                <div class="relative flex w-[50%]">
+                                    <div
+                                        class="relative z-10 w-[150px] h-[150px] rounded-full border-[11px] border-cyan-400 flex justify-center items-center"
+                                    >
+                                        <div
+                                            class="w-[128px] h-[128px] bg-neutral-900 rounded-full border-[6px] border-cyan-100 flex justify-center items-center"
+                                        >
+                                            <div class="text-neutral-700 text-7xl font-semibold leading-[108px]">03</div>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="ml-[-50px] w-full h-[211px] pl-[90px] pr-6 py-6 bg-[#083344] rounded-2xl flex-col justify-start gap-2 inline-flex"
+                                    >
+                                        <div class="text-cyan-200 text-xl font-semibold leading-[25px]">Finalizing & Auditing</div>
+                                        <div class="text-white text-base font-normal leading-tight">
+                                            Developer hand-off, documentation, design auditing
+                                        </div>
+                                        <div class="w-9 h-[18px] absolute right-[-30px] top-[82px] bg-[#083344]"></div>
+                                        <div class="absolute bg-[#083344] h-[18px] w-[220px] top-[-85px] right-[-172px] rotate-[-50deg]">
+                                            <div class="absolute right-0 top-0 w-[55%] h-[18px] bg-cyan-400 z-10"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="relative flex ml-14 w-[50%]">
+                                    <div
+                                        class="relative z-10 w-[150px] h-[150px] rounded-full border-[11px] border-cyan-700 flex justify-center items-center"
+                                    >
+                                        <div
+                                            class="w-[128px] h-[128px] bg-neutral-900 rounded-full border-[6px] border-cyan-200 flex justify-center items-center"
+                                        >
+                                            <div class="text-neutral-700 text-7xl font-semibold leading-[108px]">04</div>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="relative w-full ml-[-50px] h-[211px] pl-[90px] pr-6 py-6 bg-neutral-900 rounded-2xl flex-col gap-2 inline-flex"
+                                    >
+                                        <div class="text-cyan-200 text-xl font-semibold leading-[25px]">Measure & optimize</div>
+                                        <div class="text-white text-base font-normal leading-tight">
+                                            Evaluate and refine design based on measurement findings
+                                        </div>
+                                    </div>
+                                    <div class="w-9 h-[18px] absolute left-[-30px] top-[82px] bg-cyan-400"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-2 gap-12 border-dashed border-t border-neutral-500 py-12">
                             <div class="text-left">
                                 <div class="text-white text-5xl font-semibold leading-10">1</div>
                                 <div class="text-white text-base font-normal leading-tight pt-8 pl-3">

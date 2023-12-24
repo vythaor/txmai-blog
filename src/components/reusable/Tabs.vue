@@ -8,7 +8,7 @@
                 :class="{ 'active border-b-2 border-cyan-600 text-[#0E7490]': tab.isActive }"
                 class="cursor-pointer mb-[-1px] px-6 py-4 justify-center items-center gap-2.5 flex"
             >
-                <div class="text-base font-semibold leading-tight">{{ tab.title }}</div>
+                <div class="text-base font-semibold">{{ tab.title }}</div>
             </div>
         </div>
         <div class="tab-content mt-12">
@@ -38,7 +38,7 @@ export default {
     },
     mounted() {
         if (this.tabs.length > 0) {
-            this.activateTab(this.tabs[0]);
+            this.activateTab(this.tabs[1]);
         }
     },
 };
