@@ -4,18 +4,18 @@ export const pinia = createPinia();
 
 export const usePiniaStore = defineStore('store', {
   state: () => ({
-    screenWidth: window.innerWidth,
+    screenWidth: document.documentElement.clientWidth,
   }),
 
   getters: {
     isSmallScreen: (state) => {
-      return state.screenWidth < 414; // Adjust the threshold as needed
+      return state.screenWidth < 640; // Adjust the threshold as needed
     },
   },
 
   actions: {
     updateScreenWidth() {
-      this.screenWidth = window.innerWidth;
+      this.screenWidth = document.documentElement.clientWidth;
     },
   },
 });

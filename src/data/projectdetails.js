@@ -3,8 +3,9 @@ const projectdetails = [
     {
         id: 'halo-trade',
         component: import(/* webpackChunkName: "project-details" */ '@/components/projects/HaloTrade.vue'),
+        componentMobile: import(/* webpackChunkName: "project-details" */ '@/components/projects/mobile/HaloTrade.vue'),
         name: 'Aura HaloTrade',
-        title: `<p>A scalable Design System</p> <p class="mt-4">for DeFi Trading Platform</p>`,
+        title: `A scalable Design System for DeFi Trading Platform`,
         relatedProject: {
             relatedProjectsHeading: 'Related Projects',
             relatedProjects: [
@@ -20,6 +21,7 @@ const projectdetails = [
     {
         id: 'aura-scan',
         component: import(/* webpackChunkName: "project-details" */ '@/components/projects/AuraScan.vue'),
+        componentMobile: import(/* webpackChunkName: "project-details" */ '@/components/projects/AuraScan.vue'),
         name: 'AuraScan',
         title: '<p><span class="font-semibold">Blockchain Explorer</span> for Transparent</p><p class="mt-4">Transaction Monitoring</p>',
         relatedProject: {

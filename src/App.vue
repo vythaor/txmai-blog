@@ -1,5 +1,4 @@
 <script>
-import feather from 'feather-icons';
 import AppHeader from './components/shared/AppHeader';
 import AppFooter from './components/shared/AppFooter';
 import { usePiniaStore } from './stores/piniaStore';
@@ -16,11 +15,8 @@ export default {
         };
     },
     mounted() {
-        feather.replace();
+        this.updateScreenSize
         window.addEventListener('resize', this.updateScreenSize);
-    },
-    updated() {
-        feather.replace();
     },
     computed: {
         isSmallScreen() {

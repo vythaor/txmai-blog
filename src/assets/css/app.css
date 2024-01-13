@@ -18,6 +18,11 @@
 		url('../fonts/Redig/Redig-Regular.ttf') format('truetype');
 }
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'Poppins-Regular';
 }
