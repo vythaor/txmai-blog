@@ -55,6 +55,7 @@ const projectdetails = [
     {
         id: 'costco-wholesale',
         component: import(/* webpackChunkName: "project-details" */ '@/components/projects/CostcoWholesale.vue'),
+        componentMobile: import(/* webpackChunkName: "project-details" */ '@/components/projects/mobile/CostcoWholesale.vue'),
         name: 'Costco Wholesale',
         title: 'Power BI Dashboard for a multi-billion dollar global retailer',
         relatedProject: {

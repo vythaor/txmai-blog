@@ -425,7 +425,7 @@
                 <div class="h-full">
                     <div class="p-[calc(100/1440*100%)]">
                         <div
-                            class=" w-full pt-[100px] pb-20 bg-gradient-to-r from-purple-300 to-sky-300 rounded-[50px] shadow-inner border border-blue-100 border-opacity-50 flex-col justify-center items-center gap-8 inline-flex"
+                            class="w-full pt-[100px] pb-20 bg-gradient-to-r from-purple-300 to-sky-300 rounded-[50px] shadow-inner border border-blue-100 border-opacity-50 flex-col justify-center items-center gap-8 inline-flex"
                         >
                             <div class="flex-col justify-center items-center gap-3 flex">
                                 <div class="text-center text-zinc-900 text-2xl font-normal leading-[30px]">
