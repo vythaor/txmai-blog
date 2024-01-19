@@ -21,7 +21,7 @@ const projectdetails = [
     {
         id: 'aura-scan',
         component: import(/* webpackChunkName: "project-details" */ '@/components/projects/AuraScan.vue'),
-        componentMobile: import(/* webpackChunkName: "project-details" */ '@/components/projects/AuraScan.vue'),
+        componentMobile: import(/* webpackChunkName: "project-details" */ '@/components/projects/mobile/AuraScan.vue'),
         name: 'AuraScan',
         title: '<p><span class="font-semibold">Blockchain Explorer</span> for Transparent</p><p class="mt-4">Transaction Monitoring</p>',
         relatedProject: {
