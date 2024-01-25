@@ -72,6 +72,7 @@ const projectdetails = [
     {
         id: 'beckman',
         component: import(/* webpackChunkName: "project-details" */ '@/components/projects/Beckman.vue'),
+        componentMobile: import(/* webpackChunkName: "project-details" */ '@/components/projects/mobile/Beckman.vue'),
         name: 'HMI System for blood hematology analyzer',
         title: 'Bidding/pilot projects',
         relatedProject: {
