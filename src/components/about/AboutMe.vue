@@ -12,7 +12,7 @@ export default {
 </script>
 
 <template>
-    <div class="p-[168px]">
+    <div class="p-4 md:px-[168px] py-20">
         <div class="sm:gap-10 text-ternary-dark dark:text-ternary-light mb-12">
             <Tabs>
                 <Tab title="Lifestyle">

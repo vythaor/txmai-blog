@@ -26,7 +26,6 @@ export default {
     methods: {
         getComponent() {
             const component = this.isSmallScreen ? 'componentMobile' : 'component';
-            console.log(component);
             return this.projectDetail?.[component]?.then((module) => (this.component = module.default));
         },
     },

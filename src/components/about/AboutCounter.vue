@@ -19,7 +19,7 @@ export default {
 	<div class="mt-10 sm:mt-20 bg-primary-light dark:bg-ternary-dark shadow-sm">
 		<!-- About me counters -->
 		<div
-			class="font-general-regular container mx-auto py-20 block sm:flex sm:justify-between sm:items-center"
+			class="font-general-regular py-20 block sm:flex sm:justify-between sm:items-center"
 		>
 			<!-- Years of experience counter -->
 			<div class="mb-20 sm:mb-0">

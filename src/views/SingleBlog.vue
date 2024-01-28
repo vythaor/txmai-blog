@@ -31,7 +31,7 @@ export default {
 </script>
 
 <template>
-    <div class="container mx-auto pb-20">
+    <div class="pb-20">
         <BlogHeader :blog="blogDetail"/>
         <!-- Blog Detail -->
         <component :is="component"></component>

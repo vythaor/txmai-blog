@@ -15,7 +15,7 @@ export default {
         };
     },
     mounted() {
-        this.updateScreenSize
+        this.updateScreenSize;
         window.addEventListener('resize', this.updateScreenSize);
     },
     computed: {
@@ -34,7 +34,7 @@ export default {
 </script>
 
 <template>
-    <div :class="appTheme" class="pt-0.5">
+    <div :class="appTheme">
         <!-- App header -->
         <AppHeader />
 
