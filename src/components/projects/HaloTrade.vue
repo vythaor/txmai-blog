@@ -217,13 +217,13 @@ export default {
                 <div
                     class="pt-24 pb-20 bg-gradient-to-r from-lime-500 via-green-500 to-teal-600 rounded-3xl flex-col justify-center items-center gap-8"
                 >
-                    <div class="flex flex-col justify-center items-center gap-4">
+                    <div class="flex flex-col justify-center items-center gap-4 px-4">
                         <div class="text-center text-black text-2xl font-normal leading-loose">
                             Interested in exploring how I build a scalable design system?
                         </div>
-                        <div>
+                        <div class="text-center">
                             <span class="text-4xl">Read my article </span>
-                            <span class="text-4xl bold">Building smart components</span>
+                            <span class="text-4xl font-bold">Building smart components</span>
                         </div>
                         <div class="h-12 px-6 py-2.5 bg-gray-900 rounded-xl justify-center items-center gap-4 inline-flex mt-8">
                             <div class="text-center text-brand text-2xl font-semibold leading-loose">Dive in Now</div>
