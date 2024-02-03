@@ -16,13 +16,13 @@ export default {
 </script>
 
 <template>
-	<div class="mt-10 sm:mt-20 bg-primary-light dark:bg-ternary-dark shadow-sm">
+	<div class="mt-10 xl:mt-20 bg-primary-light dark:bg-ternary-dark shadow-sm">
 		<!-- About me counters -->
 		<div
-			class="font-general-regular py-20 block sm:flex sm:justify-between sm:items-center"
+			class="font-general-regular py-20 block xl:flex xl:justify-between xl:items-center"
 		>
 			<!-- Years of experience counter -->
-			<div class="mb-20 sm:mb-0">
+			<div class="mb-20 xl:mb-0">
 				<counter
 					ref="counter"
 					:startAmount="0"
@@ -41,7 +41,7 @@ export default {
 			</div>
 
 			<!-- GitHub stars counter -->
-			<div class="mb-20 sm:mb-0">
+			<div class="mb-20 xl:mb-0">
 				<counter
 					ref="counter"
 					:startAmount="0"
@@ -59,7 +59,7 @@ export default {
 			</div>
 
 			<!-- Positive feedback counter -->
-			<div class="mb-20 sm:mb-0">
+			<div class="mb-20 xl:mb-0">
 				<counter
 					ref="counter"
 					:startAmount="0"
@@ -78,7 +78,7 @@ export default {
 			</div>
 
 			<!-- Projects completed counter -->
-			<div class="mb-20 sm:mb-0">
+			<div class="mb-20 xl:mb-0">
 				<counter
 					ref="counter"
 					:startAmount="0"

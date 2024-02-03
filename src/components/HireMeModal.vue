@@ -97,10 +97,10 @@ export default {
 										textareaIdentifier="details"
 									/>
 
-									<div class="mt-7 pb-4 sm:pb-1">
+									<div class="mt-7 pb-4 xl:pb-1">
 										<Button
 											title="Send Request"
-											class="px-4 sm:px-6 py-2 sm:py-2.5 text-white bg-indigo-500 hover:bg-indigo-600 rounded-md focus:ring-1 focus:ring-indigo-900 duration-500"
+											class="px-4 xl:px-6 py-2 xl:py-2.5 text-white bg-indigo-500 hover:bg-indigo-600 rounded-md focus:ring-1 focus:ring-indigo-900 duration-500"
 											type="submit"
 											aria-label="Submit Request"
 										/>
@@ -108,11 +108,11 @@ export default {
 								</form>
 							</div>
 							<div
-								class="modal-footer mt-2 sm:mt-0 py-5 px-8 border0-t text-right"
+								class="modal-footer mt-2 xl:mt-0 py-5 px-8 border0-t text-right"
 							>
 								<Button
 									title="Close"
-									class="px-4 sm:px-6 py-2 bg-gray-600 text-primary-light hover:bg-ternary-dark dark:bg-gray-200 dark:text-secondary-dark dark:hover:bg-primary-light rounded-md focus:ring-1 focus:ring-indigo-900 duration-500"
+									class="px-4 xl:px-6 py-2 bg-gray-600 text-primary-light hover:bg-ternary-dark dark:bg-gray-200 dark:text-secondary-dark dark:hover:bg-primary-light rounded-md focus:ring-1 focus:ring-indigo-900 duration-500"
 									@click="showModal()"
 									aria-label="Close Modal"
 								/>

@@ -32,18 +32,18 @@ export default {
 </script>
 
 <template>
-    <div class="px-4 md:px-[168px]">
+    <div class="px-4 md:px-[84px] xl:px-[168px]">
         <!-- Banner -->
-        <AppBanner class="mb-5 sm:mb-8" />
+        <AppBanner class="mb-5 xl:mb-8" />
 
         <!-- Projects -->
         <ProjectsGrid v-if="!isSmallScreen" title="my work" category="Scalable ecosystem products" :projectList="filteredProjects" />
 
         <!-- Load more projects button -->
-        <div class="flex justify-center items-center mb-20 sm:flex">
+        <div class="flex justify-center items-center mb-20 xl:flex">
             <router-link
                 to="/works"
-                class="font-general-medium flex items-center px-6 py-3 rounded-lg shadow-lg focus:ring-1 focus:ring-indigo-900 text-white text-lg sm:text-xl duration-300 hover:text-cyan-300"
+                class="font-general-medium flex items-center px-6 py-3 rounded-lg shadow-lg focus:ring-1 focus:ring-indigo-900 text-white text-lg xl:text-xl duration-300 hover:text-cyan-300"
                 aria-label="More Projects"
             >
                 <Button title="Browse more works" class="italic underline" />

@@ -2,7 +2,7 @@
     <div>
         <div class="relative">
             <img src="@/assets/images/aurascan/astronaut.png" class="w-full"/>
-            <div class="absolute top-[5%] left-[5%] sm:top-[20%] sm:left-[10%] text-white flex flex-col gap-6 max-w-[520px]">
+            <div class="absolute top-[5%] left-[5%] xl:top-[20%] xl:left-[10%] text-white flex flex-col gap-6 max-w-[520px]">
                 <p>
                     <img src="@/assets/images/aurascan/logo.png" class="w-full"/>
                 </p>

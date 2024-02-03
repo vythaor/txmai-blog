@@ -92,7 +92,7 @@ export default {
             </div>
         </div>
         <!-- Section 4 -->
-        <div class="relative px-4 pt-[70px] bg-[url('@/assets/images/halo/mobile/bg-4.png')] bg-cover">
+        <div class="relative px-4 pt-[70px] bg-[url('@/assets/images/halo/mobile/bg-4.png')] bg-[length:100%_auto]">
             <div
                 class="mx-4 relative text-lime-400 text-[32px] font-[600] font-jost leading-[60px] tracking-[1.28px] before:content-['My_responsibilities '] before:absolute before:top-0 before:left-0 before:opacity-60 before:text-lime-400 before:text-[32px] before:blur-sm before:font-[600] before:leading-[60px] before:tracking-[1.28px]"
             >
@@ -117,29 +117,29 @@ export default {
                     accordian
                     class="w-full"
                     order="3"
-                    title="Research and Analysis"
-                    desc="Explored best practices for scalability, modularity, and usability in design systems."
+                    title="Visual Design Tokens "
+                    desc="Defined a set of visual design tokens to facilitate easy light/dark theme swap"
                 />
                 <HaloCard
                     accordian
                     class="w-full"
                     order="4"
-                    title="Research and Analysis"
-                    desc="Explored best practices for scalability, modularity, and usability in design systems."
+                    title="Collaboration and Documentation"
+                    desc="Worked with developers and other stakeholders to align on implementation."
                 />
                 <HaloCard
                     accordian
                     class="w-full"
                     order="5"
-                    title="Research and Analysis"
-                    desc="Explored best practices for scalability, modularity, and usability in design systems."
+                    title="Design Log"
+                    desc="Document decisions, progress, and feedback." 
                 />
                 <HaloCard
                     accordian
                     class="w-full"
                     order="6"
-                    title="Research and Analysis"
-                    desc="Explored best practices for scalability, modularity, and usability in design systems."
+                    title="Onboarding & Documentation"
+                    desc="Created processes and best practices for new designers"
                 />
             </div>
             <div class="w-[243px] h-[132px] absolute z-0 left-0 bottom-[20px] bg-[url('@/assets/images/halo/mobile/bg-4-1.png')] bg-cover"></div>
@@ -154,7 +154,7 @@ export default {
             <img src="@/assets/images/halo/mobile/design-process.png" alt="" class="w-full" />
         </div>
         <!-- Outcomes -->
-        <div class="relative px-4 pt-[70px] bg-[url('@/assets/images/halo/mobile/bg-5.png')] bg-cover">
+        <div class="relative px-4 pt-[70px] bg-[url('@/assets/images/halo/mobile/bg-5.png')] bg-[length:100%_auto]">
             <div
                 class="mx-4 relative text-lime-400 text-[32px] font-[600] font-jost leading-[60px] tracking-[1.28px] before:content-['Outcomes'] before:absolute before:top-0 before:left-0 before:opacity-60 before:text-lime-400 before:text-[32px] before:blur-sm before:font-[600] before:leading-[60px] before:tracking-[1.28px]"
             >

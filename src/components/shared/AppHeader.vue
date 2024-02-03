@@ -71,11 +71,11 @@ export default {
 </script>
 
 <template>
-    <nav id="nav" class="px-4 md:px-[168px] py-4 md:py-6">
+    <nav id="nav" class="px-4 md:px-[84px] xl:px-[168px] py-4 md:py-6">
         <!-- Header start -->
-        <div class="z-10 max-w-screen-lg xl:max-w-screen-xl block sm:flex sm:justify-between sm:items-center">
+        <div class="z-10 max-w-screen-lg xl:max-w-screen-xl block xl:flex xl:justify-between xl:items-center">
             <!-- Header menu links and small screen hamburger menu -->
-            <div class="flex justify-between items-center px-4 sm:px-0">
+            <div class="flex justify-between items-center px-4 xl:px-0">
                 <!-- Header logos -->
                 <div>
                     <router-link to="/">
@@ -87,11 +87,11 @@ export default {
                 <!-- <theme-switcher
 					:theme="theme"
 					@themeChanged="updateTheme"
-					class="block sm:hidden bg-ternary-light dark:bg-ternary-dark hover:bg-hover-light dark:hover:bg-hover-dark hover:shadow-sm px-2.5 py-2 rounded-lg"
+					class="block xl:hidden bg-ternary-light dark:bg-ternary-dark hover:bg-hover-light dark:hover:bg-hover-dark hover:shadow-sm px-2.5 py-2 rounded-lg"
 				/> -->
 
                 <!-- Small screen hamburger menu -->
-                <div class="sm:hidden">
+                <div class="xl:hidden">
                     <button @click="isOpen = !isOpen" type="button" class="focus:outline-none" aria-label="Hamburger Menu">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -117,7 +117,7 @@ export default {
             <!-- Header links -->
 
             <!-- Header right section buttons -->
-            <div class="hidden sm:flex justify-between items-center flex-col md:flex-row">
+            <div class="hidden xl:flex justify-between items-center flex-col md:flex-row">
                 <AppHeaderLinks :showModal="showModal" :isOpen="isOpen" />
                 <!-- Hire me button -->
                 <!-- <div class="hidden md:block">

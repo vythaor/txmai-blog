@@ -7,7 +7,7 @@ export default {
 <template>
     <router-link
         :to="{ name: 'project', params: { id: project.id } }"
-        class="flex flex-col rounded-xl shadow-lg hover:shadow-xl cursor-pointer mb-10 sm:mb-0 bg-secondary-light dark:bg-ternary-dark"
+        class="flex flex-col rounded-xl shadow-lg hover:shadow-xl cursor-pointer mb-10 xl:mb-0 bg-secondary-light dark:bg-ternary-dark"
         aria-label="Single Project"
     >
         <img :src="project.img" :alt="project.title" class="rounded-t-xl border-none" />

@@ -144,7 +144,7 @@
                     >
                         <div>Understanding stage</div>
                         <div
-                            class="w-3 h-3 border-violet-400 border-l-0 border-b-0 border-t-[3px] border-r-[3px] transform transition-[transform]"
+                            class="cursor-pointer w-3 h-3 border-violet-400 border-l-0 border-b-0 border-t-[3px] border-r-[3px] transform transition-[transform]"
                             :class="{
                                 'rotate-[-45deg] mt-2': accordians['1'],
                                 'rotate-[135deg] mb-1': !accordians['1'],
@@ -181,7 +181,7 @@
                     >
                         <div>Visualizing report stage</div>
                         <div
-                            class="w-3 h-3 border-violet-400 border-l-0 border-b-0 border-t-[3px] border-r-[3px] transform transition-all"
+                            class="cursor-pointer w-3 h-3 border-violet-400 border-l-0 border-b-0 border-t-[3px] border-r-[3px] transform transition-all"
                             :class="{
                                 'rotate-[-45deg] mt-2': accordians['2'],
                                 'rotate-[135deg] mt-1': !accordians['2'],
@@ -216,7 +216,7 @@
                     >
                         <div>Acceptance</div>
                         <div
-                            class="w-3 h-3 border-violet-400 border-l-0 border-b-0 border-t-[3px] border-r-[3px] transform transition-all"
+                            class="cursor-pointer w-3 h-3 border-violet-400 border-l-0 border-b-0 border-t-[3px] border-r-[3px] transform transition-all"
                             :class="{
                                 'rotate-[-45deg] mt-2': accordians['3'],
                                 'rotate-[135deg] mt-1': !accordians['3'],

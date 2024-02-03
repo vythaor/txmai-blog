@@ -31,33 +31,34 @@ export default {
 
 <template>
     <div
-        class="h-full p-6 flex items-start rounded-2xl backdrop-blur-2xl justify-start gap-5 font-jost"
+        class="p-6 items-start rounded-2xl backdrop-blur-2xl justify-start font-jost"
         style="background: linear-gradient(180deg, rgba(241, 255, 231, 0.05) 0%, rgba(241, 255, 231, 0.02) 100%); backdrop-filter: blur(6px)"
     >
-        <div class="w-full grid grid-cols-[min-content_auto] grid-rows-[auto] overflow-hidden transition-[height] duration-[0.5s] ease-linear">
-            <div class="flex items-center mx-4 text-lime-400 text-3xl font-semibold leading-loose">{{ order }}</div>
+        <div class="grid grid-cols-[min-content_auto]" @click="toggle">
+            <div class="items-center mx-4 text-lime-400 text-3xl font-semibold leading-loose">{{ order }}</div>
             <div class="flex justify-between items-center text-stone-200 text-lg font-semibold leading-loose">
-                {{ title }}
-                <span class="p-4 cursor-pointer text-3xl" @click="toggle">{{ isOpen ? '-' : '+' }}</span>
-            </div>
-            <div class="transition-[height] duration-[0.5s] ease-linear" :class="{ 'h-0': !isOpen }"></div>
-            <div class="text-zinc-400 text-lg font-normal leading-7 transition-[height] duration-[0.5s] ease-linear" :class="{ 'h-0': !isOpen }">
-                {{ desc }}
+                <span class="mr-2">{{ title }}</span>
+                <div
+                    v-if="accordian"
+                    class="w-3 h-3 border-l-0 border-b-0 border-t-[3px] border-r-[3px] transform transition-all"
+                    :class="{
+                        'rotate-[-45deg] mt-2': isOpen,
+                        'rotate-[135deg] -mt-1': !isOpen,
+                    }"
+                ></div>
             </div>
         </div>
 
-        <!-- <div class="relative">
-            <div class="text-lime-400 text-3xl font-semibold leading-loose">{{ order }}</div>
+        <div
+            class="grid grid-cols-[min-content_auto] transition-[grid-template-rows] duration-300 ease-out"
+            :class="{ 'grid-rows-[0fr]': accordian && !isOpen, 'grid-rows-[1fr]': accordian && isOpen }"
+        >
+            <div class="opacity-0 h-0 items-center mx-4 text-lime-400 text-3xl font-semibold leading-loose">{{ order }}</div>
+
+            <div class="text-zinc-400 text-lg font-normal leading-7 overflow-hidden">
+                <div>{{ desc }}</div>
+            </div>
         </div>
-        <div class="w-full">
-            <div class="flex justify-between items-center text-stone-200 text-lg font-semibold leading-loose">
-                {{ title }}
-                <span class="cursor-pointer text-3xl" @click="toggle">+</span>
-            </div>
-            <div class="text-zinc-400 text-lg font-normal leading-7" :class="{ 'hidden': !isOpen }">
-                {{ desc }}
-            </div>
-        </div> -->
         <img class="absolute left-0 top-0" src="@/assets/images/halo/line-top.svg" alt="line" />
         <img class="absolute right-0 bottom-0" src="@/assets/images/halo/line-bottom.svg" alt="line" />
     </div>
