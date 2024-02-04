@@ -6,9 +6,6 @@
                 <p>
                     <img src="@/assets/images/aurascan/logo.png" class="w-full"/>
                 </p>
-                <!-- <div
-                class="flex flex-col p-8 gap-4 bg-gradient-to-b from-[rgba(26, 40, 43, 0.07)] from-0% via-[rgba(26, 40, 43, 0.19)] via-0.01% to-[rgba(36, 38, 46, 0.38)] to-100% rounded-2xl"
-            > -->
                 <div
                     class="flex flex-col p-8 gap-4 bg-gradient-to-b from-[#1A282B]/[0.07] from-0% via-[#1A282B]/[0.19] via-[0.01%] to-[#24262E]/[0.38] to-100% backdrop-blur-[10.5px] rounded-2xl relative"
                 >

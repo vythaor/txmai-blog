@@ -134,7 +134,7 @@
             </div>
         </div>
         <!-- Process -->
-        <div class="px-4 py-12 w-full relative bg-[url('@/assets/images/costco-wholesale/mobile/bg-3.png')] bg-cover">
+        <div class="px-4 py-12 w-full relative bg-[url('@/assets/images/costco-wholesale/mobile/bg-3.png')] bg-[length:100%_auto] bg-repeat-space">
             <div class="mt-12 text-[#C6EDFF] text-[20px] font-semibold leading-[25px]">Report design process</div>
             <div class="mt-6 flex flex-col gap-6">
                 <div class="p-4 grid bg-white bg-opacity-5 rounded-xl border border-white backdrop-blur-sm">
