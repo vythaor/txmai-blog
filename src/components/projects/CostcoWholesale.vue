@@ -24,7 +24,7 @@
             <img
                 src="@/assets/images/costco-wholesale/top-banner-chart.png"
                 alt=""
-                class="absolute top-[50%] right-0 translate-y-[-50%] z-0 max-w-[40%] xl:w-auto"
+                class="absolute top-[50%] right-10 xl:right-[100px] translate-y-[-50%] z-0 max-w-[40%] xl:w-auto"
             />
         </div>
         <div class="px-10 xl:px-[100px] py-[100px] text-[#C6DFDF] flex flex-col gap-8">
