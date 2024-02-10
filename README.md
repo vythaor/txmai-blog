@@ -1,3 +1,6 @@
+This repo is moved to another github account and no longer is updated anymore
+-----------------------------------------------------------------------------
+
 # Vuejs & TailwindCSS Portfolio - With Dark Mode
 
 A simple portfolio starter theme built with Vue.js v3 and Tailwind CSS v3.
@@ -6,7 +9,7 @@ A simple portfolio starter theme built with Vue.js v3 and Tailwind CSS v3.
 
 ## Demo URL
 
-[https://vuejs-tailwindcss-portfolio.netlify.com](https://vuejs-tailwindcss-portfolio.netlify.com)
+https://vythaor.github.io/txmai-blog/
 
 ## Other versions of this project
 
@@ -49,13 +52,13 @@ brew install node
 2. Clone the repo:
 
 ```
-git clone https://github.com/realstoman/vuejs-tailwindcss-portfolio.git
+git clone https://github.com/vythaor/txmai-blog.git
 ```
 
 3. Open the project folder:
 
 ```
-cd vuejs-tailwindcss-portfolio
+cd txmai-blog
 ```
 
 4. Install packages and dependencies:
